@@ -1,0 +1,59 @@
+.Blogs {
+  margin-top: 120px;
+  overflow: hidden;
+}
+
+.Blogs h1 {
+  color: #4785f1;
+}
+.Blogs p {
+  font-size: 18px;
+}
+
+.Blogs .card {
+  padding: 10px;
+  border: none;
+}
+
+.Blogs .card h6 {
+  margin-top: 10px;
+  color: gray;
+  font-size: 13px;
+}
+
+.Blogs .card h3 {
+  font-size: 18px;
+  text-transform: capitalize;
+  height: 40px;
+}
+
+.Blogs .card p {
+  font-size: 14px;
+}
+
+.Blogs img:hover {
+  filter: brightness(0.7);
+  zoom: 10px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* media query */
+/* 0px to 552px  phone size*/
+@media (max-width: 575.98px) {
+  .Blogs h1 {
+    font-size: 25px;
+  }
+  .Blogs p {
+    font-size: 14px;
+  }
+  .Blogs .card h6 {
+    font-size: 10px;
+  }
+  .Blogs .card h3 {
+    font-size: 12px;
+  }
+
+  .Blogs .card p {
+    font-size: 10px;
+  }
+}

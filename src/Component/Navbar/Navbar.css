@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&display=swap");
+/* *{color: #4785F1;} */
+.navbar {
+  height: 90px;
+  margin-bottom: 30px;
+}
+.navbar {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  height: 90px;
+  font-size: 30px;
+  transition: all 1s ease;
+  z-index: 10;
+}
+/* nav bar when scroll change */
+.navbar.colorChange {
+  background-color: white;
+  box-shadow: 1px 1px 17px rgb(212, 208, 208);
+  height: 100px;
+  font-size: 20px;
+  color: black;
+  position: fixed;
+    /* width: 100%; */
+
+}
+/* code/Mu. */
+.navbar .navbar-brand {
+  margin-left: 100px;
+  font-family: "EB Garamond", serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+/* Mu from brand */
+.navbar .navbar-brand span {
+  color: #db3d50;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  z-index: 500;
+  left: 49px;
+  top: 45px;
+  border: 1px solid rgba(207, 205, 205, 0.315);
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 16px rgb(189, 185, 185);
+  /* padding: 0px; */
+/* height: 300px; */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  width: 200px;
+  text-transform: capitalize;
+}
+
+/* Show the dropdown menu on hover */
+.navbar .dropdown:hover  .dropdown-content {
+  display: block;
+}
+
+/* list of icons */
+
+.icons {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+/* serach input in navbar */
+.navbar form input[type="search"] {
+  width: 600px;
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  border: 1px solid #4785f1;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 9px;
+  padding: 10px;
+}
+.navbar .collapse {
+  margin-left: 10px;
+}
+/* ---------------------------- */
+/* media query */
+/* 0px to 552px  phone size*/
+@media (max-width: 575.98px) {
+  .navbar {
+    height: 40px;
+  }
+  .navbar .navbar-brand {
+    font-size: 24px;
+    margin-left: 0px;
+    margin-left: 10px;
+  }
+  .dropdown {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .dropdown-content {
+    width: 100px;
+    left: 70px;
+  }
+  .dropdown-content a {
+    font-size: 10px;
+  }
+  .navbar form input[type="search"] {
+    display: none;
+  }
+  .icons span {
+  display: none;
+}
+.icons{margin-top: -43px;
+margin-left: -5px;
+margin-left: 80px;}
+.navbar .collapse button {
+    display: none;
+  }
+
+}

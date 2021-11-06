@@ -1,0 +1,75 @@
+/* our student say */
+.latest {
+  height: 500px;
+  margin-top: 280px;
+}
+/* img */
+.latest .container .row .images img {
+  width: 79%;
+  box-shadow: 1px 1px 17px rgb(221, 215, 215);
+}
+/* text above carousel */
+.latest .container .row .textssssss {
+  text-align: center;
+  margin-top: 60px;
+}
+.latest .container .row .textssssss h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.latest .container .row .textssssss h1 {
+  text-transform: capitalize;
+  color: #4785f1;
+  border-bottom: 2px solid rgb(231, 231, 231);
+  padding-bottom: 10px;
+}
+/* carousel */
+.latest .mySwiper {
+  margin-top: -100px;
+  height: 400px;
+}
+
+.latest .mySwiper .slides {
+  display: flex;
+  flex-flow: column;
+  padding: 70px;
+}
+/* text inside slides */
+.latest .mySwiper .slides h3 {
+  text-transform: capitalize;
+}
+.latest .mySwiper .slides p {
+  margin-top: 20px;
+  background: #eee;
+  color: #4785f1;
+  padding: 10px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* media query */
+/* 0px to 552px  phone size*/
+@media (max-width: 575.98px) {
+  .latest .container .row .images img {
+    width: 50%;
+    margin: auto;
+    margin-left: 120px;
+    margin-top: -30px;
+  }
+
+  .latest hr {
+    display: none;
+  }
+  .latest h1 {
+    font-size: 25px;
+  }
+  .latest .container .row .textssssss h4 {
+    font-size: 14px;
+  }
+
+  .latest .mySwiper .slides h3 {
+    font-size: 17px;
+  }
+  .latest .mySwiper .slides p {
+    font-size: 14px;
+  }
+}

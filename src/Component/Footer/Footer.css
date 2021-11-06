@@ -1,0 +1,165 @@
+footer {
+  width: 100%;
+  background-color: #a31727;
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+}
+
+/* header items */
+.col_white_amrc {
+  color: #fff;
+  font-family: "EB Garamond", serif;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.brand {
+  font-size: 39px;
+}
+.pt2 {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  color: rgb(228, 222, 222);
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+/* pagraph under coe/mu */
+.mb10 {
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.footer_ul_amrc {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+.footer_ul_amrc li a {
+  color: #ccc;
+  text-decoration: none;
+}
+.footer_ul_amrc li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.fleft {
+  float: left;
+}
+.padding-right {
+  padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+.footer_ul2_amrc li p {
+  display: table;
+}
+.footer_ul2_amrc li a:hover {
+  text-decoration: none;
+}
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+}
+/* our road div */
+.footer .images {
+  margin-left: -80px;
+}
+.footer img {
+  width: 90%;
+  height: 120px;
+}
+.footer .imag h5 {
+  color: white;
+  margin-left: -10px;
+  font-family: "EB Garamond", serif;
+  margin-top: 10px;
+}
+
+.bottom_border {
+  border-bottom: 1px solid rgb(221, 220, 220);
+  padding-bottom: 20px;
+}
+.foote_bottom_ul_amrc {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+.foote_bottom_ul_amrc li {
+  display: inline;
+}
+.foote_bottom_ul_amrc li a {
+  color: #999;
+  margin: 0 12px;
+}
+
+.social_footer_ul {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+}
+.social_footer_ul li {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+.social_footer_ul li a {
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 50%;
+}
+.social_footer_ul li a:hover {
+  background-color: rgb(138, 3, 55);
+}
+.social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* media query */
+/* 0px to 552px  phone size*/
+@media (max-width: 575.98px) {
+  .col_white_amrc {
+    font-size: 20px;
+  }
+
+  .footer_ul2_amrc li a {
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+  /* pagraph under coe/mu */
+  .mb10 {
+    font-size: 10px;
+  }
+  .footer .imag h5 {
+    font-size: 13px;
+  }
+  .footer .imag {
+    margin-left: 80px;
+  }
+  .social_footer_ul {
+    margin-left: -0px;
+    margin-left: 90px;
+  }
+  .social_footer_ul li a {
+    font-size: 10px;
+  }
+}

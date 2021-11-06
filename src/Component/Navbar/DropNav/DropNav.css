@@ -1,0 +1,30 @@
+.dropnav{  transition: all 0.7s ease;
+}
+.dropnav .navbar {
+  background-color: #eee;
+  margin-bottom: 90px;
+  position: fixed;
+  z-index: 10;
+  top: 90px;
+  height: 60px;
+}
+.drop .collapse .navbar-nav {
+  margin-left: 250px;
+  font-size: 22px;
+  text-transform: capitalize;
+  padding: 10px;
+  transition: all 0.7s ease;
+}
+
+.drop .navbar-nav .nav-item .nav-link:hover {
+  color: blue;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* media query */
+/* 0px to 552px  phone size*/
+@media (max-width: 575.98px) {
+  .dropnav .navbar {
+    display: none;
+  }
+}

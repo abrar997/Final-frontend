@@ -1,0 +1,74 @@
+/* services section */
+.services {
+  /* border-top: 1px solid #eee; */
+  padding-top: 120px;
+  background-color: rgba(238, 238, 238, 0.377);
+  height: 670px;
+}
+.services h4 {
+  color: black;
+  font-weight: 600;
+}
+.services h1 {
+  color: #4785f1;
+  margin-bottom: 50px;
+}
+
+/* image in section */
+.serva {
+  background: url("./ServicesImage/back1.png") no-repeat;
+  background-size: 100%;
+}
+/* card */
+.services .container .card {
+  width: 260px;
+  height: 330px;
+  background-color: white;
+  margin-left: 10px;
+  padding: 20px;
+  text-align: center;
+  color: #4785f1;
+  box-shadow: inset 1px 1px 10px gray;
+}
+.services .container .card:hover {
+  box-shadow: 1px 1px 17px rgb(223, 223, 223);
+}
+/* card img */
+.services .container .row .card img {
+  width: 70px;
+  margin: auto;
+  margin-top: -1px;
+  margin-top: 30px;
+}
+/* card content */
+.services .container .card h3 {
+  font-size: 25px;
+  color: black;
+}
+
+.services .container .card p {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+
+/* ------------------------------------------ */
+/* media query */
+/* 0px to 552px  phone size*/
+@media (max-width: 575.98px) {
+  .services h4 {
+    font-size: 14px;
+  }
+  .services h1 {
+    font-size: 25px;
+  }
+  .services .container .row .card img {
+    width: 50%;
+  }
+  .services .container .card h3 {
+    font-size: 18px;
+  }
+  .services .container .card p {
+    font-size: 11px;
+  }
+}

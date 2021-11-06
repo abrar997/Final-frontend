@@ -1,0 +1,82 @@
+#about {
+  margin-top: 60px;
+}
+/* left div text */
+#about .container .row .textss {
+  margin-top: 50px;
+}
+
+#about .container .row .textss h1 {
+  color: #4785f1;
+}
+#about .container .row .textss h4 {
+  font-size: 20px;
+}
+#about button {
+  background-color: #4785f1;
+  border: 2px solid #4785f1;
+  color: white;
+  width: 180px;
+  padding: 5px;
+  text-transform: capitalize;
+  margin-left: -10px;
+}
+
+#about button:hover {
+  background-color: transparent;
+  color: #4785f1;
+  border: 2px solid #4785f1;
+  font-weight: 600;
+}
+/* right div images */
+#about .container .row .images .img1 {
+  position: relative;
+  margin-left: 20px;
+}
+
+#about .container .row .images .img1 img {
+  width: 50%;
+  box-shadow: 1px 1px 17px rgb(209, 209, 209);
+}
+/* gitl and boy */
+#about .container .row .images .img2 {
+  position: absolute;
+  margin-left: 260px;
+  margin-top: -200px;
+}
+#about .container .row .images .img2 img {
+  width: 70%;
+  box-shadow: 1px 1px 17px rgb(209, 209, 209);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* media query */
+/* 0px to 552px  phone size*/
+@media (max-width: 575.98px) {
+  #about {
+    margin-top: 0;
+  }
+  #about .container .row .textss h4 {
+    font-size: 14px;
+  }
+  #about .container .row .textss h1 {
+    font-size: 25px;
+  }
+  #about .container .row .textss p {
+    font-size: 12px;
+  }
+
+  #about button {
+    font-size: 12px;
+    width: 80px;
+  }
+  #about img {
+    width: 20%;
+    margin-left: 60px;
+  }
+
+  #about .container .row .images .img2 {
+    margin-left: 120px;
+    margin-top: -30px;
+  }
+}

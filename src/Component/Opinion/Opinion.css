@@ -1,0 +1,49 @@
+/* تقريبا red div for share us your opinion */
+.Opinion {
+  background: #a31727;
+  /* background:#4785f1; */
+  height: 300px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.Opinion h1 {
+  color: white;
+  padding-top: 60px;
+  text-transform: capitalize;
+}
+
+.Opinion p {
+  color: rgb(218, 214, 214);
+  font-size: 20px;
+  padding-top: 5px;
+}
+.Opinion button {
+  width: 200px;
+  margin: auto;
+  background: transparent;
+  border: 2px solid rgb(231, 225, 225);
+  color: rgb(218, 214, 214);
+  font-size: 22px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* media query */
+/* 0px to 552px  phone size*/
+@media (max-width: 575.98px) {
+  .Opinion {
+    height: 230px;
+  }
+  .Opinion h1 {
+    font-size: 23px;
+  }
+  .Opinion p {
+    font-size: 16px;
+  }
+  .Opinion button {
+    padding: 5px;
+    font-size: 15px;
+  }
+}
