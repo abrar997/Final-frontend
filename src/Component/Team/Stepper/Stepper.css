@@ -1,0 +1,45 @@
+/*   color: #4785f1; */
+.stepper {
+  height: 670px;
+  background-color: rgba(238, 238, 238, 0.377);
+  text-align: center;
+  margin: auto;
+  margin-top: 140px;
+  padding-top: 40px;
+}
+
+.stepper p {
+  /* color: #4785f1;  */
+  font-weight: 600;
+}
+.stepper .container .row .buttons {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  width: 500px;
+  margin: auto;
+}
+
+.stepper .container .row .buttons button {
+  margin-left: 1px;
+  background: transparent;
+  border: none;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.stepper .container .row .buttons button:hover {
+  color: #4785f1;
+}
+
+.firstbutton .container .row .textfirst {
+  width: 300px;
+  margin-left: 300px;
+}
+.firstbutton .container .row .textfirst p {
+  margin-top: 10px;
+}
+
+.firstbutton .container .row .textfirst h4 {
+  margin-top: 100px;
+  padding-bottom: 10px;
+
+}

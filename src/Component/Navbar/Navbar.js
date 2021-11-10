@@ -12,6 +12,8 @@ import "./Navbar.css";
 import Login from "../Home/Login/Login";
 import Signup from "../Signup/Signup";
 import Home from "../Home/Home";
+
+import totalUniqueItems from '../Cart/Cart'
 const Navbar = () => {
   // as state in class for scroll
   const [colorChange, setColorchange] = useState(false);
@@ -60,13 +62,17 @@ const Navbar = () => {
                   categeories
                 </button>
                 <div className="dropdown-content">
-                  <NavLink to="/" href="#" activeClassName="dropdown">
+                  <NavLink
+                    to="/WebdevelopmentCourses"
+                    href="#"
+                    activeClassName="dropdown"
+                  >
                     web development
                   </NavLink>
                   <NavLink to="/" href="#">
                     data science
                   </NavLink>
-                  <NavLink to="/" href="#">
+                  <NavLink to="/MobileDevelopmentCourses" href="#">
                     mobile development
                   </NavLink>
                   <NavLink to="/" href="#">
@@ -81,7 +87,7 @@ const Navbar = () => {
                   <input
                     className="form-control "
                     type="search"
-                    placeholder="what do you want to learn ?"
+                    placeholder="search for any thing ..."
                     aria-label="Search"
                   />
                 </form>
@@ -105,13 +111,13 @@ const Navbar = () => {
                   <ul className=" icons">
                     <NavLink to="/">
                       <li>
-                        <span style={span}> 1</span>
+                        <span style={span}>1</span>
                         <FontAwesomeIcon icon={faHeart} style={style} />
                       </li>
                     </NavLink>
-                    <NavLink to="/">
+                    <NavLink to="/Cart">
                       <li>
-                        <span style={span}> 1</span>
+                        <span style={span}>{totalUniqueItems} </span>
                         <FontAwesomeIcon icon={faShoppingBag} style={style} />
                       </li>
                     </NavLink>
@@ -136,9 +142,9 @@ const Navbar = () => {
         <div>{showResults ? <DropNav /> : null}</div>
 
         <Switch>
-          <Route path="/" component={Home}  exact />
-          <Route component={Login} path="/Login"  />
-          <Route component={Signup} path="/Signup"  />
+          <Route path="/" component={Home} exact />
+          <Route component={Login} path="/Login" />
+          <Route component={Signup} path="/Signup" />
         </Switch>
       </Fragment>
     </>

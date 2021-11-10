@@ -36,7 +36,7 @@ export class Courses extends Component {
   render() {
     return (
       <div id="courses">
-        <div className="Courses" >
+        <div className="Courses">
           <div className="container">
             <h4>Courses... </h4>
             <h1>A broad selection of courses</h1>
@@ -48,9 +48,9 @@ export class Courses extends Component {
             <div className="buttons">
               {/* buttons for courses good job !!! */}
               <button onClick={this.handleClick}>web development </button>
-              <button onClick={this.handleClick1}>data science</button>
               <button onClick={this.handleClick2}>Mobile development</button>
               <button onClick={this.handleClick3}>Game development</button>
+              <button onClick={this.handleClick1}>data science</button>
             </div>
             <div className="conatin">{this.state.div} </div>
           </div>

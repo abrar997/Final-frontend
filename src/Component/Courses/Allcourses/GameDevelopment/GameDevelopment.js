@@ -4,7 +4,7 @@ import axios from "axios";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faStar } from "@fortawesome/free-regular-svg-icons";
-import { faAngleUp, faUserFriends } from "@fortawesome/free-solid-svg-icons";
+import { faAngleUp, faShoppingBag, faUserFriends } from "@fortawesome/free-solid-svg-icons";
 import SwiperCore, { Pagination } from "swiper";
 // install Swiper modules
 
@@ -61,16 +61,55 @@ const GameDevelopment = () => {
                     <img src={item.img} />
                     <h3>{item.name}</h3>
                     <h5>{item.instru} </h5>
-                    <p>{item.views} <FontAwesomeIcon icon={faUserFriends} /> </p>
+                    <p>
+                      <FontAwesomeIcon
+                        icon={faStar}
+                        style={{ color: "#db2d41" }}
+                      />
+                      <FontAwesomeIcon
+                        icon={faStar}
+                        style={{ color: "#db2d41" }}
+                      />
+                      <FontAwesomeIcon
+                        icon={faStar}
+                        style={{ color: "#db2d41" }}
+                      />
+                      <FontAwesomeIcon
+                        icon={faStar}
+                        style={{ color: "#db2d41" }}
+                      />
+                      <FontAwesomeIcon
+                        icon={faStar}
+                        style={{ color: "#4785f1" }}
+                      />
+                    </p>
+                    <p>
+                      {item.views} <FontAwesomeIcon icon={faUserFriends} />
+                    </p>
                   </div>
                   <div className="contsinWeb">
                     <FontAwesomeIcon icon={faAngleUp} style={iconfaAngleUp} />
                     <h4>{item.name} </h4>
                     <p>{item.text}</p>
+
                     <h6>{item.instru} </h6>
-                    <button className="btn">more details</button>
+                    <h5
+                      style={{
+                        color: "#db2d41",
+                        backgroundColor: "#eee",
+                        padding: "10px",
+                        width: "130px",
+                        margin: "auto",
+                      }}
+                    >
+                      {item.price}
+                    </h5>
+                    <button className="btn">
+                      <FontAwesomeIcon icon={faShoppingBag} />
+                    </button>
                     <button
-                       style={{
+                      className="btn"
+                      style={{
                         backgroundColor: "transparent",
                         borderRadius: "100%",
                         width: "50px",
@@ -78,12 +117,11 @@ const GameDevelopment = () => {
                         padding: "5px",
                         marginLeft: "10px",
                         fontSize: "20px",
-                        color: "gray",
+                        color: "red",
                         border: "1px solid #4785f1",
-                    
                       }}
                     >
-                      <FontAwesomeIcon icon={faHeart} />{" "}
+                      <FontAwesomeIcon icon={faHeart} />
                     </button>
                   </div>
                 </div>

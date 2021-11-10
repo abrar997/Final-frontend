@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { useEffect } from "react";
-import "./Team.css";
-import img1 from "./TeamImage/boysss.png";
+import './Team.css'
 import emailjs from "emailjs-com";
+import FirstSectionDivs from '../FirstSectionDivs/FirstSectionDivs'
 
 const AskTeam = () => {
   const [ask, setAsk] = useState({
@@ -45,7 +44,8 @@ const AskTeam = () => {
   let header = "";
   if (ask.name) {
     header = (
-      <h4 style={{ padding: "10px" }}>
+      <h4 style={{ padding: "17px",color:"white" }}>
+
         Hello {ask.name},thank you for your trust, we will answer your question
         during 48h
       </h4>
@@ -58,24 +58,16 @@ const AskTeam = () => {
 
   return (
     <div className="askTeam">
-      <div
-        className="textHeader"
-        // style={{
-        //   textAlign: "center",
-        //   backgroundColor: "#a31727",
-        //   color: "rgb(219, 216, 216)",
-        //   marginBottom: "30px",
-        // }}
-      >
+      <div className="textHeader">
         {/* hidden text appear when you write your name in fyour name input */}
         {header}
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
-            <h1>welcome back </h1>
-              <h3>start your journey with instructor job we will give you a road to be profisional instructor, </h3>
-            <p>ask what you want ... </p>
+          <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4">
+            <h1>You won’t have to do it alone</h1>
+      
+            <p>ask instructor what you want ... </p>
 
             {/* form */}
             <form onSubmit={handleSubmit}>
@@ -128,9 +120,8 @@ const AskTeam = () => {
             </form>
           </div>
 
-          <div className="col-lg-6">
-            {" "}
-            <img src={img1} />
+          <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <FirstSectionDivs />
           </div>
         </div>
       </div>

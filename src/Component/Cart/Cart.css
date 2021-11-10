@@ -1,0 +1,56 @@
+/* *{color: #4785F1;} */
+/*   color: #db3d50;
+ */
+.cart .container .row h1{text-align: center;
+    margin-bottom: 20px;
+font-size: 25px;
+margin-top: 60px;
+
+;}
+ .cart .container .row .cards {
+  display: flex;
+  flex-flow: column;
+}
+.cart .container .row .cards .card {
+  height: 170px;
+  display: flex;
+  flex-flow: row;
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(238, 238, 238, 0.377);
+  text-transform: capitalize;
+  box-shadow: inset 1px 1px 15px rgb(241, 239, 239);
+}
+
+.cart .container .row .cards .card img {
+  height: 150px;
+}
+
+.cart .container .row .cards .card .textsss {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.cart .container .row .cards .card .textsss h4 {
+  color: #4785f1;
+}
+
+.cart .container .row .cards .card .textsss h6 {
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+
+.cart .container .row .cards .card .textsss .cartbtn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* border: 2px solid #4785f1; */
+    background-color: transparent;
+    font-size: 24px;
+    color: #db3d50 ;
+    border: none;
+}

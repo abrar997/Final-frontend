@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { cards, serviers, img } from "./ServicesStyle";
 // img
 import img1 from "./ServicesImage/programming.png";
 import img2 from "./ServicesImage/certificate.png";
@@ -27,7 +26,7 @@ const Services = () => {
   ]);
 
   return (
-    <div className="services" style={serviers}>
+    <div className="services">
       <div className="container">
         <div className="row">
           <h4>  SERVICES... </h4>
@@ -38,10 +37,9 @@ const Services = () => {
               return (
                 <div
                   className="card col-lg-4 col-md-4 col-sm-12"
-                  style={cards}
                   key={indf}
                 >
-                  <img src={card.img} style={img} />
+                  <img src={card.img}/>
                   <h3> {card.h3} </h3>
                   <p>{card.p}</p>
                 </div>
