@@ -1,7 +1,7 @@
 import React from "react";
 import "./Products.css";
-import data from "../MobileDevelopmentData";
 
+import data from "../MobileDevelopmentData";
 // import {faUserFriends} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -21,18 +21,23 @@ const {addItem} =useCart()
     <div className="Products ">
       <div className="container">
         <div className="row">
-          <h2>All Web Development courses </h2>
+          <h1>All courses ... </h1>
           <h6>
             <FontAwesomeIcon icon={faUserFriends} />
             19,971,031 learners
           </h6>
+          <p>
+            Each aspect of creating websites and applications entails a unique
+            set of skills. Udemy offers a host of courses to bring you up to
+            speed on modern front-end, back-end, and fullstack web development
+            practices and skills.
+          </p>
           <div>
             {data.MobileData.map((item) => {
               return (
-                <div className="card col-lg-4">
+                <div className="card">
                   <img src={item.img} />
                   <div className="card-contain">
-                    <h1>{item.id} </h1>
                     <h5> {item.name}</h5>
                     <h6>{item.instru} </h6>
                     <span>
@@ -63,9 +68,7 @@ const {addItem} =useCart()
                   </div>
 
                   <div className="btns d-flex">
-                    <button className="btn"
-                     onClick={() => addItem(item)}
-                     >
+                    <button className="btn" onClick={() => addItem(item)}>
                       <FontAwesomeIcon icon={faShoppingBag} />
                     </button>
                     <button
@@ -97,7 +100,7 @@ const {addItem} =useCart()
                         margin: "auto",
                       }}
                     >
-                      {item.price}
+                      ${item.price}
                     </h5>
                   </div>
                 </div>
@@ -111,16 +114,3 @@ const {addItem} =useCart()
 };
 
 export default Products;
-  //  return (
-  //               <ProductItem
-                
-  //                 img={item.img}
-  //                 name={item.name}
-  //                 views={item.views}
-  //                 instru={item.instru}
-  //                 text={item.text}
-  //                 price={item.price}
-  //                 item={item.id}
-  //                 key={item.id}
-  //               />
-  //             );

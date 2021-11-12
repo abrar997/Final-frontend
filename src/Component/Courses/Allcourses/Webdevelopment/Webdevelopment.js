@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./WebDevelopment.css";
+import { useCart } from "react-use-cart";
 
 import axios from "axios";
 // Import Swiper React components
@@ -22,6 +23,8 @@ const iconfaAngleUp = {
 };
 
 const Webdevelopment = () => {
+  const { addItem } = useCart();
+
   const [dataaa, setDataaa] = useState([]);
   useEffect(() => {
     // to get data from json file
@@ -102,10 +105,10 @@ const Webdevelopment = () => {
                         margin: "auto",
                       }}
                     >
-                      {item.price}
+                     ${item.price}
                     </h5>
 
-                    <button className="btn">
+                    <button className="btn" onClick={() => addItem(item)}>
                       <FontAwesomeIcon icon={faShoppingBag} />
                     </button>
                     <button

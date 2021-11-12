@@ -1,0 +1,132 @@
+import React, { useCallback, useRef } from "react";
+import './Signup.css'
+import app from "../firebase";
+import "firebase/compat/auth";
+import { Link } from "react-router-dom";
+import { GoogleAuthProvider } from "firebase/auth";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+const provider = new GoogleAuthProvider();
+const auth = app.auth(); // use app to connect login and signup data with fireabse
+
+const Signup = () => {
+  const auth = app.auth();
+  const { name, email, password, password2 } = useRef(null);
+
+   const SignWithEmail = useCallback(async (event) => {
+     event.preventDefault();
+     const { email, password } = event.target.elements;
+     await auth
+       .createUserWithEmailAndPassword(email.value, password.value,name.value)
+
+       .then((res) => {
+         return "Sign up is sucssesful";
+       })
+       .catch((error) => {
+         alert(error);
+       });
+   }, []);
+    // if(password.current.value!==confirmPassword.current.value){
+    //       try(() => {
+    //    })catch(() => {
+
+    //    });
+    //   }
+
+   const SignUpWithGoogle = () => {
+     auth
+       .signInWithPopup(provider)
+       .then(() => {
+         //nevr forger res u will have beauty error stp your work when you click on button
+         alert("signed with google ");
+       })
+       .catch((error) => {
+         alert("some thing wrong ,please try again later ");
+       });
+   };
+
+
+  return (
+    // sign up 
+    <div className="Signup"><div className="container">
+      <div className="form-style-10">
+        <h1>
+          Sign Up
+          <span>Sign and start learning with us... </span>
+        </h1>
+        <form onSubmit={SignWithEmail}>
+          <div className="section">
+            <span>1</span>Name
+          </div>
+          <div className="inner-wrap">
+            <label>
+              <input
+                type="text"
+                name="name"
+                placeholder="full name.."
+                // onChange={handlechange}
+                ref={name}
+              />
+            </label>
+          </div>
+
+          <div className="section">
+            <span>2</span>Email
+          </div>
+          <div className="inner-wrap">
+            <label>
+              <input
+                type="email"
+                name="email"
+                placeholder="email..."
+                // onChange={handlechange}
+                ref={email}
+              />
+            </label>
+          </div>
+
+          <div className="section">
+            <span>3</span>Passwords
+          </div>
+          <div className="inner-wrap">
+            <label>
+              <input
+                type="password"
+                name="password"
+                placeholder="password..."
+                // onChange={handlechange}
+                ref={password}
+              />
+            </label>
+            <label>
+              <input
+                type="password"
+                name="password2"
+                placeholder="confirm password"
+                // onChange={handlechange}
+                ref={password2}
+              />
+            </label>
+          </div>
+          <div className="button-section">
+            <input type="submit" name="Sign Up" />
+            <span className="privacy-policy">
+              <input type="checkbox" name="field7" />
+              You agree to our Terms and Policy.
+            </span>
+          </div>
+        </form>      </div>
+        <h6 style={{textAlign:"center",marginTop:"10px",color:"gray"}}>you have an account ,<Link to="/Login">Log in</Link> </h6>
+        <button
+          type="button"
+          className="w-50 secondary"
+          onClick={SignUpWithGoogle}
+
+        >
+         sign up with google <FontAwesomeIcon icon={faGoogle} />
+        </button></div>
+    </div>
+  );
+};
+
+export default Signup;

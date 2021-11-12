@@ -7,7 +7,7 @@ const data = {
       instru: "james john",
       views: "1320",
       text: "  Learn mobile development with professional teachers",
-      price: "$130",
+      price: "130",
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ const data = {
       instru: "james zaki",
       views: "3100",
       text: "  Learn mobile development with professional teachers",
-      price: "$250",
+      price: "250",
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ const data = {
       instru: "osama elzero",
       views: "2000",
       text: "  Learn mobile development with professional teachers",
-      price: "$120",
+      price: "120",
     },
     {
       id: 4,
@@ -34,7 +34,7 @@ const data = {
       instru: "abdulrahman sami",
       views: "1200",
       text: "  Learn mobile development with professional teachers",
-      price: "$70",
+      price: "70",
     },
     {
       id: 5,
@@ -43,7 +43,7 @@ const data = {
       instru: "mohamed ali",
       views: "1200",
       text: "  Learn mobile development with professional teachers",
-      price: "$90",
+      price: "90",
     },
     {
       id: 6,
@@ -52,7 +52,7 @@ const data = {
       instru: "khalid jamal",
       views: "1200",
       text: "  Learn mobile development with professional teachers",
-      price: "$90",
+      price: "90",
     },
     {
       id:7,
@@ -61,7 +61,7 @@ const data = {
       instru: "Mustafa barzan",
       views: "1200",
       text: "  Learn mobile development with professional teachers",
-      price: "$90",
+      price: "90",
     },
     {
       id:8,
@@ -70,7 +70,7 @@ const data = {
       instru: "menna ali",
       views: "1200",
       text: "  Learn mobile development with professional teachers",
-      price: "$90",
+      price: "90",
     },
     {
       id: 9,
@@ -79,7 +79,7 @@ const data = {
       instru: "Mustafa barzan",
       views: "1200",
       text: "  Learn mobile development with professional teachers",
-      price: "$90",
+      price: "90",
     },
   ],
 };

@@ -1,4 +1,4 @@
-import React  from "react";
+import React from "react";
 import Services from "../Services/Services";
 import Courses from "../Courses/Courses";
 import FirstHome from "../FirstHome/FirstHome";
@@ -9,19 +9,18 @@ import Latest from "../Latest/Latest";
 import Opinion from "../Opinion/Opinion";
 import Blog from "../Blog/Blog";
 import Footer from '../Footer/Footer'
-
 const Home = () => {
-
   return (
+    <>
     <div>
-      {/* carousel first top iv */}
+      {/* carousel first top div */}
       <FirstHome />
       {/* services cards */}
       <Services />
       {/* name of companies */}
       <Companys />
       {/* courses */}
-      <Courses  />
+      <Courses />
       {/* about */}
       <About />
       {/* our student say */}
@@ -32,10 +31,12 @@ const Home = () => {
       <Blog />
       {/* instructor */}
       <Instro />
+      {/* footer */}
+      <Footer />      
 
-      <Footer />
-    </div>
-  );
+      </div>
+
+ </> );
 };
 
 export default Home;

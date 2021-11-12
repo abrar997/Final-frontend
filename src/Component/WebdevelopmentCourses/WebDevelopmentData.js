@@ -7,7 +7,8 @@ const data = {
       instru: "james john",
       views: "1320",
       text: "Learn web development with HTML, CSS, Bootstrap 4, ES6 React and Node",
-      price: "$90",
+      price: "90",
+      time: "12h",
     },
     {
       id: 2,
@@ -16,7 +17,8 @@ const data = {
       instru: "james zaki",
       views: "3100",
       text: "Learn html5 and css3 with prof instructor and find your job with us",
-      price: "$40",
+      price: "40",
+      time: "12h",
     },
     {
       id: 3,
@@ -25,7 +27,8 @@ const data = {
       instru: "osama elzero",
       views: "2000",
       text: "Learn html5 and css3 with prof instructor and find your job with us",
-      price: "$80",
+      price: "80",
+      time: "12h",
     },
     {
       id: 4,
@@ -34,7 +37,8 @@ const data = {
       instru: "abdulrahman alaa",
       views: "1200",
       text: "Learn html5 and css3 with prof instructor and find your job with us",
-      price: "$100",
+      price: "100",
+      time: "12h",
     },
     {
       id: 5,
@@ -43,7 +47,8 @@ const data = {
       instru: "mohamed ali",
       views: "1200",
       text: "Learn html5 and css3 with prof instructor and find your job with us",
-      price: "$90",
+      price: "90",
+      time: "12h",
     },
     {
       id: 6,
@@ -52,7 +57,8 @@ const data = {
       instru: "sami ali",
       views: "1200",
       text: "Learn trml5 and css3 with prof instructor and finfd ypur job with us",
-      price: "$130",
+      price: "130",
+      time: "12h",
     },
     {
       id: 7,
@@ -61,7 +67,8 @@ const data = {
       instru: "Mustafa barzan",
       views: "1200",
       text: "Learn html5 and css3 with prof instructor and find your job with us",
-      price: "$50",
+      price: "50",
+      time: "12h",
     },
     {
       id: 8,
@@ -70,7 +77,8 @@ const data = {
       // instru: "kid jml",
       views: "1200",
       text: "Learn html5 and css3 with prof instructor and find your job with us",
-      price: "$40",
+      price: "40",
+      time: "12h",
     },
     {
       id: 9,
@@ -79,9 +87,10 @@ const data = {
       instru: "Mustafa barzan",
       views: "1200",
       text: "Learn html5 and css3 with prof instructor and find your job with us",
-      price: "$50",
+      price: "50",
+      time: "12h",
     },
   ],
 };
 
-export default data ;
+export default data;

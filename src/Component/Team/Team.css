@@ -4,15 +4,15 @@
 .first {
   background: url("./TeamImage/first.jpg") no-repeat;
   width: 100%;
-  height:600px;
+  height: 600px;
 }
 .first .white {
   background: white;
-  /* border-radius: 50%; */
   width: 500px;
   height: 500px;
   text-align: center;
   background: linear-gradient(to top, white, #eee, white, #eee, #eee);
+/* box-shadow: inset 1px -1px 3px rgb(209, 205, 205); */
 }
 .first h1 {
   margin-top: 210px;
@@ -130,6 +130,7 @@
 .askTeam h1 {
   text-transform: capitalize;
   font-size: 36px;
+  margin-top: 70px;
 }
 .askTeam h3 {
   font-size: 16px;
@@ -137,7 +138,7 @@
 }
 .askTeam p {
   font-size: 18px;
-  margin-left: 10px; 
+  margin-left: 10px;
   margin-bottom: 30px;
   font-weight: 600;
   text-transform: capitalize;
@@ -174,9 +175,9 @@
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-  /* media query */
-  /* 0px to 552px  phone size*/
-  @media (max-width: 575.98px) {
+/* media query */
+/* 0px to 552px  phone size*/
+@media (max-width: 575.98px) {
   .instructorteam {
     margin-top: 40px;
     position: absolute;

@@ -1,15 +1,15 @@
 import React from "react";
 import Products from "./Products/Products";
 import { BrowserRouter as Router } from "react-router-dom";
-import Footer from '../Footer/Footer'
-import MobileDeveloInfo from "./MobileDeveloInfo";
+import Footer from "../Footer/Footer";
+import GameDeveloInfo from "./GameDeveloInfo";
 
-const MobileDevelopmentCourses = () => {
+const GameDevelopmentCourses = () => {
   return (
     <Router>
       <>
         <div>
-          <MobileDeveloInfo />
+          <GameDeveloInfo />
           <Products />
           <Footer />
         </div>
@@ -18,4 +18,4 @@ const MobileDevelopmentCourses = () => {
   );
 };
 
-export default MobileDevelopmentCourses;
+export default GameDevelopmentCourses;

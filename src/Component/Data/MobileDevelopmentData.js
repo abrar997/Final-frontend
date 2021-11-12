@@ -1,3 +1,0 @@
-const MobileDevelopmentData = {
-  mobileDevelopment: [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
-};

@@ -1,19 +1,19 @@
 import React, { useState, Fragment } from "react";
-import { NavLink, Route, Switch } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// icons
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import DropNav from "./DropNav/DropNav";
-import { style, menu, span, categ, categs, categs2 } from "./Navstyle";
-// comp
+// style
 import "./Navbar.css";
-import Login from "../Home/Login/Login";
-import Signup from "../Signup/Signup";
+import { style, menu, span, categ, categs, categs2 } from "./Navstyle";
+// react-router-dom
+import { NavLink, Route, Switch } from "react-router-dom";
+// icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingBag,faHeart,faBars } from "@fortawesome/free-solid-svg-icons";
+// comp
+import Login from "../Authentication/Login/Login";
+import Signup from "../Authentication/Signup/Signup";
 import Home from "../Home/Home";
+import DropNav from "./DropNav/DropNav";
+import { useCart } from "react-use-cart";
 
-import totalUniqueItems from '../Cart/Cart'
 const Navbar = () => {
   // as state in class for scroll
   const [colorChange, setColorchange] = useState(false);
@@ -22,9 +22,13 @@ const Navbar = () => {
 
   const handleDisplay = () => setShowResults((showResults) => !showResults);
 
+  const {
+    totalItems,
+  } = useCart();
+
   // changeNavbarColor function ue in addEventListener
   const changeNavbarColor = () => {
-    if (window.scrollY >= 60) {
+    if (window.scrollY >= 100) {
       // instead of setState
       setColorchange(true);
     } else {
@@ -40,98 +44,121 @@ const Navbar = () => {
           <div className="container-fluid">
             <div className={colorChange ? "navbar colorChange" : "navbar"}>
               {/* logo */}
-              <NavLink to="/" className="navbar-brand" href="#">
+              <NavLink to="/Home" className="navbar-brand" href="#">
                 code/<span> Mu. </span>
               </NavLink>
               {/* responsive button of navbar */}
               <button
-                className="navbar-toggler"
+                class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span className="navbar-toggler-icon"></span>
+                <span
+                  className="navbar-toggler-icon"
+                  style={{ backgroundColor: "ButtonFace" }}
+                >
+                  <FontAwesomeIcon icon={faBars} />{" "}
+                </span>
               </button>
-
-              {/* dropdown menu categeories */}
-              <li className="dropdown  ">
-                <button className="dropbtn" style={categ}>
-                  categeories
-                </button>
-                <div className="dropdown-content">
-                  <NavLink
-                    to="/WebdevelopmentCourses"
-                    href="#"
-                    activeClassName="dropdown"
-                  >
-                    web development
-                  </NavLink>
-                  <NavLink to="/" href="#">
-                    data science
-                  </NavLink>
-                  <NavLink to="/MobileDevelopmentCourses" href="#">
-                    mobile development
-                  </NavLink>
-                  <NavLink to="/" href="#">
-                    game development
-                  </NavLink>
-                </div>
-              </li>
-
-              {/* form */}
-              <div className="navbar-nav">
-                <form className="d-flex form">
-                  <input
-                    className="form-control "
-                    type="search"
-                    placeholder="search for any thing ..."
-                    aria-label="Search"
-                  />
-                </form>
-              </div>
-
-              {/* log in and sign up */}
               <div
-                className="collapse navbar-collapse d-flex "
-                id="navbarSupportedContent"
+                className="collapse navbar-collapse active"
+                id="navbarNavAltMarkup"
               >
-                <NavLink to="/Login" activeClassName="icon ml-3">
-                  <button style={categs}>Log in </button>
-                </NavLink>
+                <div className="navbar-nav responivebar">
+                  {/* dropdown menu categeories */}
 
-                <NavLink to="/Signup" activeClassName="icon ml-4">
-                  <button style={categs2}>Sign up </button>
-                </NavLink>
+                    <button
+                      className="sub-menu-parent nav-item"
+                      tab-index="0"
+                      style={categ}
+                    >
+                      categeories
+                      <ul
+                        class="sub-menu nav-link"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <NavLink
+                          to="/WebdevelopmentCourses"
+                          href="#"
+                          activeClassName="dropdown"
+                        >
+                          web development
+                        </NavLink>
+                        <NavLink to="/DataScienceCourses" href="#">
+                          data science
+                        </NavLink>
+                        <NavLink to="/MobileDevelopmentCourses" href="#">
+                          mobile development
+                        </NavLink>
+                        <NavLink to="/GameDevelopmentCourses" href="#">
+                          game development
+                        </NavLink>
+                      </ul>
+                    </button>
 
-                {/* list of icons right side  */}
-                <div className="navbar-nav me-auto">
-                  <ul className=" icons">
-                    <NavLink to="/">
-                      <li>
-                        <span style={span}>1</span>
-                        <FontAwesomeIcon icon={faHeart} style={style} />
-                      </li>
+                  {/* form  search input */}
+                  <div className="nav-item">
+                    <form className="d-flex form">
+                      <input
+                        className="form-control "
+                        type="search"
+                        placeholder="search for any thing ..."
+                        aria-label="Search"
+                      />
+                    </form>
+                  </div>
+
+                  {/* log in and sign up */}
+                  <div
+                    className="collapse navbar-collapse d-flex  nav-item firebase"
+                    id="navbarSupportedContent"
+                  >
+                    <NavLink to="/Login" activeClassName="icon  ml-3">
+                      <button style={categs}>Log in </button>
                     </NavLink>
-                    <NavLink to="/Cart">
-                      <li>
-                        <span style={span}>{totalUniqueItems} </span>
-                        <FontAwesomeIcon icon={faShoppingBag} style={style} />
-                      </li>
+
+                    <NavLink to="/Signup" activeClassName="icon sign ml-4">
+                      <button style={categs2}>Sign up </button>
                     </NavLink>
-                    <NavLink to="/">
-                      <li style={{ transition: "all .6s ease-in-out" }}>
-                        <FontAwesomeIcon
-                          icon={faBars}
-                          style={menu}
-                          // name of display funtion
-                          onClick={handleDisplay}
-                        />
-                      </li>
-                    </NavLink>
-                  </ul>
+
+                    {/* list of icons right side  */}
+                    <div className="navbar-nav me-auto">
+                      <ul className=" icons">
+                        <NavLink to="/">
+                          <li>
+                            <span style={span}>1</span>
+                            <FontAwesomeIcon icon={faHeart} style={style} />
+                          </li>
+                        </NavLink>
+                        <NavLink to="/Cart">
+                          <li>
+                            <span style={span}> {totalItems}</span>
+                            <FontAwesomeIcon
+                              icon={faShoppingBag}
+                              style={style}
+                            />
+                          </li>
+                        </NavLink>
+                        <NavLink to="/Home">
+                          <li
+                            className="menue"
+                            style={{ transition: "all .6s ease-in-out" }}
+                          >
+                            <FontAwesomeIcon
+                              icon={faBars}
+                              style={menu}
+                              // name of display funtion
+                              onClick={handleDisplay}
+                            />
+                          </li>
+                        </NavLink>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -142,7 +169,7 @@ const Navbar = () => {
         <div>{showResults ? <DropNav /> : null}</div>
 
         <Switch>
-          <Route path="/" component={Home} exact />
+          <Route component={Home} path="/Home" exact />
           <Route component={Login} path="/Login" />
           <Route component={Signup} path="/Signup" />
         </Switch>

@@ -29,7 +29,7 @@ const FirstHome = () => {
               <h1>Take the first step to learn with us </h1>
               <p>
                 learn development and take new skills with us or be instructore
-                and be with our team. MAke your dream Come true ...
+                and be with our team. Make your dream Come true ...
               </p>
               <img src={img2} />
               <div className="d-flex buttons">
@@ -51,7 +51,7 @@ const FirstHome = () => {
               </h1>
               <p data-aos="fade-right" data-aos-duration="2000">
                 learn development and take new skills with us or be instructore
-                and be with our team. MAke your dream Come true ...
+                and be with our team. Make your dream Come true ...
               </p>
               <div
                 className="d-flex buttons"

@@ -1,15 +1,18 @@
-.dropnav{  transition: all 0.7s ease;
+/* nav drop fron faBars icon in right side */
+.dropnav {
+  transition: all 600ms ease;
 }
 .dropnav .navbar {
   background-color: #eee;
   margin-bottom: 90px;
   position: fixed;
-  z-index: 10;
-  top: 90px;
+  z-index: 5;
+  top: 100px;
   height: 60px;
+  transition: width 600ms ease;
 }
 .drop .collapse .navbar-nav {
-  margin-left: 250px;
+  margin-left: 270px;
   font-size: 22px;
   text-transform: capitalize;
   padding: 10px;
@@ -19,7 +22,26 @@
 .drop .navbar-nav .nav-item .nav-link:hover {
   color: blue;
 }
-
+/* dropdown navbar item */
+.drop .nav-item:before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 3px;
+  bottom: 0;
+  margin-left: -3px;
+  background: #4785f13f;
+  visibility: hidden;
+  /* border-radius: 5px; */
+  transform: scaleX(0);
+  transition: 0.25s linear;
+  top: 50px;
+}
+.drop .nav-item:hover:before,
+.drop .nav-item:focus:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* media query */
 /* 0px to 552px  phone size*/

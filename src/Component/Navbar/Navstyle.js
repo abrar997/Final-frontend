@@ -8,6 +8,7 @@ export const style = {
   padding: "7px",
   fontSize: "35px",
   position: "relative",
+  
 };
 // menu icon
 export const menu = {

@@ -1,36 +1,52 @@
 /* *{color: #4785F1;} */
 /*   color: #db3d50;
  */
-.cart .container .row h1{text-align: center;
-    margin-bottom: 20px;
-font-size: 25px;
-margin-top: 60px;
 
-;}
- .cart .container .row .cards {
-  display: flex;
-  flex-flow: column;
+ .cart-empty .btns{margin: auto;
+border: none;
+background-color: transparent;
+border: 1px solid #4785f1;
+width: 300px;
+text-decoration: none;
+padding: 10px;
+font-weight: 600;
+
 }
+.cart {
+  height: 100%;
+}
+.cart .container .row .cards {
+  flex-wrap: wrap;
+}
+/*total items */
+.cart .container .row h2 {
+  margin-top: 90px;
+}
+/* card */
 .cart .container .row .cards .card {
-  height: 170px;
+  height: 180px;
   display: flex;
   flex-flow: row;
   width: 60%;
   margin: auto;
   margin-top: 10px;
   padding: 10px;
-  background-color: rgba(238, 238, 238, 0.377);
   text-transform: capitalize;
-  box-shadow: inset 1px 1px 15px rgb(241, 239, 239);
+  box-shadow: 1px 1px 15px rgb(241, 239, 239);
+  border: none;
+  border-bottom: 2px solid gray;
 }
 
+.cart .container .row .cards .card:hover{box-shadow: 1px 1px 16px rgb(230, 227, 227);}
+/* card-contain */
 .cart .container .row .cards .card img {
-  height: 150px;
+  height: 160px;
+  width: 250px;
 }
-
+/* right */
 .cart .container .row .cards .card .textsss {
-  margin-left: 100px;
-  margin-top: 30px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .cart .container .row .cards .card .textsss h4 {
@@ -42,15 +58,27 @@ margin-top: 60px;
   font-size: 20px;
   font-weight: normal;
 }
+/* trash button */
+.cart .container .row .cards .card .textsss .cartbtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  font-size: 24px;
+  color: #db3d50;
+  border: none;
+}
 
+.cart .total {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
 
-.cart .container .row .cards .card .textsss .cartbtn{
-    position: absolute;
-    right: 0;
-    top: 0;
-    /* border: 2px solid #4785f1; */
-    background-color: transparent;
-    font-size: 24px;
-    color: #db3d50 ;
-    border: none;
+.cart .total .btn {
+  background-color: #db3d50;
+  color: white;
+  width: 140px;
+  padding: 10px;
+  /* border-radius: 10px; */
 }

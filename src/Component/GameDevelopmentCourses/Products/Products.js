@@ -1,7 +1,6 @@
 import React from "react";
-import "./Productsweb.css";
-import data from "../WebDevelopmentData";
-// icons
+import "./Products.css";
+import data from "../GameDevelopmentCoursesData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHeart,
@@ -10,20 +9,20 @@ import {
   faUserFriends,
 } from "@fortawesome/free-solid-svg-icons";
 
-// cart
 import { useCart } from "react-use-cart";
 
 const Products = () => {
-
   const { addItem } = useCart();
 
   return (
     <div className="Products ">
       <div className="container">
         <div className="row">
-          <h1>All courses ...</h1>
-          <h6><FontAwesomeIcon icon={faUserFriends} /> 19,971,031 learners </h6>{" "}
-        
+          <h1>All courses ... </h1>
+          <h6>
+            <FontAwesomeIcon icon={faUserFriends} />
+            19,971,031 learners
+          </h6>
           <p>
             Each aspect of creating websites and applications entails a unique
             set of skills. Udemy offers a host of courses to bring you up to
@@ -31,14 +30,13 @@ const Products = () => {
             practices and skills.
           </p>
           <div>
-            {data.productsItems.map((items) => {
+            {data.GameData.map((items) => {
               return (
                 <div className="card">
                   <img src={items.img} />
                   <div className="card-contain">
                     <h5> {items.name}</h5>
-                    <h6>times: {items.time} </h6>
-                    <h6>by: {items.instru} </h6>
+                    <h6>{items.instru} </h6>
                     <span>
                       {items.views} <FontAwesomeIcon icon={faUserFriends} />
                     </span>
@@ -74,6 +72,7 @@ const Products = () => {
                       className="btn"
                       style={{
                         backgroundColor: "transparent",
+                        // borderRadius: "100%",
                         width: "50px",
                         height: "50px",
                         padding: "5px",
@@ -81,9 +80,10 @@ const Products = () => {
                         fontSize: "20px",
                         border: "1px solid #4785f1",
                       }}
-                    ><FontAwesomeIcon icon={faHeart} /></button>
+                    >
+                      <FontAwesomeIcon icon={faHeart} />
+                    </button>
                   </div>
-
                   <div className="contsinWeb">
                     <h4>{items.name} </h4>
                     <p>{items.text}</p>
@@ -96,14 +96,13 @@ const Products = () => {
                         width: "130px",
                         margin: "auto",
                       }}
-                    > ${items.price}
+                    >
+                      ${items.price}
                     </h5>
                   </div>
                 </div>
               );
             })}
-
-            
           </div>
         </div>
       </div>

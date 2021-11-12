@@ -44,9 +44,8 @@ const AskTeam = () => {
   let header = "";
   if (ask.name) {
     header = (
-      <h4 style={{ padding: "17px",color:"white" }}>
-
-        Hello {ask.name},thank you for your trust, we will answer your question
+      <h4 style={{ padding: "17px",color:" rgb(240, 240, 240)" }}>
+       Hello {ask.name},thank you for your trust, we will answer your question
         during 48h
       </h4>
     );

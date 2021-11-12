@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { useCart } from "react-use-cart";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+// icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faStar } from "@fortawesome/free-regular-svg-icons";
 import { faAngleUp, faShoppingBag, faUserFriends } from "@fortawesome/free-solid-svg-icons";
+// swiper
 import SwiperCore, { Pagination } from "swiper";
 // install Swiper modules
 
@@ -20,8 +24,10 @@ const iconfaAngleUp = {
 };
 
 const MobileDevelopment = () => {
+      const { addItem } = useCart();
+  
   const [dataaa, setDataaa] = useState([]);
-  useEffect(() => {
+   useEffect(() => {
     // to get data from json file
     axios.get("Json/Courses.json").then((res) => {
       console.log(res.data.Mobile);
@@ -102,10 +108,10 @@ const MobileDevelopment = () => {
                           margin: "auto",
                         }}
                       >
-                        {item.price}
+                       ${item.price}
                       </h5>
-                      <button className="btn">
-                        {" "}
+                      <button className="btn" onClick={() => addItem(item)}>
+                        
                         <FontAwesomeIcon icon={faShoppingBag} />
                       </button>
                       <button

@@ -7,7 +7,7 @@
       "instru": "james john",
       "views": "1320",
       "text": "Learn web development with HTML, CSS, Bootstrap 4, ES6 React and Node",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "instru": "james zaki",
       "views": "3100",
       "text": "Learn html5 and css3 with prof instructor and find your job with us",
-      "price": "$40"
+      "price": "40"
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "instru": "osama elzero",
       "views": "2000",
       "text": "Learn html5 and css3 with prof instructor and find your job with us",
-      "price": "$80"
+      "price": "80"
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "instru": "abdulrahman alaa",
       "views": "1200",
       "text": "Learn html5 and css3 with prof instructor and find your job with us",
-      "price": "$100"
+      "price": "100"
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "instru": "mohamed ali",
       "views": "1200",
       "text": "Learn html5 and css3 with prof instructor and find your job with us",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "instru": "sami ali",
       "views": "1200",
       "text": "Learn trml5 and css3 with prof instructor and finfd ypur job with us",
-      "price": "$130"
+      "price": "130"
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "instru": "Mustafa barzan",
       "views": "1200",
       "text": "Learn html5 and css3 with prof instructor and find your job with us",
-      "price": "$50"
+      "price": "50"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "instru": "khalid jamal",
       "views": "1200",
       "text": "Learn html5 and css3 with prof instructor and find your job with us",
-      "price": "$40"
+      "price": "40"
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "instru": "Mustafa barzan",
       "views": "1200",
       "text": "Learn html5 and css3 with prof instructor and find your job with us",
-      "price": "$50"
+      "price": "50"
     }
   ],
   "dataScince": [
@@ -90,7 +90,7 @@
       "instru": "james john",
       "views": "1320",
       "text": "Learn data science with from zero to hero and change the future",
-      "price": "$130"
+      "price": "130"
     },
     {
       "id": 11,
@@ -99,7 +99,7 @@
       "instru": "james zaki",
       "views": "3100",
       "text": "Learn data science with from zero to hero and change the future",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 12,
@@ -108,7 +108,7 @@
       "instru": "ahmed shokair",
       "views": "2000",
       "text": "Learn data science with from zero to hero and change the future",
-      "price": "$400"
+      "price": "400"
     },
     {
       "id": 13,
@@ -117,7 +117,7 @@
       "instru": "mohammed nadir",
       "views": "1200",
       "text": "Learn data science with from zero to hero and change the future",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 14,
@@ -126,7 +126,7 @@
       "instru": "mohamed ali",
       "views": "1200",
       "text": "Learn data science with from zero to hero and change the future",
-      "price": "$40"
+      "price": "40"
     },
     {
       "id": 15,
@@ -135,7 +135,7 @@
       "instru": "khalid jamal",
       "views": "1200",
       "text": "Learn data science with from zero to hero and change the future",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 16,
@@ -144,7 +144,7 @@
       "instru": "Mustafa barzan",
       "views": "1200",
       "text": "Learn data science with from zero to hero and change the future",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 17,
@@ -153,7 +153,7 @@
       "instru": "khalid jamal",
       "views": "1200",
       "text": "Learn data science with from zero to hero and change the future",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 18,
@@ -162,7 +162,7 @@
       "instru": "Mustafa barzan",
       "views": "1200",
       "text": "Learn data science with from zero to hero and change the future",
-      "price": "$90"
+      "price": "90"
     }
   ],
   "Mobile": [
@@ -173,7 +173,7 @@
       "instru": "james john",
       "views": "1320",
       "text": "  Learn mobile development with professional teachers",
-      "price": "$130"
+      "price": "130"
     },
     {
       "id": 20,
@@ -182,7 +182,7 @@
       "instru": "james zaki",
       "views": "3100",
       "text": "  Learn mobile development with professional teachers",
-      "price": "$250"
+      "price": "250"
     },
     {
       "id": 21,
@@ -191,7 +191,7 @@
       "instru": "osama elzero",
       "views": "2000",
       "text": "  Learn mobile development with professional teachers",
-      "price": "$120"
+      "price": "120"
     },
     {
       "id": 22,
@@ -200,7 +200,7 @@
       "instru": "abdulrahman sami",
       "views": "1200",
       "text": "  Learn mobile development with professional teachers",
-      "price": "$70"
+      "price": "70"
     },
     {
       "id": 23,
@@ -209,7 +209,7 @@
       "instru": "mohamed ali",
       "views": "1200",
       "text": "  Learn mobile development with professional teachers",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 24,
@@ -218,7 +218,7 @@
       "instru": "khalid jamal",
       "views": "1200",
       "text": "  Learn mobile development with professional teachers",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 25,
@@ -227,7 +227,7 @@
       "instru": "Mustafa barzan",
       "views": "1200",
       "text": "  Learn mobile development with professional teachers",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 26,
@@ -236,7 +236,7 @@
       "instru": "menna ali",
       "views": "1200",
       "text": "  Learn mobile development with professional teachers",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 27,
@@ -245,7 +245,7 @@
       "instru": "Mustafa barzan",
       "views": "1200",
       "text": "  Learn mobile development with professional teachers",
-      "price": "$90"
+      "price": "90"
     }
   ],
   "game": [
@@ -256,7 +256,7 @@
       "instru": "james john",
       "views": "1320",
       "text": " game development with prof insructore ,make your dream come true",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 29,
@@ -265,7 +265,7 @@
       "instru": "james zaki",
       "views": "3100",
       "text": " game development with prof insructore ,make your dream come true",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 30,
@@ -274,7 +274,7 @@
       "instru": "osama elzero",
       "views": "2000",
       "text": " game development with prof insructore ,make your dream come true",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 31,
@@ -283,7 +283,7 @@
       "instru": "abdulrahman alaa",
       "views": "1200",
       "text": " game development with prof insructore ,make your dream come true",
-      "price": "$90"
+      "price": "90"
     },
     {
       "id": 32,
@@ -292,7 +292,7 @@
       "instru": "mohamed ali",
       "views": "1200",
       "text": " game development with prof insructore ,make your dream come true",
-      "price": "$150"
+      "price": "150"
     },
     {
       "id": 33,
@@ -301,7 +301,7 @@
       "instru": "khalid jamal",
       "views": "1200",
       "text": " game development with prof insructore ,make your dream come true",
-      "price": "$100"
+      "price": "100"
     },
     {
       "id": 34,
@@ -310,7 +310,7 @@
       "instru": "Mustafa barzan",
       "views": "1200",
       "text": " game development with prof insructore ,make your dream come true",
-      "price": "$140"
+      "price": "140"
     },
     {
       "id": 35,
@@ -319,7 +319,7 @@
       "instru": "khalid jamal",
       "views": "1200",
       "text": " game development with prof insructore ,make your dream come true",
-      "price": "$50"
+      "price": "50"
     },
     {
       "id": 36,
@@ -328,7 +328,7 @@
       "instru": "Mustafa barzan",
       "views": "1200",
       "text": " game development with prof insructore ,make your dream come true",
-      "price": "$190"
+      "price": "190"
     }
   ]
 }

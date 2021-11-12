@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { useCart } from "react-use-cart";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -20,6 +22,7 @@ const iconfaAngleUp = {
 };
 
 const DataScience = () => {
+    const { addItem } = useCart();
 
   const [dataaa, setDataaa] = useState([]);
   useEffect(() => {
@@ -103,9 +106,9 @@ const DataScience = () => {
                           margin: "auto",
                         }}
                       >
-                        {item.price}
+                        ${item.price}
                       </h5>
-                      <button className="btn">
+                      <button className="btn" onClick={() => addItem(item)}>
                         <FontAwesomeIcon icon={faShoppingBag} />
                       </button>
                       <button
