@@ -163,9 +163,9 @@ const Products = () => {
 
           <div className="col-lg-4">
             <div className="checkbox-input">
-              <button className="dropdown-toggle" type="button">
+              <h4 className="dropdown-toggle" type="button">
                 sorted by type...
-              </button>
+              </h4>
               <div className="form-check ml-4">
                 <input
                   className="form-check-input"

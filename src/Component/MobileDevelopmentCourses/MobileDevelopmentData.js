@@ -8,6 +8,7 @@ const data = {
       views: "1320",
       text: "  Learn mobile development with professional teachers",
       price: "130",
+      priceValue: "91-150",
     },
     {
       id: 2,
@@ -17,6 +18,7 @@ const data = {
       views: "3100",
       text: "  Learn mobile development with professional teachers",
       price: "250",
+      priceValue: "151-300",
     },
     {
       id: 3,
@@ -26,6 +28,7 @@ const data = {
       views: "2000",
       text: "  Learn mobile development with professional teachers",
       price: "120",
+      priceValue: "91-150",
     },
     {
       id: 4,
@@ -34,7 +37,8 @@ const data = {
       instru: "abdulrahman sami",
       views: "1200",
       text: "  Learn mobile development with professional teachers",
-      price: "70",
+      price: "200",
+      priceValue: "151-300",
     },
     {
       id: 5,
@@ -44,6 +48,7 @@ const data = {
       views: "1200",
       text: "  Learn mobile development with professional teachers",
       price: "90",
+      priceValue: "40-90",
     },
     {
       id: 6,
@@ -52,25 +57,28 @@ const data = {
       instru: "khalid jamal",
       views: "1200",
       text: "  Learn mobile development with professional teachers",
-      price: "90",
+      price: "40",
+      priceValue: "40-90",
     },
     {
-      id:7,
+      id: 7,
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gEb4iP9C1bKLIja2jWBzkys3JoMW9g8Tjw&usqp=CAU",
       name: "mobile development advanced course",
       instru: "Mustafa barzan",
       views: "1200",
       text: "  Learn mobile development with professional teachers",
-      price: "90",
+      price: "190",
+      priceValue: "91-150",
     },
     {
-      id:8,
+      id: 8,
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsu0IopyOcmdwlg1MLoZLLqXbAhPLbuiJrKg&usqp=CAU",
       name: " UI / UX Design",
       instru: "menna ali",
       views: "1200",
       text: "  Learn mobile development with professional teachers",
-      price: "90",
+      price: "60",
+      priceValue: "40-90",
     },
     {
       id: 9,
@@ -80,6 +88,7 @@ const data = {
       views: "1200",
       text: "  Learn mobile development with professional teachers",
       price: "90",
+      priceValue: "40-90",
     },
   ],
 };

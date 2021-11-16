@@ -2,9 +2,13 @@ import React, { Fragment, useCallback } from "react";
 import app from "../firebase";
 import { Link } from "react-router-dom";
 import "firebase/compat/auth";
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { GoogleAuthProvider } from "firebase/auth";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+const provider = new GoogleAuthProvider();
 
 const auth = app.auth();
-const Login = () => {
+const Login = (props) => {
 
   const LogWithEmail = useCallback(async (event) => {
     event.preventDefault();
@@ -19,6 +23,18 @@ const Login = () => {
       });
   }, []); // to run one time jsut when page loading
  
+   const SignUpWithGoogle = () => {
+     auth
+       .signInWithPopup(provider)
+       .then(() => {
+         //nevr forger res u will have beauty error stp your work when you click on button
+         alert("signed with google ");
+       })
+       .catch((error) => {
+         alert("some thing wrong ,please try again later ");
+       });
+   };
+
   return (
     <Fragment>
       <div className="form-style-10">
@@ -58,6 +74,20 @@ const Login = () => {
       >
         if you have not account ,<Link to="/Signup">create new account</Link>
       </p>
+  
+      <button
+        type="button"
+        className="w-20 secondary"
+        onClick={SignUpWithGoogle}
+        style={{
+          marginTop: "20px",
+          margin: "auto",
+          width: "300px",
+          marginLeft: "690px",
+        }}
+      >
+        sign up with google <FontAwesomeIcon icon={faGoogle} />
+      </button>
     </Fragment>
   );
 };

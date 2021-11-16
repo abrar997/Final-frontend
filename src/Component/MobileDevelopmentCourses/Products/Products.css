@@ -70,8 +70,8 @@
   font-weight: 600;
   color: black;
   box-shadow: inset 1px 5px 19px rgb(224, 224, 224);
-  left: 630px;
-  padding: 15px;
+  left: 330px;
+  padding: 10px;
   z-index: 200;
   border: 2px solid gray;
   border-radius: 10px;
@@ -86,6 +86,7 @@
   padding: 10px;
   text-transform: capitalize;
   font-size: 16px;
+  margin-top: 30px;
 }
 .Products-mobile .contsinWeb p {
   font-size: 15px;

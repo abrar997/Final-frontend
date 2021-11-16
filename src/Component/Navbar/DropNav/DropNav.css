@@ -1,6 +1,5 @@
 /* nav drop fron faBars icon in right side */
 .dropnav {
-  transition:0.5s;
   overflow-y: hidden;
 }
 .dropnav .navbar {
@@ -8,39 +7,18 @@
   margin-bottom: 90px;
   position: fixed;
   z-index: 5;
-  top: 100px;
+  top: 90px;
   height: 60px;
 }
 .drop .collapse .navbar-nav {
-  margin-left: 270px;
+  margin-left: 310px;
   font-size: 22px;
   text-transform: capitalize;
   padding: 10px;
-
 }
 
 .drop .navbar-nav .nav-item .nav-link:hover {
-  color: blue;
-}
-/* dropdown navbar item */
-.drop .nav-item:before {
-  content: "";
-  position: absolute;
-  width: 110px;
-  height: 3px;
-  bottom: 0;
-  margin-left: -3px;
-  background: #4785f13f;
-  visibility: hidden;
-  /* border-radius: 5px; */
-  transform: scaleX(0);
-  transition: 0.25s linear;
-  top: 50px;
-}
-.drop .nav-item:hover:before,
-.drop .nav-item:focus:before {
-  visibility: visible;
-  transform: scaleX(1);
+  color: rgb(9, 9, 73);
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* media query */

@@ -1,9 +1,9 @@
 import React, { useState, Fragment} from "react";
 // style
 import "./Navbar.css";
-import { style, menu, span, categ, categs, categs2 } from "./Navstyle";
+import { style, menu, span, categs, categs2 } from "./Navstyle";
 // react-router-dom
-import { NavLink, Route, Switch } from "react-router-dom";
+import { NavLink, Route, Switch,Redirect } from "react-router-dom";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingBag,faHeart,faBars } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +14,7 @@ import Home from "../Home/Home";
 import DropNav from "./DropNav/DropNav";
 import { useCart } from "react-use-cart";
 
-const Navbar = (props) => {
+const Navbar = ({ user }) => {
   // as state in class for scroll
   const [colorChange, setColorchange] = useState(false);
   //  for diplay drop nav
@@ -22,9 +22,7 @@ const Navbar = (props) => {
 
   const handleDisplay = () => setShowResults((showResults) => !showResults);
 
-  const {
-    totalItems,
-  } = useCart();
+  const { totalItems } = useCart();
 
   // changeNavbarColor function ue in addEventListener
   const changeNavbarColor = () => {
@@ -36,28 +34,6 @@ const Navbar = (props) => {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
-// --------------------------------
-// searchinput
-// const [searchTerm, setsearchTerm] = useState("");
-// const [searchResult, setsearchResult] = useState([]);
-// const HandlerSearch = (searchTerm) => {
-//   setsearchTerm(searchTerm);
-//   if (searchTerm !== "") {
-//     const dataList = props.data.filter((items) => {
-//       console.log(
-//         Object.values(items.name)
-//           .join("")
-//           .toLowerCase()
-//           .includes(searchTerm.toLowerCase())
-//       );
-//     });
-//   }
-// };
-// const inputEl=useRef(""); //("")means initial value = empty
-// const getSearchTerm=()=>{
-//   HandlerSearch(inputEl.current.value)  //same rseult of e.target.value but ref more modern
-//   }
-
   return (
     <>
       <Fragment>
@@ -82,7 +58,7 @@ const Navbar = (props) => {
                   className="navbar-toggler-icon"
                   style={{ backgroundColor: "ButtonFace" }}
                 >
-                  <FontAwesomeIcon icon={faBars} />{" "}
+                  <FontAwesomeIcon icon={faBars} />
                 </span>
               </button>
               <>
@@ -131,9 +107,6 @@ const Navbar = (props) => {
                           type="search"
                           placeholder="search for any thing ..."
                           aria-label="Search"
-                          // value={searchTerm}
-                          // ref={inputEl}
-                          // onChange={getSearchTerm}
                         />
                       </form>
                     </div>
@@ -154,7 +127,7 @@ const Navbar = (props) => {
                       {/* list of icons right side  */}
                       <div className="navbar-nav me-auto">
                         <ul className=" icons">
-                          <NavLink to="/">
+                          <NavLink to="/Home">
                             <li className="tags" gloss="add to favourite">
                               <span style={span}>1</span>
                               <FontAwesomeIcon icon={faHeart} style={style} />
@@ -186,6 +159,7 @@ const Navbar = (props) => {
                                 style={menu}
                                 // name of display funtion
                                 onClick={handleDisplay}
+                                className="menu-icon"
                               />
                             </li>
                           </NavLink>
@@ -207,6 +181,9 @@ const Navbar = (props) => {
           <Route component={Login} path="/Login" />
           <Route component={Signup} path="/Signup" />
         </Switch>
+        <div>
+          {user ? <Redirect to="/Cart" user={user} /> : <Redirect to="/Home" />}
+        </div>
       </Fragment>
     </>
   );

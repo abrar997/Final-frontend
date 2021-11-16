@@ -7,7 +7,8 @@ const data = {
       instru: "james john",
       views: "1320",
       text: " game development with prof insructore ,make your dream come true",
-      price: "90",
+      price: "50",
+      priceValue: "40-120",
     },
     {
       id: 2,
@@ -16,7 +17,8 @@ const data = {
       instru: "james zaki",
       views: "3100",
       text: " game development with prof insructore ,make your dream come true",
-      price: "90",
+      price: "120",
+      priceValue: "40-120",
     },
     {
       id: 3,
@@ -25,7 +27,8 @@ const data = {
       instru: "osama elzero",
       views: "2000",
       text: " game development with prof insructore ,make your dream come true",
-      price: "90",
+      price: "60",
+      priceValue: "40-120",
     },
     {
       id: 4,
@@ -34,7 +37,8 @@ const data = {
       instru: "abdulrahman alaa",
       views: "1200",
       text: " game development with prof insructore ,make your dream come true",
-      price: "90",
+      price: "140",
+      priceValue: "130-200",
     },
     {
       id: 5,
@@ -44,6 +48,7 @@ const data = {
       views: "1200",
       text: " game development with prof insructore ,make your dream come true",
       price: "150",
+      priceValue: "130-200",
     },
     {
       id: 6,
@@ -52,7 +57,8 @@ const data = {
       instru: "khalid jamal",
       views: "1200",
       text: " game development with prof insructore ,make your dream come true",
-      price: "100",
+      price: "300",
+      priceValue: "210-500",
     },
     {
       id: 7,
@@ -61,17 +67,20 @@ const data = {
       instru: "Mustafa barzan",
       views: "1200",
       text: " game development with prof insructore ,make your dream come true",
-      price: "140",
+      price: "440",
+      priceValue: "210-500",
     },
     {
       id: 8,
       img: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIX_mCerQ4_ceXVvcEnAAhzP4jG3lOKlpJA&usqp=CAU",
       name: "solve exersice",
       instru: "khalid jamal",
-      views: "1200",
+      views: "200",
       text: " game development with prof insructore ,make your dream come true",
       price: "50",
+      priceValue: "210-500",
     },
+
     {
       id: 9,
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOoZb5vX3KOwLGyrVjtHa3kXIdY4MF3iQNAg&usqp=CAU",
@@ -80,6 +89,7 @@ const data = {
       views: "1200",
       text: " game development with prof insructore ,make your dream come true",
       price: "190",
+      priceValue: "130-200",
     },
   ],
 };

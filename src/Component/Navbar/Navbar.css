@@ -74,7 +74,7 @@
   width: 200px;
   transform: translateY(-2em);
   z-index: -1;
-  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+  transition: all 1s ease-in-out 0s, visibility 0s linear 0.7s,
     z-index 0s linear 0.01s;
   border: 1px solid #eee;
   /* border-radius: 5px; */
@@ -103,6 +103,7 @@
   text-align: left;
   font-weight: 600;
 }
+.sub-menu a:hover{background-color: rgb(248, 246, 246);}
 
 /* list of icons */
 
@@ -137,7 +138,6 @@
   display: inline;
   /* position: relative; */
 }
-
 .navbar.tags-nav:hover:after {
   border: 1px solid #eee;
   box-shadow: 1px 1px 14px rgb(223, 218, 218);

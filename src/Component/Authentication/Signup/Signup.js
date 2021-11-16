@@ -11,7 +11,7 @@ const auth = app.auth(); // use app to connect login and signup data with fireab
 
 const Signup = (props) => {
   const auth = app.auth();
-  const { name, email, password, password2 } = useRef(null);
+  const { name, email, password} = useRef(null);
 
   const SignWithEmail = useCallback(async (event) => {
     event.preventDefault();
@@ -26,12 +26,6 @@ const Signup = (props) => {
         alert(error);
       });
   }, []);
-  // if(password.current.value!==confirmPassword.current.value){
-  //       try(() => {
-  //    })catch(() => {
-
-  //    });
-  //   }
 
   const SignUpWithGoogle = () => {
     auth
@@ -44,9 +38,9 @@ const Signup = (props) => {
         alert("some thing wrong ,please try again later ");
       });
   };
-  // const SignOut = () => {
-  //   auth.signOut();
-  // };
+  const SignOut = () => {
+    auth.signOut();
+  };
 
   return (
     // sign up
@@ -108,19 +102,35 @@ const Signup = (props) => {
                 <input type="checkbox" name="field7" />
                 You agree to our Terms and Policy.
               </span>
-
             </div>
-          </form>{" "}
+          </form>
         </div>
         <h6 style={{ textAlign: "center", marginTop: "10px", color: "gray" }}>
-          you have an account ,<Link to="/Login">Log in</Link>{" "}
+          you have an account ,<Link to="/Login">Log in</Link>
         </h6>
+
+        <p
+          style={{ textAlign: "center", marginTop: "10px", color: "gray" }}
+        >
+          {" "}
+          if you forget your password
+          <button onClick={() => SignOut()} style={{border:"none",backgroundColor:"transparent",color:"blue"}}> log out</button> and start with new
+          account{" "}
+        </p>
+
         <button
           type="button"
-          className="w-50 secondary"
+          className="secondary mr-4"
           onClick={SignUpWithGoogle}
+          style={{
+            margin: "auto",
+            width: "300px",
+            marginLeft: "487px",   
+            marginTop: "0px",
+
+          }}
         >
-          sign up with google <FontAwesomeIcon icon={faGoogle} />
+        Or sign up with google <FontAwesomeIcon icon={faGoogle} />
         </button>
       </div>
     </div>

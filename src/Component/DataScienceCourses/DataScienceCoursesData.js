@@ -8,6 +8,7 @@ const data = {
       views: "1320",
       text: "Learn data science with from zero to hero and change the future",
       price: "130",
+      priceValue: "130-240",
     },
     {
       id: 2,
@@ -17,6 +18,7 @@ const data = {
       views: "3100",
       text: "Learn data science with from zero to hero and change the future",
       price: "90",
+      priceValue: "40-120",
     },
     {
       id: 3,
@@ -26,6 +28,7 @@ const data = {
       views: "2000",
       text: "Learn data science with from zero to hero and change the future",
       price: "400",
+      priceValue: "250-500",
     },
     {
       id: 4,
@@ -35,6 +38,7 @@ const data = {
       views: "1200",
       text: "Learn data science with from zero to hero and change the future",
       price: "90",
+      priceValue: "40-120",
     },
     {
       id: 5,
@@ -44,6 +48,7 @@ const data = {
       views: "1200",
       text: "Learn data science with from zero to hero and change the future",
       price: "40",
+      priceValue: "40-120",
     },
     {
       id: 6,
@@ -52,7 +57,8 @@ const data = {
       instru: "khalid jamal",
       views: "1200",
       text: "Learn data science with from zero to hero and change the future",
-      price: "90",
+      price: "280",
+      priceValue: "250-500",
     },
     {
       id: 7,
@@ -61,7 +67,8 @@ const data = {
       instru: "Mustafa barzan",
       views: "1200",
       text: "Learn data science with from zero to hero and change the future",
-      price: "90",
+      price: "130",
+      priceValue: "130-240",
     },
     {
       id: 8,
@@ -70,7 +77,8 @@ const data = {
       instru: "khalid jamal",
       views: "1200",
       text: "Learn data science with from zero to hero and change the future",
-      price: "90",
+      price: "300",
+      priceValue: "250-500",
     },
     {
       id: 9,
@@ -79,7 +87,8 @@ const data = {
       instru: "Mustafa barzan",
       views: "1200",
       text: "Learn data science with from zero to hero and change the future",
-      price: "90",
+      price: "210",
+      priceValue: "130-240",
     },
   ],
 };
