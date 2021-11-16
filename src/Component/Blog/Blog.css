@@ -35,25 +35,120 @@
   filter: brightness(0.7);
   zoom: 10px;
 }
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* media query */
-/* 0px to 552px  phone size*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
+  .Blogs {
+    margin-top: -10px;
+    margin-top: 40px;
+  }
+  .Blogs h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .Blogs p {
+    font-size: 12px;
+  }
+  .Blogs .card h6 {
+    font-size: 8px;
+  }
+  .Blogs .card h3 {
+    font-size: 9px;
+    margin-bottom: -10px;
+  }
+
+  .Blogs .card p {
+    font-size: 8px;
+    margin-top: -10px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .Blogs {
+    margin-top: -10px;
+    margin-top: 40px;
+  }
+  .Blogs h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .Blogs p {
+    font-size: 12px;
+  }
+  .Blogs .card {
+    width: 130px;
+  }
+  .Blogs img {
+    width: 80%;
+  }
+  .Blogs .card h6 {
+    font-size: 8px;
+  }
+  .Blogs .card h3 {
+    font-size: 9px;
+    margin-bottom: -10px;
+  }
+
+  .Blogs .card p {
+    font-size: 8px;
+    margin-top: -10px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .Blogs {
+    margin-top: -10px;
+    margin-top: 40px;
+  }
   .Blogs h1 {
     font-size: 25px;
   }
   .Blogs p {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .Blogs .card {
+    width: 170px;
+  }
+  .Blogs img {
+    width: 80%;
   }
   .Blogs .card h6 {
     font-size: 10px;
   }
   .Blogs .card h3 {
     font-size: 12px;
+    margin-bottom: -10px;
   }
 
   .Blogs .card p {
+    font-size: 11px;
+    margin-top: -10px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .Blogs h1 {
+    font-size: 28px;
+  }
+  .Blogs p {
+    font-size: 15px;
+  }
+  /* .Blogs .card {
+    width: 170px;
+  } */
+  .Blogs img {
+    width: 80%;
+  }
+  .Blogs .card h6 {
     font-size: 10px;
+  }
+  .Blogs .card h3 {
+    font-size: 12px;
+    margin-bottom: -10px;
+  }
+
+  .Blogs .card p {
+    font-size: 11px;
+    margin-top: -10px;
   }
 }

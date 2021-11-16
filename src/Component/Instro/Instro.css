@@ -1,8 +1,6 @@
 .instru {
   margin-top: 70px;
   background-color: rgba(238, 238, 238, 0.377);
-  /* background: linear-gradient(to left  ,#4785f1,rgba(238, 238, 238, 0.377)); */
-  /* padding-top: 60px; */
   padding-bottom: 70px;
 }
 .instru .textsss {
@@ -30,26 +28,82 @@
 .instru img {
   margin-left: -40px;
 }
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* media query */
-/* 0px to 552px  phone size*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
   .instru img {
-display: none;
+    display: none;
   }
   .instru {
-text-align: center;
-margin-top: 0px;
+    text-align: center;
+    margin-top: 0px;
   }
-
   .instru h1 {
-    font-size: 25px;
- margin-top: -70px; }
+    font-size: 22px;
+    margin-top: -70px;
+  }
   .instru p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .instru button {
     font-size: 12px;
   }
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .instru img {
+    display: none;
+  }
+  .instru {
+    text-align: center;
+    margin-top: 0px;
+  }
+  .instru h1 {
+    font-size: 22px;
+    margin-top: -70px;
+  }
+  .instru p {
+    font-size: 12px;
+  }
+  .instru button {
+    font-size: 12px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .instru img {
+    display: none;
+  }
+  .instru {
+    text-align: center;
+    margin-top: 0px;
+  }
+  .instru h1 {
+    font-size: 25px;
+    margin-top: -70px;
+  }
+  .instru p {
+    font-size: 13px;
+  }
+  .instru button {
+    font-size: 14px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .instru img {
+width: 90%;  }
+  .instru {
+    text-align: center;
+    margin-top: 0px;
+  }
+  .instru h1 {
+    font-size: 29px;
+    margin-top: -70px;
+  }
+  .instru p {
+    font-size: 15px;
+  }
+  .instru button {
+    font-size: 16px;
+  }}

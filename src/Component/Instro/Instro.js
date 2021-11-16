@@ -11,7 +11,7 @@ const Instro = () => {
             <div className="imege col-lg-6">
               <img src={img1} />
             </div>
-            <div className="textsss col-lg-6">
+            <div className="textsss col-lg-6 ">
               <h1>Become an instructors</h1>
               <p>
                 Instructors from around the world teach millions of students on

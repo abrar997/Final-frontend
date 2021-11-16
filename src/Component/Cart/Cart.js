@@ -11,9 +11,6 @@ import { getAuth } from "@firebase/auth";
 const auth = getAuth();
 
 const Cart = ({ user }) => {
-  // const SignOut = () => {
-  //   auth.signOut();
-  // };
   const {
     isEmpty,
     totalUniqueItems,
@@ -27,7 +24,6 @@ const Cart = ({ user }) => {
   if (isEmpty) {
     return (
       <div className="cart-empty">
-      
         <h3
           style={{
             textAlign: "center",
@@ -37,17 +33,19 @@ const Cart = ({ user }) => {
           }}
         >
           Your cart is empty back and add what u need ....
-            <Link to="/Home" style={{textDecoration:"none"}}>start now </Link>
+          <Link to="/Home" style={{ textDecoration: "none" }}>
+            start now{" "}
+          </Link>
         </h3>
-        <img src={img1} style={{ marginLeft: "540px", width: "600px" }} />
+        <img src={img1} className="image-empty" />
 
-        <div>
-          
-       
-        </div>
+        <div></div>
       </div>
     );
   }
+  // const SignOut = () => {
+  //   auth.signOut();
+  // };
   return (
     <>
       <Router>
@@ -62,8 +60,11 @@ const Cart = ({ user }) => {
 
               <div className="d-flex cards">
                 {items.map((item) => (
-                  <div key={item.id} className="card col-lg-4 p-10">
-                    <div className="imagesCart">
+                  <div
+                    key={item.id}
+                    className="card col-lg-4 col-md-8 col-sm-8 p-10"
+                  >
+                    <div className="imagesCart col-sm-4 col-md-4">
                       <img src={item.img} />
                     </div>
 
@@ -92,7 +93,7 @@ const Cart = ({ user }) => {
           </div>
         </div>
         {/* <Redirect to="/" totalItems={totalItems} /> */}
-        {/* <button onClick={()=>SignOut()}>start with new account </button> */}
+        {/* <button onClick={() => SignOut()}>start with new account </button> */}
       </Router>
     </>
   );

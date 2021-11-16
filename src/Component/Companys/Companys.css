@@ -1,7 +1,6 @@
 .companies {
   margin: auto;
   margin-top: 80px;
-  /* background-color: rgba(238, 238, 238, 0.377); */
   padding: 30px;
   margin-bottom: 80px;
 }
@@ -17,9 +16,35 @@
   margin-bottom: 40px;
 }
 /* media query */
-/* 0px to 552px  phone size*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
   .companies {
     display: none;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .companies {
+    display: none;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .companies h2 {
+    font-size: 20px;
+  }
+  .companies img {
+    width: 95%;
+    margin-left: -10px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .companies h2 {
+    font-size: 25px;
+  }
+  .companies img {
+    width: 95%;
+    margin-left: -10px;
   }
 }

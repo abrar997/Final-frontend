@@ -18,7 +18,7 @@ const Login = () => {
         alert(error);
       });
   }, []); // to run one time jsut when page loading
-
+ 
   return (
     <Fragment>
       <div className="form-style-10">
@@ -48,9 +48,15 @@ const Login = () => {
           </div>
         </form>
       </div>
-      <p style={{ textAlign: "center", marginTop: "10px",fontWeight:"600",color:"gray" }}>
-        if you have not account ,
-        <Link to="/Signup" >create new account</Link>
+      <p
+        style={{
+          textAlign: "center",
+          marginTop: "10px",
+          fontWeight: "600",
+          color: "gray",
+        }}
+      >
+        if you have not account ,<Link to="/Signup">create new account</Link>
       </p>
     </Fragment>
   );

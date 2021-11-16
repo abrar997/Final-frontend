@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React, { useState, Fragment} from "react";
 // style
 import "./Navbar.css";
 import { style, menu, span, categ, categs, categs2 } from "./Navstyle";
@@ -14,7 +14,7 @@ import Home from "../Home/Home";
 import DropNav from "./DropNav/DropNav";
 import { useCart } from "react-use-cart";
 
-const Navbar = () => {
+const Navbar = (props) => {
   // as state in class for scroll
   const [colorChange, setColorchange] = useState(false);
   //  for diplay drop nav
@@ -36,6 +36,27 @@ const Navbar = () => {
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
+// --------------------------------
+// searchinput
+// const [searchTerm, setsearchTerm] = useState("");
+// const [searchResult, setsearchResult] = useState([]);
+// const HandlerSearch = (searchTerm) => {
+//   setsearchTerm(searchTerm);
+//   if (searchTerm !== "") {
+//     const dataList = props.data.filter((items) => {
+//       console.log(
+//         Object.values(items.name)
+//           .join("")
+//           .toLowerCase()
+//           .includes(searchTerm.toLowerCase())
+//       );
+//     });
+//   }
+// };
+// const inputEl=useRef(""); //("")means initial value = empty
+// const getSearchTerm=()=>{
+//   HandlerSearch(inputEl.current.value)  //same rseult of e.target.value but ref more modern
+//   }
 
   return (
     <>
@@ -64,6 +85,7 @@ const Navbar = () => {
                   <FontAwesomeIcon icon={faBars} />{" "}
                 </span>
               </button>
+              <>
               <div
                 className="collapse navbar-collapse active"
                 id="navbarNavAltMarkup"
@@ -71,34 +93,35 @@ const Navbar = () => {
                 <div className="navbar-nav responivebar">
                   {/* dropdown menu categeories */}
 
-                    <button
-                      className="sub-menu-parent nav-item"
-                      tab-index="0"
-                      style={categ}
+                  <button
+                    className="sub-menu-parent dropdown"
+                    tab-index="0"
+                    // style={categ}
+                  >
+                    categeories
+                    <ul
+                      class="sub-menu nav-link"
+                      aria-labelledby="navbarDropdown"
                     >
-                      categeories
-                      <ul
-                        class="sub-menu nav-link"
-                        aria-labelledby="navbarDropdown"
+                      <NavLink
+                        to="/WebdevelopmentCourses"
+                        href="#"
+                        activeClassName="dropdown-item"
                       >
-                        <NavLink
-                          to="/WebdevelopmentCourses"
-                          href="#"
-                          activeClassName="dropdown"
-                        >
-                          web development
-                        </NavLink>
+                        web development
+                      </NavLink>
+                   
+                      <NavLink to="/MobileDevelopmentCourses" href="#">
+                        mobile development
+                      </NavLink>
+                      <NavLink to="/GameDevelopmentCourses" href="#">
+                        game development
+                      </NavLink> 
                         <NavLink to="/DataScienceCourses" href="#">
-                          data science
-                        </NavLink>
-                        <NavLink to="/MobileDevelopmentCourses" href="#">
-                          mobile development
-                        </NavLink>
-                        <NavLink to="/GameDevelopmentCourses" href="#">
-                          game development
-                        </NavLink>
-                      </ul>
-                    </button>
+                        data science
+                      </NavLink>
+                    </ul>
+                  </button>
 
                   {/* form  search input */}
                   <div className="nav-item">
@@ -108,6 +131,9 @@ const Navbar = () => {
                         type="search"
                         placeholder="search for any thing ..."
                         aria-label="Search"
+                        // value={searchTerm}
+                        // ref={inputEl}
+                        // onChange={getSearchTerm}
                       />
                     </form>
                   </div>
@@ -159,8 +185,11 @@ const Navbar = () => {
                       </ul>
                     </div>
                   </div>
+
+
                 </div>
               </div>
+            </>
             </div>
           </div>
         </nav>
@@ -171,7 +200,7 @@ const Navbar = () => {
         <Switch>
           <Route component={Home} path="/Home" exact />
           <Route component={Login} path="/Login" />
-          <Route component={Signup} path="/Signup" />
+          <Route component={Signup} path="/Signup"  />
         </Switch>
       </Fragment>
     </>

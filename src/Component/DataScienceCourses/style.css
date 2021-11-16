@@ -1,31 +1,31 @@
 /* skill path component */
 .info {
   margin-bottom: 100px;
-  background-color: rgba(238, 238, 238, 0.377);
   height: 430px;
-  box-shadow: inset 1px 1px 10px rgb(212, 211, 211);
   padding: 20px;
   padding-bottom: 30px;
 }
-.info .container .row h2 {
-  color: #4785f1;
-  text-transform: capitalize;
-  margin-top: 60px;
-}
-.info .container .row h6 {
+
+/* .info .container .row h6 {
   color: gray;
   margin-left: 5px;
   font-size: 14px;
   text-transform: capitalize;
-}
-
-.info .container .row .texts h6 {
-  margin-top: 60px;
+} */
+.info .container .row .texts {
+  margin-left: 40px;
 }
 .info .container .row .texts h1 {
-  color: #a31727;
+  color: #db2d41;
   text-transform: capitalize;
   font-size: 50px;
+  margin-top: 90px;
+}
+
+.info .container .row .texts span {
+  color: gray;
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 .info .container .row .texts .info-text {
@@ -43,17 +43,28 @@
 }
 
 .info .container .row .Beginner-info {
-  margin-top: 30px;
+  margin-top:10px;
   text-align: center;
-  padding: 20px;
+  padding: 60px;
   margin-left: 100px;
   box-shadow: inset 1px 1px 15px rgb(212, 211, 211);
+  color: gray;
+
+}
+.info .container .row .Beginner-info img {
+  width: 50%;
 }
 
-.info .container .row .Beginner-info h4 {
-  color: #4785f1;
+.info .container .row .Beginner-info span:nth-child(2) {
+  color: #a31727;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.info .container .row .Beginner-info h3 {
   text-align: center;
-  font-size: 20px;
+  color: black;
+  font-size: 24px;
 }
 
 .info .container .row .Beginner-info h6 {
@@ -62,7 +73,116 @@
   font-size: 18px;
 }
 
-.info .container .row .Beginner-info p {
+.info .container .row .Beginner-info .lower-text-p {
   font-weight: 600;
   color: gray;
-font-size: 15px;}
+  font-size: 15px;
+
+  margin-left: 20px;
+}
+
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .info .container .row .texts h1 {
+    color: #db2d41;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .info .container .row .texts p {
+    font-size: 10px;
+  }
+  .info {
+    height: 600px;
+  }
+  .info .container .row .Beginner-info {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .info .container .row .Beginner-info h3 {
+    font-size: 13px;
+  }
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .info  .container .row .texts {
+    margin-left: -10px;
+  }
+  .info  .container .row .texts h1 {
+    color: #db2d41;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .info  .container .row .texts p {
+    font-size: 10px;
+  }
+  .info  {
+    height: 600px;
+  }
+  .info  .container .row .Beginner-info {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .info  .container .row .Beginner-info h3 {
+    font-size: 13px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .info  .container .row .texts {
+    margin-left: -10px;
+  }
+  .info  .container .row .texts h1 {
+    color: #db2d41;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .info  .container .row .texts p {
+    font-size: 13px;
+  }
+  .info  {
+    height: 600px;
+  }
+  .info  .container .row .Beginner-info {
+    /* margin: auto; */
+    padding: 10px;
+    margin-bottom: 100px;
+    width: 60%;
+  }
+  .info  .container .row .Beginner-info h3 {
+    font-size: 13px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .info  .container .row .texts {
+    margin-left: -20px;
+  }
+  .info  .container .row .texts h1 {
+    font-size: 25px;
+  }
+  .info  .container .row .texts p {
+    font-size: 13px;
+  }
+  .info  .container .row .Beginner-info h3 {
+    font-size: 15px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .info  .container .row .texts {
+    margin-left: -10px;
+  }
+  .info  .container .row .texts h1 {
+    font-size: 28px;
+  }
+}

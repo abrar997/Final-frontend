@@ -66,22 +66,97 @@
   height: "380px";
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* media query */
-/* 0px to 552px  phone size*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
   .Courses {
     padding-top: 30px;
-    height: 780px;
+    height: 680px;
     padding-bottom: 30px;
   }
   .Courses h4 {
     font-size: 14px;
   }
   .Courses h1 {
-    font-size: 25px;
+    font-size: 22px;
+  }
+  .Courses h5 {
+    font-size: 12px;
+  }
+  .Courses button {
+    font-size: 10px;
+  }
+  .Courses .buttons {
+    margin-top: -10px;
+    margin-top: 30px;
   }
   .Courses p {
+    font-size: 12px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .Courses {
+    margin-top: 40px;
+    height: 730px;
+    padding-bottom: 30px;
+  }
+  .Courses h4 {
+    font-size: 14px;
+  }
+  .Courses h1 {
+    font-size: 22px;
+  }
+  .Courses h5 {
+    font-size: 12px;
+  }
+  .Courses button {
+    font-size: 10px;
+  }
+  .Courses .buttons {
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .Courses p {
+    font-size: 12px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .Courses {
+    margin-top: 40px;
+    height: 730px;
+    padding-bottom: 30px;
+  }
+  .Courses h4 {
+    font-size: 19px;
+  }
+  .Courses h1 {
+    font-size: 25px;
+  }
+  .Courses h5 {
+    font-size: 12px;
+  }
+  .Courses button {
+    font-size: 15px;
+  }
+  .Courses .buttons {
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .Courses p {
+    font-size: 12px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .Courses h4 {
+    font-size: 22px;
+  }
+  .Courses h1 {
+    font-size: 28px;
+  }
+  .Courses h5 {
     font-size: 12px;
   }
 }

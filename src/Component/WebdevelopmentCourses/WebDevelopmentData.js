@@ -9,6 +9,7 @@ const data = {
       text: "Learn web development with HTML, CSS, Bootstrap 4, ES6 React and Node",
       price: "90",
       time: "12h",
+      type: "fullstack",
     },
     {
       id: 2,
@@ -19,6 +20,7 @@ const data = {
       text: "Learn html5 and css3 with prof instructor and find your job with us",
       price: "40",
       time: "12h",
+      type: "frontend",
     },
     {
       id: 3,
@@ -29,6 +31,7 @@ const data = {
       text: "Learn html5 and css3 with prof instructor and find your job with us",
       price: "80",
       time: "12h",
+      type: "frontend",
     },
     {
       id: 4,
@@ -39,6 +42,7 @@ const data = {
       text: "Learn html5 and css3 with prof instructor and find your job with us",
       price: "100",
       time: "12h",
+      type: "frontend",
     },
     {
       id: 5,
@@ -49,6 +53,7 @@ const data = {
       text: "Learn html5 and css3 with prof instructor and find your job with us",
       price: "90",
       time: "12h",
+      type: "backend",
     },
     {
       id: 6,
@@ -59,26 +64,29 @@ const data = {
       text: "Learn trml5 and css3 with prof instructor and finfd ypur job with us",
       price: "130",
       time: "12h",
+      type: "frontend",
     },
     {
       id: 7,
       img: "https://3cthinkers.com/en/wp-content/uploads/2017/03/dynamicpages.jpeg",
-      name: "html,css,js",
+      name: "php",
       instru: "Mustafa barzan",
       views: "1200",
       text: "Learn html5 and css3 with prof instructor and find your job with us",
       price: "50",
       time: "12h",
+      type: "backend",
     },
     {
       id: 8,
       img: "https://img.youtube.com/vi/CQYoKFm6w3w/hqdefault.jpg",
-      name: "java script",
+      name: "java script , mysQl",
       // instru: "kid jml",
       views: "1200",
       text: "Learn html5 and css3 with prof instructor and find your job with us",
       price: "40",
       time: "12h",
+      type: "backend",
     },
     {
       id: 9,
@@ -89,6 +97,7 @@ const data = {
       text: "Learn html5 and css3 with prof instructor and find your job with us",
       price: "50",
       time: "12h",
+      type: "fullstack",
     },
   ],
 };

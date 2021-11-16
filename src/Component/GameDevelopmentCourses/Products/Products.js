@@ -15,7 +15,7 @@ const Products = () => {
   const { addItem } = useCart();
 
   return (
-    <div className="Products ">
+    <div className="Products-game ">
       <div className="container">
         <div className="row">
           <h1>All courses ... </h1>
@@ -64,21 +64,34 @@ const Products = () => {
                     </p>
                   </div>
 
-                  <div className="btns d-flex">
-                    <button className="btn" onClick={() => addItem(items)}>
-                      <FontAwesomeIcon icon={faShoppingBag} />
-                    </button>
+                  <div className="btns d-flex mt-2">
                     <button
                       className="btn"
                       style={{
                         backgroundColor: "transparent",
-                        // borderRadius: "100%",
                         width: "50px",
                         height: "50px",
                         padding: "5px",
                         marginLeft: "10px",
                         fontSize: "20px",
                         border: "1px solid #4785f1",
+                        color: "#4785f1",
+                      }}
+                      onClick={() => addItem(items)}
+                    >
+                      <FontAwesomeIcon icon={faShoppingBag} />
+                    </button>
+                    <button
+                      className="btn"
+                      style={{
+                        backgroundColor: "transparent",
+                        width: "50px",
+                        height: "50px",
+                        padding: "5px",
+                        marginLeft: "10px",
+                        fontSize: "20px",
+                        border: "1px solid #4785f1",
+                        color: "#4785f1",
                       }}
                     >
                       <FontAwesomeIcon icon={faHeart} />

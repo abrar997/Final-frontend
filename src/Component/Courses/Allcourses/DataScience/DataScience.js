@@ -112,7 +112,7 @@ const DataScience = () => {
                         <FontAwesomeIcon icon={faShoppingBag} />
                       </button>
                       <button
-                        className="btn"
+                        className="btn heart"
                         style={{
                           backgroundColor: "transparent",
                           borderRadius: "100%",

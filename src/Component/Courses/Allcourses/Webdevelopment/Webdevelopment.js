@@ -95,7 +95,7 @@ const Webdevelopment = () => {
                     <FontAwesomeIcon icon={faAngleUp} style={iconfaAngleUp} />
                     <h4>{item.name} </h4>
                     <p>{item.text}</p>
-                    <h6>{item.instru} </h6>
+                    <h6>By: {item.instru} </h6>
                     <h5
                       style={{
                         color: "#db2d41",
@@ -112,7 +112,7 @@ const Webdevelopment = () => {
                       <FontAwesomeIcon icon={faShoppingBag} />
                     </button>
                     <button
-                      className="btn"
+                      className="btn heart"
                       style={{
                         backgroundColor: "transparent",
                         borderRadius: "100%",

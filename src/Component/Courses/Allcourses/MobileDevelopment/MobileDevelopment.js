@@ -108,14 +108,13 @@ const MobileDevelopment = () => {
                           margin: "auto",
                         }}
                       >
-                       ${item.price}
+                        ${item.price}
                       </h5>
                       <button className="btn" onClick={() => addItem(item)}>
-                        
                         <FontAwesomeIcon icon={faShoppingBag} />
                       </button>
                       <button
-                        className="btn"
+                        className="btn heart"
                         style={{
                           backgroundColor: "transparent",
                           borderRadius: "100%",

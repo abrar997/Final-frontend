@@ -28,13 +28,12 @@
   padding: 10px;
   margin-top: 20px;
 }
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* media query */
-/* 0px to 552px  phone size*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
   .Opinion {
     height: 230px;
+    margin-top: -100px;
   }
   .Opinion h1 {
     font-size: 23px;
@@ -45,5 +44,56 @@
   .Opinion button {
     padding: 5px;
     font-size: 15px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .Opinion {
+    height: 230px;
+    margin-top: -100px;
+  }
+  .Opinion h1 {
+    font-size: 23px;
+  }
+  .Opinion p {
+    font-size: 16px;
+  }
+  .Opinion button {
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .Opinion {
+    height: 230px;
+    margin-top: 0px;
+  }
+  .Opinion h1 {
+    font-size: 25px;
+  }
+  .Opinion p {
+    font-size: 16px;
+  }
+  .Opinion button {
+    padding: 5px;
+    font-size: 18px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .Opinion {
+    height: 260px;
+    margin-top: -90px;
+  }
+  .Opinion h1 {
+    font-size: 29px;
+  }
+  .Opinion p {
+    font-size: 18px;
+  }
+  .Opinion button {
+    padding: 5px;
+    font-size: 18px;
   }
 }

@@ -109,31 +109,156 @@
 }
 
 /* media query */
-/* 0px to 552px  phone size*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
-/* background og slide */
+  .topweb {
+    margin-top: -40px;
+    margin-left: -10px;
+  }
+  /* background og slide */
   .swiper-slide img {
-    display: none;
+    /* display: none; */
+    width: 70%;
   }
   /* omg on left div colors */
   .swiprimage {
     display: none;
   }
-/* text on left */
+  /* text on left */
   .text {
     width: 100%;
-    background: #eee;
+    background: rgba(238, 238, 238, 0.774);
     text-align: center;
   }
-
-  .text .buttons {
-    margin-left: 30px;
-    margin-top: 30px;
-    font-size: 14px;
+  .text h1 {
+    font-size: 26px;
   }
-/* div  */
+  .text p {
+    font-size: 17px;
+    font-weight: none;
+    margin-top: 30px;
+  }
+  .text .buttons {
+    margin-left: 120px;
+    margin-top: 60px;
+    font-size: 14px;
+    width: 230px;
+  }
+  /* div  */
   .mySwiper {
     height: 510px;
     margin-top: 30px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .text {
+    width: 50%;
+    text-align: center;
+  }
+  .text h1 {
+    font-size: 15px;
+  }
+  .text p {
+    font-size: 12px;
+    font-weight: none;
+    margin-top: 30px;
+  }
+  .text .buttons {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+    width: 230px;
+  }
+  .topweb {
+    margin-top: -40px;
+    margin-left: -10px;
+  }
+  .mySwiper {
+    height: 410px;
+    margin-top: 30px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .text {
+    text-align: center;
+    width: 50%;
+  }
+  .text h1 {
+    font-size: 20px;
+  }
+  .text p {
+    font-size: 12px;
+    font-weight: none;
+    margin-top: 30px;
+  }
+  .text .buttons {
+    margin-left: 65px;
+    margin-top: 10px;
+    font-size: 10px;
+    width: 230px;
+  }
+  .topweb {
+    margin-top: -40px;
+    margin-left: -10px;
+  }
+  .mySwiper {
+    height: 410px;
+    margin-top: 30px;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+  .text {
+    text-align: center;
+    width: 50%;
+    margin-left: -10px;
+  }
+  .text h1 {
+    font-size: 24px;
+  }
+  .text p {
+    font-size: 12px;
+    font-weight: none;
+    margin-top: 30px;
+  }
+  .text .buttons {
+    margin-left: 165px;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 230px;
+  }
+  .mySwiper img {
+    margin-top: 80px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .text {
+    text-align: center;
+    width: 50%;
+    margin-left: -10px;
+  }
+  .text h1 {
+    font-size: 29px;
+  }
+  .text p {
+    font-size: 15px;
+    font-weight: none;
+    margin-top: 30px;
+  }
+  .text .buttons {
+    margin-left: 165px;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 230px;
+  }
+  .mySwiper img {
+    margin-top: 80px;
   }
 }

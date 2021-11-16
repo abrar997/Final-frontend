@@ -1,6 +1,7 @@
 /* nav drop fron faBars icon in right side */
 .dropnav {
-  transition: all 600ms ease;
+  transition:0.5s;
+  overflow-y: hidden;
 }
 .dropnav .navbar {
   background-color: #eee;
@@ -9,14 +10,13 @@
   z-index: 5;
   top: 100px;
   height: 60px;
-  transition: width 600ms ease;
 }
 .drop .collapse .navbar-nav {
   margin-left: 270px;
   font-size: 22px;
   text-transform: capitalize;
   padding: 10px;
-  transition: all 0.7s ease;
+
 }
 
 .drop .navbar-nav .nav-item .nav-link:hover {

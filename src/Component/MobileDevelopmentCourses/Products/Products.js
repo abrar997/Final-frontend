@@ -18,7 +18,7 @@ const Products = () => {
 const {addItem} =useCart()
 
   return (
-    <div className="Products ">
+    <div className="Products-mobile ">
       <div className="container">
         <div className="row">
           <h1>All courses ... </h1>
@@ -65,23 +65,43 @@ const {addItem} =useCart()
                         style={{ color: "#4785f1" }}
                       />
                     </p>
+                    <h6>
+                      <mark
+                        style={{ backgroundColor: "#db2d41", color: "white" }}
+                      >
+                        {" "}
+                        ${item.price}{" "}
+                      </mark>
+                    </h6>
                   </div>
-
-                  <div className="btns d-flex">
-                    <button className="btn" onClick={() => addItem(item)}>
-                      <FontAwesomeIcon icon={faShoppingBag} />
-                    </button>
+                  <div className="btns d-flex mt-2">
                     <button
                       className="btn"
                       style={{
                         backgroundColor: "transparent",
-                        // borderRadius: "100%",
                         width: "50px",
                         height: "50px",
                         padding: "5px",
                         marginLeft: "10px",
                         fontSize: "20px",
                         border: "1px solid #4785f1",
+                        color: "#4785f1",
+                      }}
+                      onClick={() => addItem(item)}
+                    >
+                      <FontAwesomeIcon icon={faShoppingBag} />
+                    </button>
+                    <button
+                      className="btn"
+                      style={{
+                        backgroundColor: "transparent",
+                        width: "50px",
+                        height: "50px",
+                        padding: "5px",
+                        marginLeft: "10px",
+                        fontSize: "20px",
+                        border: "1px solid #4785f1",
+                        color: "#4785f1",
                       }}
                     >
                       <FontAwesomeIcon icon={faHeart} />

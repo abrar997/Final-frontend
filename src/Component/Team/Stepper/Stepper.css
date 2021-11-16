@@ -41,5 +41,213 @@
 .firstbutton .container .row .textfirst h4 {
   margin-top: 100px;
   padding-bottom: 10px;
+}
 
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .stepper {
+    margin-top: -10px;
+  }
+  .stepper h1 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .firstbutton .container .row .textfirst {
+    width: 120px;
+    font-size: 10px;
+  }
+  .firstbutton .container .row .textfirst h4 {
+    font-size: 14px;
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .firstbutton img {
+    width: 50%;
+    margin-top: -270px;
+    margin-left: -160px;
+  }
+  .firstbutton .img-third {
+    width: 90%;
+    /* margin-right: -600px; */
+    margin-top: 300px;
+    position: absolute;
+    left: 40px;
+    top: 1370px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .stepper {
+    margin-top: -10px;
+  }
+  .stepper h1 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .firstbutton .container .row .textfirst {
+    width: 120px;
+    font-size: 10px;
+  }
+  .firstbutton .container .row .textfirst h4 {
+    font-size: 14px;
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .firstbutton img {
+    width: 50%;
+    margin-top: -270px;
+    margin-left: -160px;
+  }
+  .firstbutton .img-third {
+    width: 90%;
+    /* margin-right: -600px; */
+    margin-top: 300px;
+    position: absolute;
+    left: 20px;
+    top: 1230px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .stepper {
+    margin-top: -10px;
+  }
+  .stepper h1 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .firstbutton .container .row .textfirst {
+    width: 120px;
+    font-size: 10px;
+  }
+  .firstbutton .container .row .textfirst h4 {
+    font-size: 14px;
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .firstbutton img {
+    width: 50%;
+    margin-top: -270px;
+    margin-left: -160px;
+  }
+  .firstbutton .img-third {
+    width: 70%;
+    /* margin-right: -600px; */
+    margin-top: 300px;
+    position: absolute;
+    left: 20px;
+    top: 1230px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .stepper {
+    margin-top: -10px;
+  }
+  .stepper h1 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .firstbutton .container .row .textfirst {
+    width: 120px;
+    font-size: 10px;
+  }
+  .firstbutton .container .row .textfirst h4 {
+    font-size: 14px;
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .firstbutton img {
+    width: 30%;
+    margin-top: -240px;
+    position: absolute;
+    left: 100px;
+  }
+  .firstbutton .img-third {
+    width: 80%;
+    /* margin-right: -600px; */
+    margin-top: 300px;
+    position: absolute;
+    left: 20px;
+    top: 800px;
+    margin-left: 30px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .stepper {
+    margin-top: -10px;
+  }
+  .stepper h1 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .firstbutton .container .row .textfirst {
+    width: 120px;
+    font-size: 10px;
+    position: absolute;
+    right: 360px;
+  }
+  .firstbutton .container .row .textfirst h4 {
+    font-size: 14px;
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .firstbutton img {
+    width: 20%;
+    margin-top: 40px;
+    position: absolute;
+    left: 100px;
+    margin-left: 200px;
+  }
+  .firstbutton .img-third {
+    width: 80%;
+    /* margin-right: -600px; */
+    margin-top: 300px;
+    position: absolute;
+    left: 90px;
+    top: 1200px;
+    margin-left: 30px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .stepper {
+    margin-top: -10px;
+  }
+  .stepper h1 {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+  .firstbutton .container .row .textfirst {
+    width: 120px;
+    font-size: 10px;
+    position: absolute;
+    right: 360px;
+  }
+  .firstbutton .container .row .textfirst h4 {
+    font-size: 14px;
+    margin-top: -10px;
+    margin-top: 30px;
+  }
+  .firstbutton img {
+    width: 30%;
+    margin-top: -20px;
+    position: absolute;
+    left: 100px;
+    margin-left: 200px;
+  }
+  .firstbutton .img-third {
+    width: 80%;
+    /* margin-right: -600px; */
+    margin-top: 300px;
+    position: absolute;
+    left: 90px;
+    top: 930px;
+    margin-left: 30px;
+  }
 }

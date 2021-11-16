@@ -163,3 +163,71 @@ footer p {
     font-size: 10px;
   }
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .col_white_amrc {
+    font-size: 20px;
+  }
+
+  .footer_ul2_amrc li a {
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+  /* pagraph under coe/mu */
+  .mb10 {
+    font-size: 10px;
+  }
+  .footer img {
+    width: 180px;
+    margin-left: 40px;
+  }
+  .footer .imag h5 {
+    font-size: 13px;
+  }
+  .footer .imag {
+    margin-left: 80px;
+  }
+  .social_footer_ul {
+    margin-left: -0px;
+    margin-left: 90px;
+  }
+  .social_footer_ul li a {
+    font-size: 10px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .col_white_amrc {
+    font-size: 20px;
+  }
+
+  .footer_ul2_amrc li a {
+    font-size: 15px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+  /* pagraph under coe/mu */
+  .mb10 {
+    font-size: 10px;
+  }
+ .footer img {
+display: none;  }
+  .social_footer_ul{    margin-left: -1px;
+    margin-left: 230px;
+}
+  .social_footer_ul li a {
+    font-size: 10px;
+    margin-left: -5px;
+  }
+ .footer .imag h5 {
+    font-size: 13px;
+  }
+
+}

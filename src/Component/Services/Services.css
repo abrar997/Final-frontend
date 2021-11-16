@@ -51,22 +51,152 @@
   font-size: 13px;
 }
 
-
-/* ------------------------------------------ */
 /* media query */
-/* 0px to 552px  phone size*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
+  .services h4 {
+    font-size: 14px;
+  }
+  .services h1 {
+    font-size: 22px;
+  }
+  .services .container .row .card {
+    height: 270px;
+  }
+  .services .container .row .card img {
+    margin-top: -1px;
+    margin-top: 5px;
+    width: 30%;
+  }
+  .services .container .card h3 {
+    font-size: 16px;
+  }
+  .services .container .card p {
+    font-size: 11px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .services {
+    margin-left: -40px;
+    height: 470px;
+  }
+  .services h4 {
+    font-size: 14px;
+  }
+  .services h1 {
+    font-size: 22px;
+  }
+  .services .container .row .card {
+    height: 270px;
+    width: 170px;
+    margin-left: -20px;
+    margin-left: 5px;
+  }
+  .services .container .row .card img {
+    margin-top: -1px;
+    margin-top: 5px;
+    width: 40%;
+  }
+  .services .container .card h3 {
+    font-size: 16px;
+  }
+  .services .container .card p {
+    font-size: 11px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .services {
+    margin-left: -40px;
+    height: 470px;
+  }
   .services h4 {
     font-size: 14px;
   }
   .services h1 {
     font-size: 25px;
   }
+  .services .container .row .card {
+    height: 270px;
+    width: 210px;
+    margin-left: -20px;
+    margin-left: 15px;
+  }
   .services .container .row .card img {
-    width: 50%;
+    margin-top: -1px;
+    margin-top: 5px;
+    width: 40%;
   }
   .services .container .card h3 {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .services .container .card p {
+    font-size: 11px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .services {
+    height: 500px;
+  }
+  .services .serva {
+    width: 200px;
+    margin-left: -10px;
+  }
+  .services h4 {
+    font-size: 14px;
+  }
+  .services h1 {
+    font-size: 25px;
+  }
+  .services .container .row .card {
+    height: 270px;
+    width: 230px;
+    margin-left: -20px;
+    margin-left: 15px;
+  }
+  .services .container .row .card img {
+    margin-top: -1px;
+    margin-top: 5px;
+    width: 40%;
+  }
+  .services .container .card h3 {
+    font-size: 19px;
+  }
+  .services .container .card p {
+    font-size: 11px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .services {
+    height: 500px;
+  }
+  .services .serva {
+    width: 200px;
+    margin-left: -10px;
+  }
+  .services h4 {
+    font-size: 20px;
+  }
+  .services h1 {
+    font-size: 30px;
+  }
+  .services .container .row .card {
+    height: 270px;
+    width: 280px;
+    margin-left: -20px;
+    margin-left: 15px;
+  }
+  .services .container .row .card img {
+    margin-top: -1px;
+    margin-top: 5px;
+    width: 40%;
+  }
+  .services .container .card h3 {
+    font-size: 19px;
   }
   .services .container .card p {
     font-size: 11px;

@@ -20,7 +20,7 @@ const Third = () => {
                 from each paid enrollment.
               </p>
             </div>{" "}
-            <div className="col-lg-4 ">
+            <div className="col-lg-4 img-third">
               <img src={img3} />
             </div>
           </div>

@@ -45,15 +45,15 @@
   padding: 10px;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* media query */
-/* 0px to 552px  phone size*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
+  .latest {
+    margin-top: -10px;
+    margin-top: 140px;
+  }
   .latest .container .row .images img {
-    width: 50%;
-    margin: auto;
-    margin-left: 120px;
-    margin-top: -30px;
+    display: none;
   }
 
   .latest hr {
@@ -66,6 +66,88 @@
     font-size: 14px;
   }
 
+  .latest .mySwiper .slides h3 {
+    font-size: 17px;
+  }
+  .latest .mySwiper .slides p {
+    font-size: 14px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .latest {
+    margin-top: -10px;
+    margin-top: 180px;
+  }
+  .latest .container .row .images img {
+    display: none;
+  }
+
+  .latest h1 {
+    font-size: 25px;
+  }
+  .latest .container .row .textssssss h4 {
+    font-size: 14px;
+  }
+
+  .latest .mySwiper .slides h3 {
+    font-size: 17px;
+  }
+  .latest .mySwiper .slides p {
+    font-size: 14px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .latest {
+    margin-top: -10px;
+    margin-top: 180px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 5px;
+    height: 350px;
+  }
+  .latest .container .row .images img {
+    display: none;
+  }
+
+  .latest h1 {
+    font-size: 25px;
+  }
+  .latest .container .row .textssssss h4 {
+    font-size: 14px;
+  }
+
+  .latest .mySwiper .slides h3 {
+    font-size: 17px;
+  }
+  .latest .mySwiper .slides p {
+    font-size: 14px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .latest h1 {
+    font-size: 25px;
+  }
+  .latest .container .row .textssssss h4 {
+    font-size: 14px;
+  }
+  .latest .mySwiper .slides h3 {
+    font-size: 17px;
+  }
+  .latest .mySwiper .slides p {
+    font-size: 14px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .latest h1 {
+    font-size: 25px;
+  }
+  .latest .container .row .textssssss h4 {
+    font-size: 14px;
+  }
   .latest .mySwiper .slides h3 {
     font-size: 17px;
   }

@@ -13,12 +13,12 @@ import GameDevelopmentCourses from "./Component/GameDevelopmentCourses/GameDevel
 import DataScienceCourses from "./Component/DataScienceCourses/DataScienceCourses";
 import Home from "./Component/Home/Home";
 import app from "./Component/Authentication/firebase";
-
 const auth = app.auth();
 const user = auth.currentUser;
 
 const App = () => {
- const [user, setUser] = useState(null);
+  const [contact, setcontact] = useState('')
+  const [user, setUser] = useState(null);
   useEffect((user) => {
     auth.onAuthStateChanged((user) => {
       setUser(user);
@@ -29,10 +29,10 @@ const App = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route component={Home} path="./" exact  />
-          <Route component={Team} path="/Team"  />
-          <Route component={Comment} path="/Comment"  />
-          <Route component={Cart} path="/Cart"  />
+          <Route component={Home} path="./" exact />
+          <Route component={Team} path="/Team" />
+          <Route component={Comment} path="/Comment" />
+          <Route component={Cart} path="/Cart" />
           <Route
             component={WebdevelopmentCourses}
             path="/WebdevelopmentCourses"
@@ -48,7 +48,9 @@ const App = () => {
           <Route component={DataScienceCourses} path="/DataScienceCourses" />
           <Route component={Team} path="/Team" />
         </Switch>
-        <div>{user?<Redirect to="/Home" user={user}/>:<Redirect to="/Home" />}</div>
+        <div>
+          {user ? <Redirect to="/Home" user={user} /> : <Redirect to="/Home" />}
+        </div>
       </Router>
     </CartProvider>
   );

@@ -1,5 +1,5 @@
 /* skill path component */
-.info {
+.info-mobile {
   margin-bottom: 100px;
   background-color: rgba(238, 238, 238, 0.377);
   height: 430px;
@@ -7,34 +7,35 @@
   padding: 20px;
   padding-bottom: 30px;
 }
-.info .container .row h2 {
+.info-mobile .container .row h2 {
   color: #4785f1;
   text-transform: capitalize;
-  margin-top: 60px;
 }
-.info .container .row h6 {
+.info-mobile .container .row h6 {
   color: gray;
   margin-left: 5px;
   font-size: 14px;
   text-transform: capitalize;
 }
 
-.info .container .row .texts h6 {
+.info-mobile .container .row .texts h6 {
   margin-top: 60px;
 }
-.info .container .row .texts h1 {
+.info-mobile .container .row .texts h1 {
   color: #a31727;
   text-transform: capitalize;
   font-size: 50px;
+  margin-top: 50px;
 }
 
-.info .container .row .texts .info-text {
+
+.info-mobile .container .row .texts .info-text {
   font-size: 16px;
   color: rgb(80, 74, 74);
   margin-left: 10px;
 }
 
-.info .container .row .texts .lower {
+.info-mobile .container .row .texts .lower {
   margin-left: 10px;
   font-size: 14px;
   color: gray;
@@ -42,7 +43,7 @@
   text-transform: capitalize;
 }
 
-.info .container .row .Beginner-info {
+.info-mobile .container .row .Beginner-info {
   margin-top: 30px;
   text-align: center;
   padding: 20px;
@@ -50,19 +51,125 @@
   box-shadow: inset 1px 1px 15px rgb(212, 211, 211);
 }
 
-.info .container .row .Beginner-info h4 {
-  color: #4785f1;
-  text-align: center;
-  font-size: 20px;
+ .Beginner-info  h3 {
+font-size: 26px;
+color: rgb(36, 34, 34);
 }
 
-.info .container .row .Beginner-info h6 {
-  margin-top: 10px;
-  color: #a31727;
-  font-size: 18px;
+ .Beginner-info  h3 span:nth-child(2) {
+ color: #db2d41;
+font-size: 35px;}
+ .Beginner-info img{width: 50%;}
+
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .info-mobile .container .row .texts {
+    margin-left: -10px;
+  }
+  .info-mobile .container .row .texts h1 {
+    color: #db2d41;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .info-mobile .container .row .texts p {
+    font-size: 10px;
+  }
+  .info-mobile {
+    height: 600px;
+  }
+  .info-mobile .container .row .Beginner-info {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .info-mobile .container .row .Beginner-info h3 {
+    font-size: 13px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .info-mobile .container .row .texts {
+    margin-left: -10px;
+  }
+  .info-mobile .container .row .texts h1 {
+    color: #db2d41;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .info-mobile .container .row .texts p {
+    font-size: 10px;
+  }
+  .info-mobile {
+    height: 600px;
+  }
+  .info-mobile .container .row .Beginner-info {
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .info-mobile .container .row .Beginner-info h3 {
+    font-size: 13px;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .info-mobile .container .row .texts {
+    margin-left: -10px;
+  }
+  .info-mobile .container .row .texts h1 {
+    color: #db2d41;
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .info-mobile .container .row .texts p {
+    font-size: 13px;
+  }
+  .info-mobile {
+    height: 600px;
+  }
+  .info-mobile .container .row .Beginner-info {
+    /* margin: auto; */
+    padding: 10px;
+    margin-bottom: 100px;
+    width: 60%;
+  }
+  .info-mobile .container .row .Beginner-info h3 {
+    font-size: 13px;
+  }
 }
 
-.info .container .row .Beginner-info p {
-  font-weight: 600;
-  color: gray;
-font-size: 15px;}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .info-mobile .container .row .texts {
+    margin-left: -20px;
+  }
+  .info-mobile .container .row .texts h1 {
+    font-size: 25px;
+    margin-top: 90px;
+  }
+  .info-mobile .container .row .texts p {
+    font-size: 13px;
+  }
+  .info-mobile .container .row .Beginner-info h3 {
+    font-size: 15px;
+  }
+.info-mobile .Beginner-info img{width: 60%;}
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1201px) and (max-width: 1650px) {
+  .info-mobile .container .row .texts {
+    margin-left: -10px;
+  }
+  .info-mobile .container .row .texts h1 {
+    font-size: 28px;
+    margin-top: 90px;
+  }
+  .info-mobile .Beginner-info img{width: 50%;}
+
+}

@@ -1,24 +1,73 @@
-.App {
-  text-align: center;
+.add-comment .container .row {
+  width: 600px;
+  border: none;
+  height: 400px;
+  margin-top: 100px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.add-comment .container .row button {
   color: white;
+  width: 120px;
+  height: 60px;
+  background-color: #4785f1;
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+
+  margin-left: auto;
+}
+.add-comment textarea {
+  border: 1px solid #eee;
+  outline: none;
 }
 
-.App-intro {
-  font-size: large;
+.comment-style {
+  border: 1px solid #eee;
+  padding: 20px;
+}
+.comment-result {
+  position: relative;
+  width: 400px;
+  height: 100px;
+}
+.comment-result button {
+  background-color: transparent;
+  color: #db3d50;
+  border: none;
+  position: absolute;
+  bottom: -4px;
+  right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.tags {
+  display: inline;
+  position: relative;
+}
+
+.tags:hover:after {
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 14px rgb(223, 218, 218);
+  color:gray;
+   border-radius: 5px;
+  bottom: -34px;
+  content: attr(gloss);
+  left: 20%;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 98;
+  width: 140px;
+  background: white;
+  font-size:11px;
+  text-align:left
+}
+
+.tags:hover:before {
+  border: solid;
+  border-color:gray transparent;
+  border-width: 0 6px 6px 6px;
+  bottom: -4px;
+  content: "";
+  left: 50%;
+  position: absolute;
+  z-index: 99;
 }

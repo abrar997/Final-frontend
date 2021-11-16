@@ -31,8 +31,8 @@ const Services = () => {
         <div className="row">
           <h4>  SERVICES... </h4>
           <h1>Facts that Make us Unique</h1>
-          <div className="col-lg-4 serva"></div>
-          <div className="cards col-lg-8 d-flex">
+          <div className="col-lg-4  serva"></div>
+          <div className="cards col-lg-8  d-flex">
             {data.map((card, indf) => {
               return (
                 <div
