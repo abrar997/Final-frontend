@@ -50,11 +50,11 @@ const Webdevelopment = () => {
           slidesPerGroup={3}
           loop={true}
           loopFillGroupWithBlank={true}
-          //   navigation={true}
-          // autoplay={{
-          //   delay: 1500,
-          //   disableOnInteraction: false,
-          // }}
+            // navigation={true}
+          autoplay={{
+            delay: 5500,
+            disableOnInteraction: false,
+          }}
           className="mySwiper"
         >
           {dataaa.map((item, inds) => {

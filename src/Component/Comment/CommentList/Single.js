@@ -2,6 +2,7 @@ import { faStar, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "../Comment.css";
+import RatingValue from "../RatingValue";
 const Single=(props)=> {
   const todo = props.todo;
   const completeTask = props.completeTask;
@@ -13,30 +14,12 @@ const Single=(props)=> {
           <div>
             <div className="comment-style">
               {" "}
-              <h5>{todo.text}</h5>
-              <p>
-                <FontAwesomeIcon
-                  icon={faStar}
-                  style={{ color: "#db2d41", fontSize: "12px" }}
-                />
-                <FontAwesomeIcon
-                  icon={faStar}
-                  style={{ color: "#db2d41", fontSize: "10px" }}
-                />
-                <FontAwesomeIcon
-                  icon={faStar}
-                  style={{ color: "#db2d41", fontSize: "10px" }}
-                />
-                <FontAwesomeIcon
-                  icon={faStar}
-                  style={{ color: "#db2d41", fontSize: "10px" }}
-                />
-                <FontAwesomeIcon
-                  icon={faStar}
-                  style={{ color: "#4785f1", fontSize: "10px" }}
-                />
-              </p>
+              <h6 style={{ fontSize: "16px", fontWeight: "normal" }}>
+                {todo.text}
+              </h6>
+              <RatingValue />
             </div>
+
             {/* to delete comment */}
             <div className="btn">
               <button
@@ -44,7 +27,7 @@ const Single=(props)=> {
                 onClick={completeTask}
                 // title="delete your comment"
                 className="tags"
-                gloss="delete your comment"
+                gloss="delete comment"
               >
                 <FontAwesomeIcon icon={faTrash} />{" "}
               </button>

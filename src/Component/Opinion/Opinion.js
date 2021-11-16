@@ -12,7 +12,7 @@ const Opinion = () => {
 
               <button>
                 <Link
-                  to="/Comment"
+                  to="/CommnetsRefrence"
                   style={{
                     color: "rgb(218, 214, 214)",
                     textDecoration: "none",

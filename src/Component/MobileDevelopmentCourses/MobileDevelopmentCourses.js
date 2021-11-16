@@ -3,6 +3,7 @@ import Products from "./Products/Products";
 import { BrowserRouter as Router } from "react-router-dom";
 import Footer from '../Footer/Footer'
 import MobileDeveloInfo from "./MobileDeveloInfo";
+import Comment from "../Comment/Comment";
 
 const MobileDevelopmentCourses = () => {
   return (
@@ -11,6 +12,7 @@ const MobileDevelopmentCourses = () => {
         <div>
           <MobileDeveloInfo />
           <Products />
+          <Comment/>
           <Footer />
         </div>
       </>

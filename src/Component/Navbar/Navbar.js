@@ -86,110 +86,115 @@ const Navbar = (props) => {
                 </span>
               </button>
               <>
-              <div
-                className="collapse navbar-collapse active"
-                id="navbarNavAltMarkup"
-              >
-                <div className="navbar-nav responivebar">
-                  {/* dropdown menu categeories */}
+                <div
+                  className="collapse navbar-collapse active"
+                  id="navbarNavAltMarkup"
+                >
+                  <div className="navbar-nav responivebar">
+                    {/* dropdown menu categeories */}
 
-                  <button
-                    className="sub-menu-parent dropdown"
-                    tab-index="0"
-                    // style={categ}
-                  >
-                    categeories
-                    <ul
-                      class="sub-menu nav-link"
-                      aria-labelledby="navbarDropdown"
+                    <button
+                      className="sub-menu-parent dropdown"
+                      tab-index="0"
+                      // style={categ}
                     >
-                      <NavLink
-                        to="/WebdevelopmentCourses"
-                        href="#"
-                        activeClassName="dropdown-item"
+                      categeories
+                      <ul
+                        class="sub-menu nav-link"
+                        aria-labelledby="navbarDropdown"
                       >
-                        web development
-                      </NavLink>
-                   
-                      <NavLink to="/MobileDevelopmentCourses" href="#">
-                        mobile development
-                      </NavLink>
-                      <NavLink to="/GameDevelopmentCourses" href="#">
-                        game development
-                      </NavLink> 
+                        <NavLink
+                          to="/WebdevelopmentCourses"
+                          href="#"
+                          activeClassName="dropdown-item"
+                        >
+                          web development
+                        </NavLink>
+
+                        <NavLink to="/MobileDevelopmentCourses" href="#">
+                          mobile development
+                        </NavLink>
+                        <NavLink to="/GameDevelopmentCourses" href="#">
+                          game development
+                        </NavLink>
                         <NavLink to="/DataScienceCourses" href="#">
-                        data science
-                      </NavLink>
-                    </ul>
-                  </button>
-
-                  {/* form  search input */}
-                  <div className="nav-item">
-                    <form className="d-flex form">
-                      <input
-                        className="form-control "
-                        type="search"
-                        placeholder="search for any thing ..."
-                        aria-label="Search"
-                        // value={searchTerm}
-                        // ref={inputEl}
-                        // onChange={getSearchTerm}
-                      />
-                    </form>
-                  </div>
-
-                  {/* log in and sign up */}
-                  <div
-                    className="collapse navbar-collapse d-flex  nav-item firebase"
-                    id="navbarSupportedContent"
-                  >
-                    <NavLink to="/Login" activeClassName="icon  ml-3">
-                      <button style={categs}>Log in </button>
-                    </NavLink>
-
-                    <NavLink to="/Signup" activeClassName="icon sign ml-4">
-                      <button style={categs2}>Sign up </button>
-                    </NavLink>
-
-                    {/* list of icons right side  */}
-                    <div className="navbar-nav me-auto">
-                      <ul className=" icons">
-                        <NavLink to="/">
-                          <li>
-                            <span style={span}>1</span>
-                            <FontAwesomeIcon icon={faHeart} style={style} />
-                          </li>
-                        </NavLink>
-                        <NavLink to="/Cart">
-                          <li>
-                            <span style={span}> {totalItems}</span>
-                            <FontAwesomeIcon
-                              icon={faShoppingBag}
-                              style={style}
-                            />
-                          </li>
-                        </NavLink>
-                        <NavLink to="/Home">
-                          <li
-                            className="menue"
-                            style={{ transition: "all .6s ease-in-out" }}
-                          >
-                            <FontAwesomeIcon
-                              icon={faBars}
-                              style={menu}
-                              // name of display funtion
-                              onClick={handleDisplay}
-                            />
-                          </li>
+                          data science
                         </NavLink>
                       </ul>
+                    </button>
+
+                    {/* form  search input */}
+                    <div className="nav-item">
+                      <form className="d-flex form">
+                        <input
+                          className="form-control "
+                          type="search"
+                          placeholder="search for any thing ..."
+                          aria-label="Search"
+                          // value={searchTerm}
+                          // ref={inputEl}
+                          // onChange={getSearchTerm}
+                        />
+                      </form>
+                    </div>
+
+                    {/* log in and sign up */}
+                    <div
+                      className="collapse navbar-collapse d-flex  nav-item firebase"
+                      id="navbarSupportedContent"
+                    >
+                      <NavLink to="/Login" activeClassName="icon  ml-3">
+                        <button style={categs}>Log in </button>
+                      </NavLink>
+
+                      <NavLink to="/Signup" activeClassName="icon sign ml-4">
+                        <button style={categs2}>Sign up </button>
+                      </NavLink>
+
+                      {/* list of icons right side  */}
+                      <div className="navbar-nav me-auto">
+                        <ul className=" icons">
+                          <NavLink to="/">
+                            <li className="tags" gloss="add to favourite">
+                              <span style={span}>1</span>
+                              <FontAwesomeIcon icon={faHeart} style={style} />
+                            </li>
+                          </NavLink>
+                          <NavLink to="/Cart">
+                            <li
+                              className="tags-nav mt-4"
+                              gloss1={
+                                totalItems === 0
+                                  ? "your cart is empty start shopping now"
+                                  : `your cart contain ${totalItems} courses`
+                              }
+                            >
+                              <span style={span}> {totalItems}</span>
+                              <FontAwesomeIcon
+                                icon={faShoppingBag}
+                                style={style}
+                              />
+                            </li>
+                          </NavLink>
+                          <NavLink to="/Home">
+                            <li
+                              className="menue"
+                              style={{ transition: "all .6s ease-in-out" }}
+                            >
+                              <FontAwesomeIcon
+                                icon={faBars}
+                                style={menu}
+                                // name of display funtion
+                                onClick={handleDisplay}
+                              />
+                            </li>
+                          </NavLink>
+                        </ul>
+                      </div>
                     </div>
                   </div>
-
-
                 </div>
-              </div>
-            </>
+              </>
             </div>
           </div>
         </nav>
@@ -200,7 +205,7 @@ const Navbar = (props) => {
         <Switch>
           <Route component={Home} path="/Home" exact />
           <Route component={Login} path="/Login" />
-          <Route component={Signup} path="/Signup"  />
+          <Route component={Signup} path="/Signup" />
         </Switch>
       </Fragment>
     </>

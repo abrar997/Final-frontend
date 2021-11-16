@@ -1,22 +1,19 @@
 import React, { Component } from "react";
 import Create from "./CommentList/Create";
 import Single from "./CommentList/Single";
+import img1 from './commentimg/click.png'
+
 import './Comment.css'
+import Dataconstant from "./CommentList/Dataconstant";
 class Comment extends Component {
   state = {
     newTask: "", //add new comment
     // default  comment in page data
-    data: [
-      { text: "learn ReactJs" },
-      { text: "learn NodeJS" },
-      { text: "learn VueJs" },
-      { text: "learn AngularJS" },
-    ],
     todos: [
-      { text: "learn ReactJs" },
-      { text: "learn NodeJS" },
-      { text: "learn VueJs" },
-      { text: "learn AngularJS" },
+      // { text: "learn ReactJs" },
+      // { text: "learn NodeJS" },
+      // { text: "learn VueJs" },
+      // { text: "learn AngularJS" },
     ],
   };
 
@@ -54,21 +51,31 @@ class Comment extends Component {
     return (
       <div className="comment">
         <div className="container">
-          {this.state.todos.map((todo, index) => (
-            // trans data to other component by props
-            //shape of single component  after add
-            <Single
-              todo={todo}
-              completeTask={() => this.completeTask(index)} //callback function with one parameter
-              key={index}
-            />
-          ))}
-          {/* steps of  add component  */}
-          <Create
-            value={this.state.newTask}
-            onChange={this.updateNewTask}
-            addTask={this.addTask}
-          />
+          <h1>Reviews </h1>
+          <h3>add your reviews and encourage us to imporve our services </h3>
+          <Dataconstant />
+          <div className="d-flex">
+            <div>
+              {this.state.todos.map((todo, index) => (
+                // trans data to other component by props
+                //shape of single component  after add
+                <Single
+                  todo={todo}
+                  completeTask={() => this.completeTask(index)} //callback function with one parameter
+                  key={index}
+                />
+              ))}
+              {/* steps of  add component  */}
+              <div>
+                {" "}
+                <Create
+                  value={this.state.newTask}
+                  onChange={this.updateNewTask}
+                  addTask={this.addTask}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );

@@ -13,6 +13,8 @@ import GameDevelopmentCourses from "./Component/GameDevelopmentCourses/GameDevel
 import DataScienceCourses from "./Component/DataScienceCourses/DataScienceCourses";
 import Home from "./Component/Home/Home";
 import app from "./Component/Authentication/firebase";
+import CommnetsRefrence from './Component/Comment/CommnetsRefrence'
+
 const auth = app.auth();
 const user = auth.currentUser;
 
@@ -29,6 +31,7 @@ const App = () => {
       <Router>
         <Navbar />
         <Switch>
+          
           <Route component={Home} path="./" exact />
           <Route component={Team} path="/Team" />
           <Route component={Comment} path="/Comment" />
@@ -47,6 +50,7 @@ const App = () => {
           />
           <Route component={DataScienceCourses} path="/DataScienceCourses" />
           <Route component={Team} path="/Team" />
+          <Route component={CommnetsRefrence} path="/CommnetsRefrence"/>
         </Switch>
         <div>
           {user ? <Redirect to="/Home" user={user} /> : <Redirect to="/Home" />}

@@ -53,10 +53,10 @@ const MobileDevelopment = () => {
           loop={true}
           loopFillGroupWithBlank={true}
           //   navigation={true}
-          // autoplay={{
-          //   delay: 1500,
-          //   disableOnInteraction: false,
-          // }}
+          autoplay={{
+            delay: 5500,
+            disableOnInteraction: false,
+          }}
           className="mySwiper"
         >
           {dataaa.map((item, indb) => {

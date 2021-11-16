@@ -24,7 +24,7 @@ export const menu = {
 // badge on icons heart and basket
 export const span = {
   position: "absolute",
-  top: "10px",
+  top: "-20px",
   backgroundColor: "#DB3D50",
   color: "white",
   borderRadius: "50%",

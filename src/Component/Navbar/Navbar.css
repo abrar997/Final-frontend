@@ -133,6 +133,39 @@
 .responivebar {
   width: 100%;
 }
+.tags {
+  display: inline;
+  /* position: relative; */
+}
+
+.navbar.tags-nav:hover:after {
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 14px rgb(223, 218, 218);
+  color:gray;
+   border-radius: 5px;
+  bottom: -34px;
+  content: attr(gloss);
+  left: 20%;
+  padding: 5px 15px;
+  position: absolute;
+  z-index: 98;
+  width: 180px;
+  background: white;
+  font-size:14px;
+  text-align:left;
+  padding: 10px;
+}
+
+.navbar .tags-nav:hover:before {
+  border: solid;
+  border-color:gray transparent;
+  border-width: 0 6px 6px 6px;
+  bottom: -4px;
+  content: "";
+  left: 50%;
+  position: absolute;
+  z-index: 99;
+}
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* 0px to 552px  phone size*/

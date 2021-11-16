@@ -4,7 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import WebDeveloInfo from "./WebDeveloInfo";
 import StepperComp from "./StepperComp";
-
+import  Comment  from "../Comment/Comment";
 const WebdevelopmentCourses = () => {
   return (
     <Router>
@@ -13,7 +13,7 @@ const WebdevelopmentCourses = () => {
           <WebDeveloInfo />                  
           <Products />   
           {/* <StepperComp /> */}
-
+          <Comment />
           <Footer />
         </div>
       </>
