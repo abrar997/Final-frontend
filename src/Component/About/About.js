@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// style
 import "./About.css";
 // img
 import img1 from "./aboutImage/girll.webp";
@@ -14,8 +15,6 @@ export class About extends Component {
       "History at its most interesting is complex, a fascinating whirl of events, personalities, and forces, and few periods of history offer us such captivating complexity as Europe's 19th century the often-broadly defined period from the French Revolution to World War I that formed the foundation of the modern world.",
    } 
    
-  
-
     
   } 
   
@@ -39,11 +38,11 @@ export class About extends Component {
             <p>{this.state.describe}</p>
             <div className="btn">
               <button onClick={this.handlechange}>
-              
                 our history
-              </button>{" "}
+              </button>
             </div>
           </div>
+
           <div className="col-lg-6 images">
             <div className="img1">
               <img src={img1} />
@@ -52,6 +51,7 @@ export class About extends Component {
               <img src={img2} />
             </div>
           </div>
+          
         </div>
       </div>
     </div></section>

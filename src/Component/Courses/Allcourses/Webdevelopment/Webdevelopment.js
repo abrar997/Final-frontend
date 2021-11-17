@@ -1,14 +1,18 @@
 import React, { useState, useEffect } from "react";
+// style
 import "./WebDevelopment.css";
+// library
 import { useCart } from "react-use-cart";
-
+// aios
 import axios from "axios";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+
+// icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faStar } from "@fortawesome/free-regular-svg-icons";
 import { faAngleUp, faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 import { faUserFriends } from "@fortawesome/free-solid-svg-icons";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper";
 // install Swiper modules
 SwiperCore.use([Pagination]);

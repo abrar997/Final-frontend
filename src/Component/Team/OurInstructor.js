@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+// style
 import "./Team.css";
-
 // img
 import img1 from "./TeamImage/teaxh1.webp";
 import img2 from "./TeamImage/teaxh2.webp";

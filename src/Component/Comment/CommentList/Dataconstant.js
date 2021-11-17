@@ -1,5 +1,6 @@
 import { Rating } from '@mui/material';
 import React, { Component } from 'react'
+
 const style = { color: "#db2d41" };
 
 export class Dataconstant extends Component {

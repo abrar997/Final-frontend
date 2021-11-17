@@ -14,11 +14,12 @@ import Home from "./Component/Home/Home";
 import app from "./Component/Authentication/firebase";
 import CommnetsRefrence from './Component/Comment/CommnetsRefrence'
 import "./App.css";
-
+// firebase authentication
 const auth = app.auth();
 const user = auth.currentUser;
 
 const App = () => {
+
   const [contact, setcontact] = useState('')
   const [user, setUser] = useState(null);
   useEffect((user) => {
@@ -26,6 +27,8 @@ const App = () => {
       setUser(user);
     });
   });
+
+  
   return (
     <CartProvider>
       <Router>

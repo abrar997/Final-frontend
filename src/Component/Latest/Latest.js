@@ -1,11 +1,12 @@
 import React,{useState} from "react";
+// styel
 import "./Latest.css";
+// img
 import img1 from "./LatestImages/1.png.webp";
+// swiper
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // import Swiper core and required modules
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
-
 // install Swiper modules
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
@@ -50,9 +51,6 @@ const Latest = () => {
                   delay: 3000,
                   disableOnInteraction: false,
                 }}
-                // pagination={{
-                //   clickable: true,
-                // }}
                 navigation={true}
                 className="mySwiper"
               >

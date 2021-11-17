@@ -4,6 +4,7 @@ import { useCart } from "react-use-cart";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+// icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faStar } from "@fortawesome/free-regular-svg-icons";
 import {
@@ -11,6 +12,7 @@ import {
   faShoppingBag,
   faUserFriends,
 } from "@fortawesome/free-solid-svg-icons";
+// swiper
 import SwiperCore, { Pagination } from "swiper";
 // install Swiper modules
 

@@ -1,9 +1,14 @@
 import React, { useState } from "react";
+// img
 import imgg1 from "./BlogIamges/b1.webp";
 import imgg2 from "./BlogIamges/b2.webp";
 import imgg3 from "./BlogIamges/b3.webp";
 import imgg4 from "./BlogIamges/b4.webp";
+// style
 import "./Blog.css";
+
+
+
 const Blog = () => {
   const [blog, setBlog] = useState([
     {
@@ -31,6 +36,8 @@ const Blog = () => {
       text: "Computers have become ubiquitous in almost every facet of our lives. At work, desk jockeys spend hours in front of their desktops, while delivery",
     },
   ]);
+
+
   return (
     <div className="Blogs">
       <div className="container">
@@ -58,7 +65,8 @@ const Blog = () => {
         </div>
       </div>
     </div>
-  );
+ 
+ );
 };
 
 export default Blog;

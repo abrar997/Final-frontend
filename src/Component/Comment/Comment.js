@@ -1,19 +1,15 @@
 import React, { Component } from "react";
+// component
 import Create from "./CommentList/Create";
 import Single from "./CommentList/Single";
-import img1 from './commentimg/click.png'
-
-import './Comment.css'
 import Dataconstant from "./CommentList/Dataconstant";
+// style
+import './Comment.css'
 class Comment extends Component {
   state = {
     newTask: "", //add new comment
     // default  comment in page data
     todos: [
-      // { text: "learn ReactJs" },
-      // { text: "learn NodeJS" },
-      // { text: "learn VueJs" },
-      // { text: "learn AngularJS" },
     ],
   };
 
@@ -67,7 +63,7 @@ class Comment extends Component {
               ))}
               {/* steps of  add component  */}
               <div>
-                {" "}
+                
                 <Create
                   value={this.state.newTask}
                   onChange={this.updateNewTask}

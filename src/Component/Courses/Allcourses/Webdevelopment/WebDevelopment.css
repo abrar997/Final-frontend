@@ -110,7 +110,8 @@
     height: 430px;
   }
   .webdevelopment h2 {
-font-size: 20px;  }
+    font-size: 20px;
+  }
   .webdevelopment .card {
     height: 130px;
     width: 200px;
@@ -145,7 +146,9 @@ font-size: 20px;  }
   .webdevelopment .contsinWeb h6 {
     font-size: 12px;
   }
- .webdevelopment .contsinWeb .btn{margin: auto;}
+  .webdevelopment .contsinWeb .btn {
+    margin: auto;
+  }
   .webdevelopment .contsinWeb .heart {
     display: none;
   }
@@ -202,7 +205,9 @@ font-size: 20px;  }
     font-size: smaller;
     height: 430px;
   }
-  .webdevelopment h2{font-size: 20px;}
+  .webdevelopment h2 {
+    font-size: 20px;
+  }
   .webdevelopment .card {
     height: 190px;
     width: 200px;

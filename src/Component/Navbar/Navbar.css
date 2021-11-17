@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&display=swap");
-/* *{color: #4785F1;} */
 .navbar {
   height: 90px;
   margin-bottom: 30px;
@@ -22,7 +21,6 @@
   font-size: 20px;
   color: black;
   position: fixed;
-  /* width: 100%; */
 }
 .navbar.colorChange form {
   margin-top: -10px;
@@ -63,7 +61,6 @@
   padding: 9px;
   margin-left: 90px;
   color: white;
-  /* text-transform: capitalize; */
 }
 .sub-menu {
   visibility: hidden; /* hides sub-menu */
@@ -138,7 +135,6 @@
 }
 .tags {
   display: inline;
-  /* position: relative; */
 }
 .navbar.tags-nav:hover:after {
   border: 1px solid #eee;

@@ -1,8 +1,9 @@
 import React,{useState} from "react";
+// style
 import "./Products.css";
+// comp
 import data from "../DataScienceCoursesData";
-
-// import {faUserFriends} from "@fortawesome/free-solid-svg-icons";
+// icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHeart,
@@ -10,10 +11,11 @@ import {
   faStar,
   faUserFriends,
 } from "@fortawesome/free-solid-svg-icons";
+// library
 import { useCart } from "react-use-cart";
 
 const Products = () => {
-  const { addItem } = useCart();
+const { addItem } = useCart();
 const [dataShow, setDataShow] = useState(data);
 const [dataFilter, setdDataFilter] = useState(data.dataScience);
 

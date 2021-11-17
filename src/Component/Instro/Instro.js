@@ -1,7 +1,11 @@
 import React, { Fragment } from "react";
-import img1 from "./InstroImage/back 5.png";
-import "./Instro.css";
+// react-router-dom
 import { Link } from "react-router-dom";
+// img
+import img1 from "./InstroImage/back 5.png";
+// style
+import "./Instro.css";
+
 const Instro = () => {
   return (
     <>

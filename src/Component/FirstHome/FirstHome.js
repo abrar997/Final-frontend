@@ -1,11 +1,15 @@
 import React from "react";
+// ract-eouter-dom
+import { Link } from "react-router-dom";
+// styel
 import "./FirstHome.css";
+// img
 import img1 from "./Images/back.webp";
 import img2 from "./Images/back.png";
 import img3 from "./Images/girll.webp";
+// swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
-import { Link } from "react-router-dom";
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const FirstHome = () => {
@@ -22,7 +26,6 @@ const FirstHome = () => {
           pagination={{
             clickable: true,
           }}
-          // navigation={true}
           className="mySwiper"
         >
           <SwiperSlide>

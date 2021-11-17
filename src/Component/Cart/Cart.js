@@ -1,16 +1,22 @@
 import React from "react";
+// style
 import "./Cart.css";
+// library
 import { useCart } from "react-use-cart";
+// react-router-dom
 import { BrowserRouter as Router, Link } from "react-router-dom";
+// icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
-import img1 from "./CartImage/cart.png";
+// firebase
 import { getAuth } from "@firebase/auth";
-
+// img
+import img1 from "./CartImage/cart.png";
 
 const auth = getAuth();
 
 const Cart = ({ user }) => {
+  // from library
   const {
     isEmpty,
     totalUniqueItems,
@@ -21,6 +27,7 @@ const Cart = ({ user }) => {
     cartTotal,
     emptyCart,
   } = useCart();
+
   if (isEmpty) {
     return (
       <div className="cart-empty">
@@ -43,9 +50,7 @@ const Cart = ({ user }) => {
       </div>
     );
   }
-  // const SignOut = () => {
-  //   auth.signOut();
-  // };
+
   return (
     <>
       <Router>
@@ -92,8 +97,6 @@ const Cart = ({ user }) => {
             </div>
           </div>
         </div>
-        {/* <Redirect to="/" totalItems={totalItems} /> */}
-        {/* <button onClick={() => SignOut()}>start with new account </button> */}
       </Router>
     </>
   );

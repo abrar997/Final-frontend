@@ -1,9 +1,8 @@
-import { faPaperclip, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 // props means trans all props from main component which write in <Create .........../> 
 import "../Comment.css";
-import RatingValue from "../RatingValue";
 
 function Create(props) {
   return (

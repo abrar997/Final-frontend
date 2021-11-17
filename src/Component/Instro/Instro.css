@@ -92,7 +92,8 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media all and (min-width: 992px) and (max-width: 1200px) {
   .instru img {
-width: 90%;  }
+    width: 90%;
+  }
   .instru {
     text-align: center;
     margin-top: 0px;
@@ -106,4 +107,5 @@ width: 90%;  }
   }
   .instru button {
     font-size: 16px;
-  }}
+  }
+}

@@ -149,7 +149,9 @@ footer p {
   .mb10 {
     font-size: 10px;
   }
-    .footer .imag {display: none;}
+  .footer .imag {
+    display: none;
+  }
 
   .social_footer_ul {
     margin-left: -0px;
@@ -177,7 +179,9 @@ footer p {
   .mb10 {
     font-size: 10px;
   }
-    .footer .imag {display: none;}
+  .footer .imag {
+    display: none;
+  }
 
   .social_footer_ul {
     margin-left: -0px;
@@ -205,14 +209,16 @@ footer p {
   .mb10 {
     font-size: 10px;
   }
-    .footer .imag {display: none;}
+  .footer .imag {
+    display: none;
+  }
 
-  .social_footer_ul{    margin-left: -1px;
+  .social_footer_ul {
+    margin-left: -1px;
     margin-left: 230px;
-}
+  }
   .social_footer_ul li a {
     font-size: 10px;
     margin-left: -5px;
   }
-
 }

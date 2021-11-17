@@ -1,15 +1,22 @@
 import React, { Fragment, useCallback } from "react";
-import app from "../firebase";
-import { Link } from "react-router-dom";
+// firebase
 import "firebase/compat/auth";
-import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import app from "../firebase";
 import { GoogleAuthProvider } from "firebase/auth";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const provider = new GoogleAuthProvider();
-
 const auth = app.auth();
-const Login = (props) => {
 
+// react-router-dom
+import { Link } from "react-router-dom";
+// icons
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
+
+
+const Login = () => {
+// login with emai
   const LogWithEmail = useCallback(async (event) => {
     event.preventDefault();
     const { email, password } = event.target.elements;
@@ -22,7 +29,7 @@ const Login = (props) => {
         alert(error);
       });
   }, []); // to run one time jsut when page loading
- 
+//  sign up with oogle
    const SignUpWithGoogle = () => {
      auth
        .signInWithPopup(provider)

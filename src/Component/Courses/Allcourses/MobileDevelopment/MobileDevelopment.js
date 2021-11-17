@@ -52,7 +52,6 @@ const MobileDevelopment = () => {
           slidesPerGroup={3}
           loop={true}
           loopFillGroupWithBlank={true}
-          //   navigation={true}
           autoplay={{
             delay: 5500,
             disableOnInteraction: false,

@@ -1,8 +1,13 @@
+import React from "react";
+// icons
 import { faStar, faUserFriends } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+// style
 import './style.css'
+// img
 import img1 from "./dataImage/img1.png";
+
+
 const DataScinceInfo = () => {
   return (
      <div className="info">

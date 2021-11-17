@@ -1,8 +1,12 @@
 import React from "react";
+// style
 import './style.css';
+// icons
 import { faStar, faUserFriends } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// img
 import img1 from './images/img1.png'
+
 const GameDeveloInfo = () => {
   return (
     <div className="info-game">

@@ -6,6 +6,7 @@ import img3 from "./ServicesImage/code.png";
 
 // comp
 import "./Services.css";
+
 const Services = () => {
   const [data, setData] = useState([
     {

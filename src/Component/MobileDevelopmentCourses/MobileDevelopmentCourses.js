@@ -1,6 +1,8 @@
 import React from "react";
-import Products from "./Products/Products";
+// react-router
 import { BrowserRouter as Router } from "react-router-dom";
+// comp
+import Products from "./Products/Products";
 import Footer from '../Footer/Footer'
 import MobileDeveloInfo from "./MobileDeveloInfo";
 import Comment from "../Comment/Comment";

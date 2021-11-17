@@ -1,5 +1,7 @@
 import React from 'react'
+// style
 import './Companys.css'
+// img
 import img1 from './Companyimage/1.png'
 import img2 from './Companyimage/2.png'
 import img3 from './Companyimage/3.png'

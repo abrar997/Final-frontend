@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+// comp
 import First from "./First";
 import OurInstructor from "./OurInstructor";
 import AskTeam from "./AskTeam";
 import Footer from "../Footer/Footer";
 import InstrServices from "./InstrServices";
 import Stepper from "./Stepper/Stepper";
-
+// style
 import "./Team.css";
 
 // img

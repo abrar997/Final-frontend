@@ -1,8 +1,10 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
+// comp
 import Webdevelopment from "./Allcourses/Webdevelopment/Webdevelopment";
 import DataScience from "./Allcourses/DataScience/DataScience";
 import MobileDevelopment from "./Allcourses/MobileDevelopment/MobileDevelopment";
 import GameDevelopment from "./Allcourses/GameDevelopment/GameDevelopment";
+// styel
 import "./Course.css";
 
 const Courses = () => {  

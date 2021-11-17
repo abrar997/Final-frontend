@@ -1,6 +1,5 @@
 /* services section */
 .services {
-  /* border-top: 1px solid #eee; */
   padding-top: 120px;
   background-color: rgba(238, 238, 238, 0.377);
   height: 670px;
@@ -54,7 +53,6 @@
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
-  
   .services h4 {
     font-size: 14px;
   }
@@ -75,7 +73,9 @@
   .services .container .card p {
     font-size: 11px;
   }
-.services {height: 580px;}
+  .services {
+    height: 580px;
+  }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media all and (min-width: 576px) and (max-width: 768px) {

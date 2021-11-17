@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom';
+// style
 import './Opinion.css'
 const Opinion = () => {
     return (

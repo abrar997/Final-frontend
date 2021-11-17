@@ -4,12 +4,12 @@ import { useCart } from "react-use-cart";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+// icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faStar } from "@fortawesome/free-regular-svg-icons";
 import { faAngleUp, faShoppingBag, faUserFriends } from "@fortawesome/free-solid-svg-icons";
+// swiper
 import SwiperCore, { Pagination } from "swiper";
-// install Swiper modules
-
 SwiperCore.use([Pagination]);
 
 const iconfaAngleUp = {

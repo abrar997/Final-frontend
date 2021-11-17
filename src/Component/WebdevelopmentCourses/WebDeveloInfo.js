@@ -1,9 +1,11 @@
 import React from "react";
+// icons
 import { faUserFriends, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// style
 import "./style.css";
+// img
 import img1 from "./image/money1.png";
-import StepperComp from "./StepperComp";
 
 const WebDeveloInfo = () => {
   return (
@@ -13,7 +15,7 @@ const WebDeveloInfo = () => {
           <div className="texts col-lg-6">
             <h1> web development</h1>
             <span>
-              <FontAwesomeIcon icon={faUserFriends} /> 11,290{" "}
+              <FontAwesomeIcon icon={faUserFriends} /> 11,290
             </span>  <span className="ml-4 pl-4">
               <FontAwesomeIcon icon={faStar} style={{ color: "#db2d41",marginLeft:"10px",fontSize:"20px" }} />
               <FontAwesomeIcon icon={faStar} style={{ color: "#db2d41" }} />
@@ -35,8 +37,8 @@ const WebDeveloInfo = () => {
             <div className="  mt-4">
               <img src={img1} />
               <h3>
-                <span> start</span> learning now and get Discount{" "}
-                <span> 20% </span> for all courses of{" "}
+                <span> start</span> learning now and get Discount
+                <span> 20% </span> for all courses of
                 <span>web development </span>
               </h3>
             </div>

@@ -1,4 +1,5 @@
 import React from "react";
+// icons
 import {
   faFacebook,
   faInstagram,
@@ -6,6 +7,7 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// style
 import "./Footer.css";
 
 // img
