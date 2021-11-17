@@ -74,10 +74,10 @@ const Login = (props) => {
       >
         if you have not account ,<Link to="/Signup">create new account</Link>
       </p>
-  
+
       <button
         type="button"
-        className="w-20 secondary"
+        className="w-20 secondary  btns-signup"
         onClick={SignUpWithGoogle}
         style={{
           marginTop: "20px",

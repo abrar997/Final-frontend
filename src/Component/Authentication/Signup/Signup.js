@@ -105,6 +105,7 @@ const Signup = (props) => {
             </div>
           </form>
         </div>
+    <div className="signup-textbelow">
         <h6 style={{ textAlign: "center", marginTop: "10px", color: "gray" }}>
           you have an account ,<Link to="/Login">Log in</Link>
         </h6>
@@ -114,13 +115,13 @@ const Signup = (props) => {
         >
           {" "}
           if you forget your password
-          <button onClick={() => SignOut()} style={{border:"none",backgroundColor:"transparent",color:"blue"}}> log out</button> and start with new
+          <button  onClick={() => SignOut()} style={{border:"none",backgroundColor:"transparent",color:"blue"}}> log out</button> and start with new
           account{" "}
         </p>
 
         <button
           type="button"
-          className="secondary mr-4"
+          className="secondary mr-4 btn-signup"
           onClick={SignUpWithGoogle}
           style={{
             margin: "auto",
@@ -133,7 +134,7 @@ const Signup = (props) => {
         Or sign up with google <FontAwesomeIcon icon={faGoogle} />
         </button>
       </div>
-    </div>
+    </div></div>
   );
 };
 

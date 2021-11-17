@@ -123,3 +123,67 @@
 .secondary:hover {
   background-color: #4278d6;
 }
+
+/* media query */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* 0px to 552px  phone size*/
+@media all and (min-width: 0px) and (max-width: 575.98px) {
+  .form-style-10 {
+    margin-top: -10px;
+  }
+
+  .btn-signup {
+    position: absolute;
+    left: -400px;
+    margin-right: 100px;
+  }
+
+  .btns-signup {
+    position: absolute;
+    left: -600px;
+    margin-right: 100px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .btns-signup {
+    position: absolute;
+    left: -550px;
+    margin-right: 100px;
+  }
+
+  .btn-signup {
+    position: absolute;
+    left: -360px;
+    margin-right: 100px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .btn-signup {
+    position: absolute;
+    left: -190px;
+    margin-right: 100px;
+  }
+  .btns-signup {
+    position: absolute;
+    left: -390px;
+    margin-right: 100px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .btns-signup {
+    position: absolute;
+    left: -310px;
+    margin-right: 100px;
+  }
+  .btn-signup {
+    position: absolute;
+    left: -100px;
+    margin-right: 100px;
+  }
+}

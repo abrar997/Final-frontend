@@ -1,11 +1,12 @@
 import React from "react";
 import "./FirstHome.css";
-import img1 from './Images/back.webp'
-import img2 from './Images/back.png'
+import img1 from "./Images/back.webp";
+import img2 from "./Images/back.png";
 import img3 from "./Images/girll.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
-SwiperCore.use([Autoplay, Pagination, Navigation])
+import { Link } from "react-router-dom";
+SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const FirstHome = () => {
   return (
@@ -36,7 +37,18 @@ const FirstHome = () => {
                 <button>
                   <a href="#courses"> our courses</a>
                 </button>
-                <button>start now </button>
+                <Link to="/Cart">
+                  <button
+                    style={{
+                      color: "black",
+                      backgroundColor: "transparent",
+                      border: "1px solid blue",
+                      fontWeight: "600",
+                    }}
+                  >
+                    start now
+                  </button>
+                </Link>
               </div>
             </div>
 
@@ -61,7 +73,18 @@ const FirstHome = () => {
                 <button>
                   <a href="#courses"> our courses</a>
                 </button>
-                <button>start now </button>
+                <Link to="/Cart">
+                  <button
+                    style={{
+                      color: "black",
+                      backgroundColor: "transparent",
+                      border: "1px solid blue",
+                      fontWeight: "600",
+                    }}
+                  >
+                    start now
+                  </button>
+                </Link>
               </div>
               <img src={img2} />
             </div>

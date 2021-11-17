@@ -139,10 +139,9 @@
     margin-top: 30px;
   }
   .text .buttons {
-    margin-left: 120px;
+    margin-left: 80px;
     margin-top: 60px;
-    font-size: 14px;
-    width: 230px;
+    font-size: 12px;
   }
   /* div  */
   .mySwiper {
@@ -153,11 +152,12 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media all and (min-width: 576px) and (max-width: 768px) {
   .text {
-    width: 50%;
+    width: 100%;
     text-align: center;
   }
   .text h1 {
     font-size: 15px;
+    padding-top: 30px;
   }
   .text p {
     font-size: 12px;
@@ -165,10 +165,9 @@
     margin-top: 30px;
   }
   .text .buttons {
-    margin-left: 10px;
+    margin-left: 100px;
     margin-top: 10px;
     font-size: 10px;
-    width: 230px;
   }
   .topweb {
     margin-top: -40px;
@@ -177,6 +176,11 @@
   .mySwiper {
     height: 410px;
     margin-top: 30px;
+  }
+  .text img {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 0px;
   }
 }
 
@@ -188,6 +192,7 @@
   }
   .text h1 {
     font-size: 20px;
+    padding-top: 20px;
   }
   .text p {
     font-size: 12px;
@@ -195,10 +200,9 @@
     margin-top: 30px;
   }
   .text .buttons {
-    margin-left: 65px;
+    margin-left: 15px;
     margin-top: 10px;
     font-size: 10px;
-    width: 230px;
   }
   .topweb {
     margin-top: -40px;
@@ -214,6 +218,9 @@
   body {
     overflow-x: hidden;
   }
+  .mySwiper {
+    height: 600px;
+  }
   .text {
     text-align: center;
     width: 50%;
@@ -228,13 +235,13 @@
     margin-top: 30px;
   }
   .text .buttons {
-    margin-left: 165px;
+    margin-left: 75px;
     margin-top: 10px;
     font-size: 15px;
-    width: 230px;
   }
-  .mySwiper img {
-    margin-top: 80px;
+  .text img {
+    width: 90%;
+    margin-top: 160px;
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

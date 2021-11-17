@@ -36,13 +36,13 @@ const Footer = () => {
                   <a href="">who we are ?</a>
                 </li>
                 <li>
-                  <a href="http://webenlance.com">our goals</a>
+                  <a href="#">our goals</a>
                 </li>
                 <li>
-                  <a href="http://webenlance.com">Students say</a>
+                  <a href="#">Students say</a>
                 </li>
                 <li>
-                  <a href="http://webenlance.com">ask our istructor</a>
+                  <a href="#">ask our istructor</a>
                 </li>
               </ul>
             </div>
@@ -51,22 +51,22 @@ const Footer = () => {
               <h5 className="headin5_amrc col_white_amrc pt2">Courses</h5>
               <ul className="footer_ul_amrc">
                 <li>
-                  <a href="http://webenlance.com">Remove Background</a>
+                  <a href="#">Remove Background</a>
                 </li>
                 <li>
-                  <a href="http://webenlance.com">web development </a>
+                  <a href="#">web development </a>
                 </li>
                 <li>
-                  <a href="http://webenlance.com"> game development</a>
+                  <a href="#"> game development</a>
                 </li>
                 <li>
-                  <a href="http://webenlance.com">Mobile development</a>
+                  <a href="#">Mobile development</a>
                 </li>
                 <li>
-                  <a href="http://webenlance.com">data science</a>
+                  <a href="#">data science</a>
                 </li>
                 <li>
-                  <a href="http://webenlance.com">others</a>
+                  <a href="#">others</a>
                 </li>
               </ul>
             </div>

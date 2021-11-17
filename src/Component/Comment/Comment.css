@@ -1,6 +1,7 @@
 .comment {
   display: flex;
-height:940px}
+  height: 940px;
+}
 .comment h1 {
   border-top: 1px solid gray;
   padding-top: 10px;
@@ -51,7 +52,7 @@ height:940px}
   margin-top: 27px;
   position: absolute;
   right: 897px;
-font-size: 26px;
+  font-size: 26px;
 }
 .add-comment textarea {
   outline: none;
@@ -126,4 +127,47 @@ font-size: 26px;
   left: 50%;
   position: absolute;
   z-index: 99;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 575.98px) {
+  .add-comment textarea {
+    width: 450px;
+  }
+
+  .add-comment .container .row button {
+    left: 400px;
+  }
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 576px) and (max-width: 768px) {
+  .add-comment textarea {
+    width: 520px;
+  }
+
+  .add-comment .container .row button {
+    left: 460px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .add-comment .container .row button {
+    left: 590px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .add-comment .container .row button {
+    left: 590px;
+  }
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media all and (min-width: 1200px) and (max-width: 1640px) {
+  .add-comment .container .row button {
+    left: 630px;
+  }
 }

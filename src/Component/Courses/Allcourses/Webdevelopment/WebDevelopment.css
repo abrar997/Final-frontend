@@ -109,6 +109,8 @@
     font-size: smaller;
     height: 430px;
   }
+  .webdevelopment h2 {
+font-size: 20px;  }
   .webdevelopment .card {
     height: 130px;
     width: 200px;
@@ -119,7 +121,7 @@
     height: 50px;
   }
   .webdevelopment .myswiper .card h3 {
-    font-size: 5px;
+    font-size: 6px;
   }
 
   .webdevelopment .myswiper .card h5 {
@@ -134,6 +136,7 @@
     width: 130px;
     left: -40px;
     top: 120px;
+    height: 150px;
   }
 
   .webdevelopment .contsinWeb h4 {
@@ -142,7 +145,7 @@
   .webdevelopment .contsinWeb h6 {
     font-size: 12px;
   }
-
+ .webdevelopment .contsinWeb .btn{margin: auto;}
   .webdevelopment .contsinWeb .heart {
     display: none;
   }
@@ -199,6 +202,7 @@
     font-size: smaller;
     height: 430px;
   }
+  .webdevelopment h2{font-size: 20px;}
   .webdevelopment .card {
     height: 190px;
     width: 200px;
