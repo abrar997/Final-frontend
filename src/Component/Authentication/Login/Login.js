@@ -1,10 +1,5 @@
 import React, { Fragment, useCallback } from "react";
-// firebase
-import "firebase/compat/auth";
-import app from "../firebase";
-import { GoogleAuthProvider } from "firebase/auth";
-const provider = new GoogleAuthProvider();
-const auth = app.auth();
+
 
 // react-router-dom
 import { Link } from "react-router-dom";
@@ -13,7 +8,12 @@ import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
-
+// firebase
+import "firebase/compat/auth";
+import app from "../firebase";
+import { GoogleAuthProvider } from "firebase/auth";
+const provider = new GoogleAuthProvider();
+const auth = app.auth();
 
 const Login = () => {
 // login with emai

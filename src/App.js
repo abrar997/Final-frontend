@@ -1,7 +1,10 @@
 import React, { useState, useEffect} from "react";
+// react-router-dom
 import { BrowserRouter as Router } from "react-router-dom";
-import { CartProvider } from "react-use-cart";
 import { Route, Switch } from "react-router";
+// from library
+import { CartProvider } from "react-use-cart";
+// comp
 import Navbar from "./Component/Navbar/Navbar";
 import Team from "./Component/Team/Team";
 import Comment from "./Component/Comment/Comment";
@@ -13,14 +16,13 @@ import DataScienceCourses from "./Component/DataScienceCourses/DataScienceCourse
 import Home from "./Component/Home/Home";
 import app from "./Component/Authentication/firebase";
 import CommnetsRefrence from './Component/Comment/CommnetsRefrence'
-import "./App.css";
+
 // firebase authentication
 const auth = app.auth();
 const user = auth.currentUser;
 
+// main
 const App = () => {
-
-  const [contact, setcontact] = useState('')
   const [user, setUser] = useState(null);
   useEffect((user) => {
     auth.onAuthStateChanged((user) => {
