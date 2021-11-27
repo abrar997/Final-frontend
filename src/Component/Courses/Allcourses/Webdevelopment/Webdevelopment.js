@@ -3,9 +3,8 @@ import React, { useState, useEffect } from "react";
 import "./WebDevelopment.css";
 // library
 import { useCart } from "react-use-cart";
-// aios
+// axios
 import axios from "axios";
-
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart, faStar } from "@fortawesome/free-regular-svg-icons";

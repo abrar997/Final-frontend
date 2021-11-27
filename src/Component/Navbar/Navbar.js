@@ -1,9 +1,10 @@
-import React, { useState, Fragment} from "react";
+import React, { useState} from "react";
 // style
 import "./Navbar.css";
 import { style, menu, span, categs, categs2 } from "./Navstyle";
 // react-router-dom
 import { NavLink, Route, Switch,Redirect } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingBag,faHeart,faBars } from "@fortawesome/free-solid-svg-icons";
@@ -36,7 +37,7 @@ const Navbar = ({ user }) => {
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <>
-      <Fragment>
+      <Router>
         <nav className=" navbar-expand-lg " data-aos="fade-down">
           <div className="container-fluid">
             <div className={colorChange ? "navbar colorChange" : "navbar"}>
@@ -184,7 +185,7 @@ const Navbar = ({ user }) => {
         <div>
           {user ? <Redirect to="/Cart" user={user} /> : <Redirect to="/Home" />}
         </div>
-      </Fragment>
+      </Router>
     </>
   );
 };

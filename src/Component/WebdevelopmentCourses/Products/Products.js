@@ -8,7 +8,6 @@ import {
   faShoppingBag,
   faStar,
   faUserFriends,
-  faChalkboardTeacher,
 } from "@fortawesome/free-solid-svg-icons";
 
 // cart
@@ -53,13 +52,6 @@ const Products = () => {
               <h5 style={{ color: "#db2d41",marginLeft:"10px",paddingBottom:"10px" }}>
                 we have <span style={{borderBottom:"3px solid gray",fontSize:"30px"}} > {dataFilter.length}</span> courses for you ...
               </h5>
-              {/* <p>
-                <strong> Web: </strong> It refers to websites, web pages or
-                anything that works over the internet.
-                <br />
-                <strong> Development: </strong> Building the application from
-                scratch.
-              </p> */}
             </div>
           </div>
           <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-xl-8">

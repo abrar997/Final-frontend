@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from "react";
 // react-router-dom
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import { Route, Switch } from "react-router";
 // from library
 import { CartProvider } from "react-use-cart";
