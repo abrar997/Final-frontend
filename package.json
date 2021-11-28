@@ -1,5 +1,5 @@
 {
-  "homepage": "http://abrar997.github.io/Final-frontend",
+  "homepage": "https://abrar997.github.io/Final-frontend/",
   "name": "graduation_web",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,6 @@
     "emailjs-com": "^3.2.0",
     "firebase": "^9.4.0",
     "fuse.js": "^6.4.6",
-    "heroku": "^7.59.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router": "^5.2.1",
