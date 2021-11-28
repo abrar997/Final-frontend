@@ -1,3 +1,6 @@
+.cart-empty {
+  margin-top: 100px;
+}
 .cart-empty .image-empty {
   margin-left: 540px;
   width: 600px;

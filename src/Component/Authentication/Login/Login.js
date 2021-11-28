@@ -1,5 +1,4 @@
-import React, { Fragment, useCallback } from "react";
-
+import React, { useCallback } from "react";
 
 // react-router-dom
 import { Link } from "react-router-dom";
@@ -29,7 +28,7 @@ const Login = () => {
         alert(error);
       });
   }, []); // to run one time jsut when page loading
-//  sign up with oogle
+//  sign up with google
    const SignUpWithGoogle = () => {
      auth
        .signInWithPopup(provider)
@@ -43,8 +42,8 @@ const Login = () => {
    };
 
   return (
-    <Fragment>
-      <div className="form-style-10">
+    <>
+      <div className="form-style-10" style={{marginTop:"120px"}}>
         <h1>Log in</h1>
         <form onSubmit={LogWithEmail}>
           <div className="section"></div>
@@ -95,7 +94,7 @@ const Login = () => {
       >
         sign up with google <FontAwesomeIcon icon={faGoogle} />
       </button>
-    </Fragment>
+    </>
   );
 };
 

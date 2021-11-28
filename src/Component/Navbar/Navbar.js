@@ -27,7 +27,7 @@ const Navbar = ({ user }) => {
 
   // changeNavbarColor function ue in addEventListener
   const changeNavbarColor = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 120) {
       // instead of setState
       setColorchange(true);
     } else {
