@@ -1,11 +1,11 @@
 /* skill path component */
 .info-web {
   margin-bottom: 100px;
-  height: 430px;
   padding: 20px;
-  padding-bottom: 30px;
   border-bottom: 1px solid rgb(214, 209, 209);
-  padding-top: 50px;
+  height: 520px;
+  padding-bottom: 100px;
+  padding-top: 90px;
 }
 
 .info-web .container .row .texts {
