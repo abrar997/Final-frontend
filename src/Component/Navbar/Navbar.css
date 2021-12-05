@@ -73,7 +73,7 @@
   width: 200px;
   transform: translateY(-2em);
   z-index: -1;
-  transition: all 1s ease-in-out 0s, visibility 0s linear 0.7s,
+  transition: all 0.7s ease-in-out 0.3s, visibility 0.3s linear 0.5s,
     z-index 0s linear 0.01s;
   border: 1px solid #eee;
   /* border-radius: 5px; */

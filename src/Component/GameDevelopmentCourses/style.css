@@ -32,8 +32,8 @@
 .info-game .container .row .texts .info-text {
   font-size: 16px;
   color: rgb(80, 74, 74);
-
   margin-left: 10px;
+  margin-top:40px
 }
 
 .info-game .container .row .texts .lower {

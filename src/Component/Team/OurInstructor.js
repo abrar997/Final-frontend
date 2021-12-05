@@ -42,9 +42,8 @@ const OurInstructor = () => {
               slidesPerGroup={3}
               loop={true}
               loopFillGroupWithBlank={true}
-              navigation={true}
                 autoplay={{
-                  delay: 2500,
+                  delay: 3500,
                   disableOnInteraction: false,
                 }
               }
