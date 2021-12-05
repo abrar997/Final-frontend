@@ -14,7 +14,7 @@ const Home = () => {
     <>
     <div>
       {/* carousel first top div */}
-      <FirstHome />
+      {/* <FirstHome /> */}
       {/* services cards */}
       <Services />
       {/* name of companies */}

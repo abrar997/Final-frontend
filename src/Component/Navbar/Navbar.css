@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&display=swap");
 .navbar {
   height: 90px;
-  /* margin-bottom: 10px; */
 }
 .navbar {
   background-color: white;
@@ -12,7 +11,7 @@
   font-size: 30px;
   transition: all 1s ease;
   z-index: 10;
-  margin-bottom: 140px;
+  /* margin-bottom: 140px; */
 }
 /* nav bar when scroll change */
 .navbar.colorChange {

@@ -2,6 +2,9 @@
 .dropnav {
   overflow-y: hidden;
 }
+.navbardrop{background-color:#eee;}
+.navbardrop.display {
+display: none;}
 .dropnav .navbar {
   background-color: #eee;
   margin-bottom: 90px;

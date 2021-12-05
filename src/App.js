@@ -1,4 +1,4 @@
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect,Fragment} from "react";
 // react-router-dom
 import { HashRouter as Router } from "react-router-dom";
 import { Route, Switch } from "react-router";
@@ -16,6 +16,8 @@ import DataScienceCourses from "./Component/DataScienceCourses/DataScienceCourse
 import Home from "./Component/Home/Home";
 import app from "./Component/Authentication/firebase";
 import CommnetsRefrence from './Component/Comment/CommnetsRefrence'
+import Login from "./Component/Authentication/Login/Login";
+import Signup from "./Component/Authentication/Signup/Signup";
 
 // firebase authentication
 const auth = app.auth();
@@ -34,9 +36,9 @@ const App = () => {
   return (
     <CartProvider>
       <Router>
-        <Navbar  user={user}/>
+        <Navbar user={user} />
         <Switch>
-          <Route component={Home} path="./" exact />
+          <Route component={Home} path="/Home" exact />
           <Route component={Team} path="/Team" />
           <Route component={Comment} path="/Comment" />
           <Route component={Cart} path="/Cart" />
@@ -55,8 +57,10 @@ const App = () => {
           <Route component={DataScienceCourses} path="/DataScienceCourses" />
           <Route component={Team} path="/Team" />
           <Route component={CommnetsRefrence} path="/CommnetsRefrence" />
+          {/* <Route component={Home} path="/Home" exact /> */}
+          <Route component={Login} path="/Login" />
+          <Route component={Signup} path="/Signup" />
         </Switch>
-   
       </Router>
     </CartProvider>
   );

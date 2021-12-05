@@ -3,8 +3,7 @@ import React, { useState} from "react";
 import "./Navbar.css";
 import { style, menu, span, categs, categs2 } from "./Navstyle";
 // react-router-dom
-import { NavLink, Route, Switch,Redirect } from "react-router-dom";
-import { HashRouter as Router } from "react-router-dom";
+import { NavLink,Redirect } from "react-router-dom";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingBag,faHeart,faBars } from "@fortawesome/free-solid-svg-icons";
@@ -27,7 +26,7 @@ const Navbar = ({ user }) => {
 
   // changeNavbarColor function ue in addEventListener
   const changeNavbarColor = () => {
-    if (window.scrollY >= 120) {
+    if (window.scrollY >=10) {
       // instead of setState
       setColorchange(true);
     } else {
@@ -37,7 +36,7 @@ const Navbar = ({ user }) => {
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <>
-      <Router>
+      <>
         <nav className=" navbar-expand-lg " data-aos="fade-down">
           <div className="container-fluid">
             <div className={colorChange ? "navbar colorChange" : "navbar"}>
@@ -174,18 +173,13 @@ const Navbar = ({ user }) => {
           </div>
         </nav>
 
-        {/* condition of diplay this nav bar */}
+        {/* condition of diplay this nav bar */}2
         <div>{showResults ? <DropNav /> : null}</div>
 
-        <Switch>
-          <Route component={Home} path="/Home" exact />
-          <Route component={Login} path="/Login" />
-          <Route component={Signup} path="/Signup" />
-        </Switch>
         <div>
           {user ? <Redirect to="/Cart" user={user} /> : <Redirect to="/Home" />}
         </div>
-      </Router>
+      </>
     </>
   );
 };
