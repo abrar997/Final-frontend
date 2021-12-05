@@ -30,7 +30,7 @@ const OurInstructor = () => {
     { img: img6, name: "seman mohammed", job: "game development" },
   ]);
   return (
-    <div className="instructorteam" id="instructorteam">
+    <div className="instructorteam">
       <div className="container">
         <div className="row">
           <h4>Meet our instructore who begin from zero as you  ...</h4>
@@ -43,11 +43,11 @@ const OurInstructor = () => {
               loop={true}
               loopFillGroupWithBlank={true}
               navigation={true}
-              //   autoplay={{
-              //     delay: 1500,
-              //     disableOnInteraction: false,
-              //   }
-              // }
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }
+              }
               className="mySwiper"
             >
               {team.map((items, indla) => {

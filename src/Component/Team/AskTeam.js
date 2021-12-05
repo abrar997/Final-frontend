@@ -66,7 +66,7 @@ const AskTeam = () => {
           <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-4">
             <h1>You won’t have to do it alone</h1>
       
-            <p>ask instructor what you want ... </p>
+            <p>ask instructor what you need ... </p>
 
             {/* form */}
             <form onSubmit={handleSubmit}>

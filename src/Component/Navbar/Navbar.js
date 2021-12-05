@@ -149,7 +149,7 @@ const Navbar = ({ user }) => {
                               />
                             </li>
                           </NavLink>
-                          <NavLink to="/Home">
+                          <>
                             <li
                               className="menue"
                               style={{ transition: "all .6s ease-in-out" }}
@@ -162,7 +162,7 @@ const Navbar = ({ user }) => {
                                 className="menu-icon"
                               />
                             </li>
-                          </NavLink>
+                          </>
                         </ul>
                       </div>
                     </div>
@@ -173,7 +173,7 @@ const Navbar = ({ user }) => {
           </div>
         </nav>
 
-        {/* condition of diplay this nav bar */}2
+        {/* condition of diplay this nav bar */}
         <div>{showResults ? <DropNav /> : null}</div>
 
         <div>

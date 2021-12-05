@@ -57,7 +57,6 @@ const App = () => {
           <Route component={DataScienceCourses} path="/DataScienceCourses" />
           <Route component={Team} path="/Team" />
           <Route component={CommnetsRefrence} path="/CommnetsRefrence" />
-          {/* <Route component={Home} path="/Home" exact /> */}
           <Route component={Login} path="/Login" />
           <Route component={Signup} path="/Signup" />
         </Switch>
