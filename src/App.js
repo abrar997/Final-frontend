@@ -66,3 +66,6 @@ const App = () => {
 };
 
 export default App;
+
+//     // "command":"CI=npm run build " ,
+// in package json insted  build
