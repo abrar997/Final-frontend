@@ -11,7 +11,7 @@
   font-size: 30px;
   transition: all 1s ease;
   z-index: 10;
-  /* margin-bottom: 140px; */
+  top: 0;
 }
 /* nav bar when scroll change */
 .navbar.colorChange {
@@ -22,6 +22,7 @@
   color: black;
   position: fixed;
   margin-bottom: 30px;
+  top: 0;
 }
 .navbar.colorChange form {
   margin-top: -10px;
