@@ -76,7 +76,7 @@ const FirstHome = () => {
                 <button>
                   <a href="#courses"> our courses</a>
                 </button>
-                <Link to="/Cart">
+                <Link to="/">
                   <button
                     style={{
                       color: "black",
