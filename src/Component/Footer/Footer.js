@@ -13,6 +13,7 @@ import "./Footer.css";
 // img
 import img1 from "./FooterImages/prog.jpg";
 import img2 from "./FooterImages/prog2.jpg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -31,20 +32,18 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className=" col-sm-4 col-md  col-6 col">
+            <div className=" col-sm-4 col-md  col-6 col pl-4" style={{marginLeft:"30px"}}>
               <h5 className="headin5_amrc col_white_amrc pt2">Company</h5>
               <ul className="footer_ul_amrc">
                 <li>
-                  <a href="">who we are ?</a>
+                  <a href="#About">who we are ?</a>
+                </li>
+           
+                <li>
+                  <a href="#Opinion">Students say</a>
                 </li>
                 <li>
-                  <a href="#">our goals</a>
-                </li>
-                <li>
-                  <a href="#">Students say</a>
-                </li>
-                <li>
-                  <a href="#">ask our istructor</a>
+                  <Link to="/Team">ask our istructor</Link>
                 </li>
               </ul>
             </div>
@@ -53,22 +52,22 @@ const Footer = () => {
               <h5 className="headin5_amrc col_white_amrc pt2">Courses</h5>
               <ul className="footer_ul_amrc">
                 <li>
-                  <a href="#">Remove Background</a>
+                  <Link to="/Cart">cart</Link>
                 </li>
                 <li>
-                  <a href="#">web development </a>
+                  <Link to="/Webdevelopment">web development </Link>
                 </li>
                 <li>
-                  <a href="#"> game development</a>
+                  <Link to="/GameDevelopment"> game development</Link>
                 </li>
                 <li>
-                  <a href="#">Mobile development</a>
+                  <Link to="/MobileDevelopment">Mobile development</Link>
                 </li>
                 <li>
-                  <a href="#">data science</a>
+                  <Link to="/DataScience">data science</Link>
                 </li>
                 <li>
-                  <a href="#">others</a>
+                  <Link to="/Team">Instructore</Link>
                 </li>
               </ul>
             </div>

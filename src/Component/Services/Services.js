@@ -30,17 +30,20 @@ const Services = () => {
     <div className="services">
       <div className="container">
         <div className="row">
-          <h4>  SERVICES... </h4>
-          <h1>Facts that Make us Unique</h1>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <h4> SERVICES... </h4>
+            <h1>Facts that Make us Unique</h1>
+          </div>
           <div className="col-lg-4  serva"></div>
           <div className="cards col-lg-8  d-flex">
             {data.map((card, indf) => {
               return (
-                <div
-                  className="card col-lg-4 col-md-4 col-sm-12"
-                  key={indf}
-                >
-                  <img src={card.img}/>
+                <div className="card col-lg-4 col-md-4 col-sm-12" key={indf}>
+                  <img src={card.img} />
                   <h3> {card.h3} </h3>
                   <p>{card.p}</p>
                 </div>

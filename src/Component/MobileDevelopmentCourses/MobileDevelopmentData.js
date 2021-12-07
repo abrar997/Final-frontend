@@ -12,7 +12,7 @@ const data = {
     },
     {
       id: 2,
-      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.perforce.com%2Fblog%2Fvcs%2Ffuture-of-game-development-trends&psig=AOvVaw08Bp-8btzIUTi8zosDzTYD&ust=1638977867604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCSp8GC0vQCFQAAAAAdAAAAABAO",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIX_mCerQ4_ceXVvcEnAAhzP4jG3lOKlpJA&usqp=CAU",
       name: "advanced flutter course",
       instru: "james zaki",
       views: "3100",
@@ -32,7 +32,7 @@ const data = {
     },
     {
       id: 4,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4V-pJsd5W_NzcJT1hd20RcaS1fMVG_YNycA&usqp=CAU",
+      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fappdevelopermagazine.com%2Ffemale-esports-initiative-from-challengermode%2F&psig=AOvVaw08Bp-8btzIUTi8zosDzTYD&ust=1638977867604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCSp8GC0vQCFQAAAAAdAAAAABAT",
       name: "backend infrastructure ",
       instru: "abdulrahman sami",
       views: "1200",

@@ -52,7 +52,7 @@ const data = {
     },
     {
       id: 6,
-      img: "https://coursemarks.com/wp-content/uploads/2020/11/2894606_ef6e.jpg",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIX_mCerQ4_ceXVvcEnAAhzP4jG3lOKlpJA&usqp=CAU",
       name: " machine learning basics",
       instru: "khalid jamal",
       views: "1200",
@@ -82,7 +82,7 @@ const data = {
     },
     {
       id: 9,
-      img: "https://coursemarks.com/wp-content/uploads/2020/11/2894606_ef6e.jpg",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIX_mCerQ4_ceXVvcEnAAhzP4jG3lOKlpJA&usqp=CAU",
       name: " design machines with new technical",
       instru: "Mustafa barzan",
       views: "1200",

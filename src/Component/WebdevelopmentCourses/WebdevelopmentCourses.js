@@ -9,9 +9,12 @@ const WebdevelopmentCourses = () => {
     <Router>
       <>
         <div>
-          <WebDeveloInfo />                  
-          <Products />   
-          <Comment />
+          <WebDeveloInfo
+            data-aos="fade-left"
+            data-aos-anchor-placement="top-bottom"
+          />
+          <Products />
+          <Comment data-aos="fade-left"/>
           <Footer />
         </div>
       </>

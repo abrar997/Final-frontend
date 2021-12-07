@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import "./NewSection.css";
-import ModalBox from "../Cart/Modal";
 const NewSection = () => {
     return (
       <div className="NewSection">
@@ -10,14 +8,22 @@ const NewSection = () => {
             <div className="col-lg-6">
               <img src={require("./NewImage/bss.png").default} />
             </div>
-            <div className="col-lg-6">
-              <h1>code/Mu. academy </h1>
+            <div
+              className="col-lg-6"
+              data-aos="fade-left"
+         
+              ><h1>code/Mu. academy </h1>
+              <br />
               <h6>
                 Build skills with courses, certificates, and degrees online from
                 world-class universities and companies.
               </h6>
-                                  
-                <div className="btn">  <ModalBox  style={{color:"white"}}/></div>
+              <div
+                className="btn"
+                style={{ background: "#0000ff", color: "white" }}
+              >
+                start now
+              </div>
             </div>
           </div>
         </div>

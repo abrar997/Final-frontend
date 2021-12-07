@@ -42,18 +42,23 @@ const Blog = () => {
     <div className="Blogs">
       <div className="container">
         <div className="row">
-          <h1> Latest Posts From Blog</h1>
-          <p>
-            There is a moment in the life of any aspiring astronomer that it is
-            time to buy that first telescope. It’s exciting to think about
-            setting up your own viewing station.
-          </p>
+          <div data-aos="fade-right">
+            <h1> Latest Posts From Blog</h1>
+            <p>
+              There is a moment in the life of any aspiring astronomer that it
+              is time to buy that first telescope. It’s exciting to think about
+              setting up your own viewing station.
+            </p>
+          </div>
           <div className="cards d-flex">
             {blog.map((blog, inda) => {
               return (
-                <div className="card col-lg-3 col-sm-6 col-xs-6 col-md-6" key={inda}>
-                  <img src={blog.img} />   
-                <h6> {blog.source} </h6>
+                <div
+                  className="card col-lg-3 col-sm-6 col-xs-6 col-md-6"
+                  key={inda}
+                >
+                  <img src={blog.img} />
+                  <h6> {blog.source} </h6>
                   <h3> {blog.name} </h3>
                   <hr />
                   <p>{blog.text} </p>
@@ -65,8 +70,7 @@ const Blog = () => {
         </div>
       </div>
     </div>
- 
- );
+  );
 };
 
 export default Blog;

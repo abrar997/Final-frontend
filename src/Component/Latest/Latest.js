@@ -35,11 +35,10 @@ const Latest = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 images">
-        
             <img src={img1} />
           </div>
 
-          <div className="col-lg-6 textssssss">
+          <div className="col-lg-6 textssssss" data-aos="fade-left">
             <h4>be unique with us..... </h4>
             <h1> our students say </h1>
 
@@ -48,17 +47,17 @@ const Latest = () => {
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
-                  delay: 3000,
+                  delay: 7000,
                   disableOnInteraction: false,
                 }}
                 navigation={true}
                 className="mySwiper"
               >
-                {studnts.map((student,indjj) => {
+                {studnts.map((student, indjj) => {
                   return (
-                    <div key={indjj}  >
+                    <div key={indjj}>
                       <SwiperSlide className="slides">
-                        <h3>{student.name}</h3> 
+                        <h3>{student.name}</h3>
                         <p> {student.say} </p>
                       </SwiperSlide>
                     </div>

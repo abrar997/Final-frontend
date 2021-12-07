@@ -8,20 +8,22 @@ const Opinion = () => {
         <div className="Opinion" id="Opinion">
           <div className="container">
             <div className="row">
-              <h1>share us your opinion </h1>
-              <p> your opinion encourage us to imporve our company ... </p>
+              <div data-aos="zoom-in">
+                <h1>share us your opinion </h1>
+                <p> your opinion encourage us to imporve our company ... </p>
 
-              <button>
-                <Link
-                  to="/CommnetsRefrence"
-                  style={{
-                    color: "rgb(218, 214, 214)",
-                    textDecoration: "none",
-                  }}
-                >
-                  write here
-                </Link>
-              </button>
+                <button>
+                  <Link
+                    to="/CommnetsRefrence"
+                    style={{
+                      color: "rgb(218, 214, 214)",
+                      textDecoration: "none",
+                    }}
+                  >
+                    write here
+                  </Link>
+                </button>
+              </div>
             </div>
           </div>
         </div>

@@ -123,7 +123,11 @@ const Products = () => {
           <div className="cards-web">
             {dataFilter.map((item) => {
               return (
-                <div className="card ">
+                <div
+                  className="card "
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <img src={item.img} />
                   <div className="card-contain">
                     <h5> {item.name}</h5>

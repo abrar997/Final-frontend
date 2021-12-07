@@ -16,12 +16,15 @@ const Companys = () => {
       <div className="companies">
         <div className="container">
           <div className="row">
-            <h2>
-              We collaborate with
-              <span style={{ color: " #0000ff" }}>
-                +200 leading universities and companies
-              </span>
-            </h2>
+            <div data-aos="zoom-out-left">
+              {" "}
+              <h2>
+                We collaborate with
+                <span style={{ color: " #0000ff" }}>
+                  +200 leading universities and companies
+                </span>
+              </h2>
+            </div>
             <ul className="d-flex">
               <li>
                 <img src={img1} />

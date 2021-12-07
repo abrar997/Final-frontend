@@ -67,62 +67,67 @@ const Products = () => {
                   sorted by price...
                 </h4>
                 <div className="d-flex">
-                <div className="form-check ml-4">
-                  <input
-                    className="form-check-input"
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault1"
-                    value="40-120"
-                    onChange={handlefilterdata}
-                  />
-                  <label
-                    className="form-check-label"
-                    htmlFor="flexRadioDefault1"
-                  >
-                    $ 40-120
-                  </label>
-                </div>
-                <div className="form-check ml-4">
-                  <input
-                    className="form-check-input"
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault2"
-                    value="130-200"
-                    onChange={handlefilterdata}
-                  />
-                  <label
-                    className="form-check-label"
-                    htmlFor="flexRadioDefault2"
-                  >
-                    $130-200
-                  </label>
-                </div>
+                  <div className="form-check ml-4">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                      value="40-120"
+                      onChange={handlefilterdata}
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault1"
+                    >
+                      $ 40-120
+                    </label>
+                  </div>
+                  <div className="form-check ml-4">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      value="130-200"
+                      onChange={handlefilterdata}
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault2"
+                    >
+                      $130-200
+                    </label>
+                  </div>
 
-                <div className="form-check ml-4">
-                  <input
-                    className="form-check-input"
-                    type="radio"
-                    name="flexRadioDefault"
-                    id="flexRadioDefault2"
-                    value="210-500"
-                    onChange={handlefilterdata}
-                  />
-                  <label
-                    className="form-check-label"
-                    htmlFor="flexRadioDefault2"
-                  >
-                    $ 210-500
-                  </label>
+                  <div className="form-check ml-4">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      value="210-500"
+                      onChange={handlefilterdata}
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault2"
+                    >
+                      $ 210-500
+                    </label>
+                  </div>
                 </div>
-              </div>{" "}
-            </div></div>
+              </div>
+            </div>
           </div>
           <div className="cards-web col-lg-12">
             {dataFilter.map((items) => {
               return (
-                <div className="card col-lg-4 ">
+                <div
+                  className="card col-lg-4 "
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <img src={items.img} />
                   <div className="card-contain">
                     <h5> {items.name}</h5>

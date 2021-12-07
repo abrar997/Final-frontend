@@ -78,26 +78,24 @@
 }
 /* CheckBox  component*/
 .checkbox-inputa-web{
-  margin-left: 60px;
   box-shadow: inset 1px 1px 15px rgb(207, 203, 203);
   padding: 10px;
   margin-top: 26px;
-  width: 320px;
+width: 200px;
 }
 
 /* btn sorted by */
-.checkbox-inputa .dropdown-toggle {
+.checkbox-inputa-web .dropdown-toggle {
   background-color: transparent;
   border: none;
   border-radius: 5px;
-  width: 300px;
   font-size: 23px;
   font-weight: 600;
   color: #db2d41;
   text-transform: capitalize;
   text-align: center;
 }
-
+.checkbox-inputa-web .form-check-input{margin-left:80px;}
 .Products-web .btns {
   margin-left: auto;
 }

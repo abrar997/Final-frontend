@@ -48,7 +48,7 @@ const Products = () => {
       <div className="container">
         <div className="row">
           <div className=" all-courses-top col-lg-12  d-flex">
-            <div className="dropdown col-lg-8  ">
+            <div className="dropdown col-lg-8  " data-aos="fade-right">
               <h1>All courses of web development </h1>
               <h5
                 style={{
@@ -126,7 +126,12 @@ const Products = () => {
           <div className="cards-web col-lg-12">
             {dataFilter.map((items, ind) => {
               return (
-                <div className="card " key={ind}>
+                <div
+                  className="card "
+                  key={ind}
+                  data-aos="fade-up"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <img src={items.img} />
                   <div className="card-contain">
                     <h5 style={{ color: "#4785f1" }}> {items.name}</h5>

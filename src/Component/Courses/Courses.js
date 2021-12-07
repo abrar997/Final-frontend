@@ -28,14 +28,14 @@ const Courses = () => {
       <div id="courses">
         <div className="Courses">
           <div className="container">
-            <h4>Courses... </h4>
-            <h1>A broad selection of courses</h1>
-
-            <h5>
-              Choose from 10,000 online video courses with new additions
-              published every month
-            </h5>
-
+            <div data-aos="fade-right"
+              > <h4>Courses... </h4>
+              <h1>A broad selection of courses</h1>
+              <h5>
+                Choose from 10,000 online video courses with new additions
+                published every month
+              </h5>
+            </div>
             <div className="buttons">
               {/* buttons for courses good job !!! */}
               <button onClick={handleClick}>web development </button>

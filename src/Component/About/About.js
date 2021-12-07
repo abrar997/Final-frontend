@@ -29,33 +29,31 @@ export class About extends Component {
   render() {
      return (
        <section id="about">
-    <div>
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-6 textss">
-            <h4>THE BEST... </h4>
-            <h1>{this.state.h1} </h1>
-            <p>{this.state.describe}</p>
-            <div className="btn">
-              <button onClick={this.handlechange}>
-                our history
-              </button>
-            </div>
-          </div>
+         <div>
+           <div className="container">
+             <div className="row">
+               <div className="col-lg-6 textss" data-aos="fade-right"
+                 ><h4>THE BEST... </h4>
+                 <h1>{this.state.h1} </h1>
+                 <p>{this.state.describe}</p>
+                 <div className="btn">
+                   <button onClick={this.handlechange}>our history</button>
+                 </div>
+               </div>
 
-          <div className="col-lg-6 images">
-            <div className="img1">
-              <img src={img1} />
-            </div>
-            <div className="img2">
-              <img src={img2} />
-            </div>
-          </div>
-          
-        </div>
-      </div>
-    </div></section>
-  );
+               <div className="col-lg-6 images">
+                 <div className="img1">
+                   <img src={img1} />
+                 </div>
+                 <div className="img2">
+                   <img src={img2} />
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>
+     );
   }
 }
 
