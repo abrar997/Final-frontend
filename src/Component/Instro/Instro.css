@@ -7,17 +7,19 @@
   margin-top: 160px;
 }
 .instru .textsss h1 {
-  color: #4785f1;
+  color: #0000ff;
   margin-bottom: 10px;
 }
 
 .instru .textsss button {
-  background-color: #4785f1;
+  background-color:  #0000ff;
   color: white;
   border: none;
   padding: 15px;
   font-weight: 600;
   margin-top: 10px;
+  border-radius: 10px;
+
 }
 
 .instru .textsss button:hover {

@@ -9,12 +9,15 @@ import Latest from "../Latest/Latest";
 import Opinion from "../Opinion/Opinion";
 import Blog from "../Blog/Blog";
 import Footer from '../Footer/Footer'
+import NewSection from "../newSection/NewSection";
 const Home = () => {
   return (
     <>
     <div>
+      {/*  */}
+      <NewSection />
       {/* carousel first top div */}
-      <FirstHome />
+      {/* <FirstHome /> */}
       {/* services cards */}
       <Services />
       {/* name of companies */}

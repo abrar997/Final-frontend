@@ -19,7 +19,7 @@
 }
 .latest .container .row .textssssss h1 {
   text-transform: capitalize;
-  color: #4785f1;
+  color:  #0000ff;
   border-bottom: 2px solid rgb(231, 231, 231);
   padding-bottom: 10px;
 }
@@ -39,9 +39,9 @@
   text-transform: capitalize;
 }
 .latest .mySwiper .slides p {
-  margin-top: 20px;
-  background: #eee;
-  color: #4785f1;
+  margin-top: 10px;
+  /* background: #eee; */
+  color: black;
   padding: 10px;
 }
 

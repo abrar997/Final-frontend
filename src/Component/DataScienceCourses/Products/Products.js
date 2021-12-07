@@ -95,31 +95,30 @@ const handlefilterdata = (e) => {
                   </div>
 
                   <div className="btns d-flex mt-2">
+                  
                     <button
                       className="btn"
                       style={{
                         backgroundColor: "transparent",
-                        width: "50px",
-                        height: "50px",
-                        padding: "5px",
+                        width: "40px",
+                        height: "40px",
                         marginLeft: "10px",
-                        fontSize: "20px",
+                        fontSize: "12px",
                         border: "1px solid #4785f1",
                         color: "#4785f1",
                       }}
                       onClick={() => addItem(item)}
                     >
                       <FontAwesomeIcon icon={faShoppingBag} />
-                    </button>
+                    </button>  
                     <button
                       className="btn"
                       style={{
                         backgroundColor: "transparent",
-                        width: "50px",
-                        height: "50px",
-                        padding: "5px",
+                        width: "40px",
+                        height: "40px",
                         marginLeft: "10px",
-                        fontSize: "20px",
+                        fontSize: "12px",
                         border: "1px solid #4785f1",
                         color: "#4785f1",
                       }}

@@ -4,7 +4,7 @@
   margin-bottom: 100px;
 }
 .Products-web h2 {
-  color: #4785f1;
+  color: #0000ff;
   text-transform: capitalize;
   margin-top: 100px;
 }
@@ -16,38 +16,36 @@
 .Products-web .all-courses-top h1 {
   color: rgba(0, 0, 0, 0.726);
 }
-/* courses card */
-.Products-web .Products-webCard {
+
+.Products-web .cards-web {
   display: flex;
-  flex-flow: column;
+  flex-flow: row wrap;
   justify-content: space-around;
-  margin: auto;
+  
+
 }
 .Products-web .card {
-  display: flex;
-  flex-flow: row;
   margin-top: 20px;
   text-transform: capitalize;
   box-shadow: inset 1px 1px 16px #eef0f5;
-  padding: 15px;
   background-color: white;
-  height: 180px;
-  width: 100%;
+width: 349px;  
+text-align: center;
+padding: 20px;
 }
 .Products-web .card:hover {
   box-shadow: 1px 1px 15px rgb(231, 228, 228);
 }
 .Products-web .card img {
-  width: 300px;
-  float: left;
-  height: 150px;
+  width:cover;
+  height: 210px;
 }
 .Products-web .card span {
   font-size: 12px;
 }
 
 .Products-web .card h5 {
-  color: #4785f1;
+  color: #0000ff;
   font-size: 20px;
   margin-top: 0px;
 }
@@ -55,9 +53,23 @@
   color: gray;
 }
 
+.Products-web .btn {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  font-size: 20px;
+  border: 1px solid #4785f1;
+  color: #4785f1;
+opacity: 0;
+}
+.Products-web .card:hover .btn{opacity: 1;}
+.Products-web .card:hover{background-color: rgba(238, 238, 238, 0.548);
+transition: all .6s ease;}
+
 .Products-web .card-contain {
-  padding-left: 100px;
   margin-top: 10px;
+  height: 100px;
 }
 
 .Products-web .contsinWeb {
@@ -70,7 +82,6 @@
   font-weight: 600;
   color: black;
   box-shadow: inset 1px 5px 19px rgb(224, 224, 224);
-  left: 325px;
   padding: 15px;
   z-index: 200;
   border: 2px solid gray;
@@ -78,11 +89,11 @@
   text-align: center;
   height: 250px;
   margin-top: -90px;
-}
+display: none;}
 
 .Products-web .contsinWeb h4 {
   background-color: #eee;
-  color: #4785f1;
+  color: #0000ff;
   padding: 10px;
   text-transform: capitalize;
   font-size: 16px;
@@ -101,7 +112,7 @@
 }
 .Products-web .contsinWeb h6:first-child {
   font-weight: 600;
-  color: #4785f1;
+  color: #0000ff;
   font-size: 20px;
 }
 .Products-web .card:hover .contsinWeb {
@@ -117,20 +128,12 @@
   list-style-type: none;
 }
 /* CheckBox  component*/
-.checkbox-input {
-  margin-left: 100px;
-  box-shadow: inset 1px 1px 15px rgb(207, 203, 203);
-  padding: 10px;
-  margin-top: 26px;
-}
-.checkbox-input form {
-  margin-left: 100px;
-}
-.checkbox-input form .check-div {
-  margin-top: 10px;
-}
+.checkbox-inputa {
+  margin-top: 16px;
+margin-left: 60px;}
+
 /* btn sorted by */
-.checkbox-input .dropdown-toggle {
+.checkbox-inputa .dropdown-toggle {
   background-color: transparent;
   border: none;
   border-radius: 5px;
@@ -140,18 +143,10 @@
   color: #db2d41;
   text-transform: capitalize;
   text-align: center;
+
 }
 
-.checkbox-input .dropdown-item {
-  font-weight: 600;
-  text-transform: capitalize;
-  border-bottom: 1px solid #eee;
-}
-.checkbox-input .dropdown-item:hover {
-  background-color: #4785f1;
-  color: #eee;
-}
-
+.checkbox-inputa .form-check-input{margin-left: 10px;}
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
@@ -293,15 +288,14 @@
   }
 }
 
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media all and (min-width: 1201px) and (max-width: 1650px) {
-.Products-web .contsinWeb {
-display: none;}
+  .Products-web .contsinWeb {
+    display: none;
+  }
   .Products-web .card img {
     width: 150px;
     height: 140px;
     /* margin-top: 20px; */
   }
-
 }

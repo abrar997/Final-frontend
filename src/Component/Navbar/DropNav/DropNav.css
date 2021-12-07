@@ -2,9 +2,13 @@
 .dropnav {
   overflow-y: hidden;
 }
-.navbardrop{background-color:#eee;}
+.navbardrop {
+  background-color:rgb(243, 237, 237);
+  /* box-shadow: inset 1px 1px 18px gray; */
+}
 .navbardrop.display {
-display: none;}
+  display: none;
+}
 .dropnav .navbar {
   background-color: #eee;
   margin-bottom: 90px;
@@ -21,7 +25,7 @@ display: none;}
 }
 
 .drop .navbar-nav .nav-item .nav-link:hover {
-  color: rgb(9, 9, 73);
+  color: #3939c9;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* media query */

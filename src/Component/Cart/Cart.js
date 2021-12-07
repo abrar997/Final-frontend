@@ -12,6 +12,7 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { getAuth } from "@firebase/auth";
 // img
 import img1 from "./CartImage/cart.png";
+import ModalBox from "./Modal";
 
 const auth = getAuth();
 
@@ -40,9 +41,7 @@ const Cart = ({ user }) => {
           }}
         >
           Your cart is empty back and add what u need ....
-          <Link to="/Home" style={{ textDecoration: "none" }}>
-            start now{" "}
-          </Link>
+          <ModalBox />
         </h3>
         <img src={img1} className="image-empty" />
 
@@ -89,6 +88,7 @@ const Cart = ({ user }) => {
                 ))}
               </div>
             </div>
+
             <div className="total">
               <h4>Total price : {cartTotal} $ </h4>
               <button className="btn " onClick={() => emptyCart()}>

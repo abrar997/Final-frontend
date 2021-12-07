@@ -56,14 +56,16 @@
   list-style: none;
   margin-top: 23px;
   height: 45px;
-  border: 2px solid #4785f1;
-  background: #4785f1;
+  border: 2px solid #0000ff;
+  background: #0000ff;
   width: 160px;
   font-size: 18px;
   padding: 9px;
   margin-left: 90px;
   color: white;
+  border-radius: 10px;
 }
+
 .sub-menu {
   visibility: hidden; /* hides sub-menu */
   opacity: 0;
@@ -76,7 +78,7 @@
   transition: all 0.7s ease-in-out 0.3s, visibility 0.3s linear 0.5s,
     z-index 0s linear 0.01s;
   border: 1px solid #eee;
-  /* border-radius: 5px; */
+  border-radius: 10px;
   box-shadow: 1px 1px 6px rgb(226, 223, 223);
   z-index: 500;
   background-color: white;
@@ -101,12 +103,11 @@
   display: block;
   text-align: left;
   font-weight: 600;
+  border-radius: 10px;
 }
 .sub-menu a:hover {
   background-color: rgb(248, 246, 246);
 }
-
-/* list of icons */
 
 .icons {
   display: flex;
@@ -115,6 +116,7 @@
   list-style-type: none;
   margin-top: 20px;
   margin-left: 120px;
+
 }
 /* serach input in navbar */
 .navbar form input[type="search"] {
@@ -122,7 +124,7 @@
   border-radius: 0px;
   border: none;
   outline: none;
-  border: 1px solid #4785f1;
+  border: 1px solid #0000ff;
   position: relative;
   margin-left: 10px;
   margin-top: 23px;
@@ -166,7 +168,10 @@
   position: absolute;
   z-index: 99;
 }
-.menue{cursor: pointer;}
+.menue {
+  cursor: pointer;
+}
+
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* 0px to 552px  phone size*/

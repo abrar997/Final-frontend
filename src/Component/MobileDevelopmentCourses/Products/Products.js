@@ -103,32 +103,30 @@ if(e.target.value==="151-300"){
                       className="btn"
                       style={{
                         backgroundColor: "transparent",
-                        width: "50px",
-                        height: "50px",
-                        padding: "5px",
+                        width: "40px",
+                        height: "40px",
+                        marginLeft: "0px",
+                        fontSize: "12px",
+                        border: "1px solid #4785f1",
+                        color: "#4785f1",
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faHeart} />
+                    </button>
+                    <button
+                      className="btn"
+                      style={{
+                        backgroundColor: "transparent",
+                        width: "40px",
+                        height: "40px",
                         marginLeft: "10px",
-                        fontSize: "20px",
+                        fontSize: "12px",
                         border: "1px solid #4785f1",
                         color: "#4785f1",
                       }}
                       onClick={() => addItem(item)}
                     >
                       <FontAwesomeIcon icon={faShoppingBag} />
-                    </button>
-                    <button
-                      className="btn"
-                      style={{
-                        backgroundColor: "transparent",
-                        width: "50px",
-                        height: "50px",
-                        padding: "5px",
-                        marginLeft: "10px",
-                        fontSize: "20px",
-                        border: "1px solid #4785f1",
-                        color: "#4785f1",
-                      }}
-                    >
-                      <FontAwesomeIcon icon={faHeart} />
                     </button>
                   </div>
                   <div className="contsinWeb">

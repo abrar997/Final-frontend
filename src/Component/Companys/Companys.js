@@ -17,9 +17,9 @@ const Companys = () => {
         <div className="container">
           <div className="row">
             <h2>
-              We collaborate with 
-               <span style={{ color: "#4785f1" }}>
-                +200  leading universities and companies
+              We collaborate with
+              <span style={{ color: " #0000ff" }}>
+                +200 leading universities and companies
               </span>
             </h2>
             <ul className="d-flex">

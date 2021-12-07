@@ -4,7 +4,7 @@
   margin-bottom: 100px;
 }
 .Products-game Products-web h2 {
-  color: #4785f1;
+  color: #0000ff;
   text-transform: capitalize;
   margin-top: 100px;
 }
@@ -47,7 +47,7 @@
 }
 
 .Products-game .card h5 {
-  color: #4785f1;
+  color: #0000ff;
   font-size: 20px;
   margin-top: 0px;
 }
@@ -82,7 +82,7 @@
 
 .Products-game .contsinWeb h4 {
   background-color: #eee;
-  color: #4785f1;
+  color: #0000ff;
   padding: 10px;
   text-transform: capitalize;
   font-size: 16px;
@@ -101,7 +101,7 @@
 }
 .Products-game .contsinWeb h6:first-child {
   font-weight: 600;
-  color: #4785f1;
+  color: #0000ff;
   font-size: 20px;
 }
 .Products-game .card:hover .contsinWeb {
@@ -148,7 +148,7 @@
   border-bottom: 1px solid #eee;
 }
 .checkbox-input .dropdown-item:hover {
-  background-color: #4785f1;
+  background-color: #0000ff;
   color: #eee;
 }
 
