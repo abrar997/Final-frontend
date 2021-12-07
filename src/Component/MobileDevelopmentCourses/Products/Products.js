@@ -18,46 +18,110 @@ const Products = () => {
   const [dataFilter, setdDataFilter] = useState(data.MobileData);
 
   const handlefilterdata = (e) => {
-if(e.target.value==="40-90"){
-  const datasFilterlist=dataShow.MobileData.filter((items)=>{
-    return (items.priceValue === "40-90");
-  })
-  setdDataFilter(datasFilterlist);
-}
+    if (e.target.value === "40-90") {
+      const datasFilterlist = dataShow.MobileData.filter((items) => {
+        return items.priceValue === "40-90";
+      });
+      setdDataFilter(datasFilterlist);
+    }
 
-if(e.target.value==="91-150"){
-  const datasFilterlist=dataShow.MobileData.filter((items)=>{
-    return items.priceValue==="91-150";
-  });
-  setdDataFilter(datasFilterlist)
-}
-if(e.target.value==="151-300"){
-  const datasFilterlist=dataShow.MobileData.filter((items)=>{
-    return items.priceValue === "151-300";
-  });
-  setdDataFilter(datasFilterlist)
-}
+    if (e.target.value === "91-150") {
+      const datasFilterlist = dataShow.MobileData.filter((items) => {
+        return items.priceValue === "91-150";
+      });
+      setdDataFilter(datasFilterlist);
+    }
+    if (e.target.value === "151-300") {
+      const datasFilterlist = dataShow.MobileData.filter((items) => {
+        return items.priceValue === "151-300";
+      });
+      setdDataFilter(datasFilterlist);
+    }
   };
 
   return (
     <div className="Products-mobile ">
       <div className="container">
         <div className="row">
-          <h1>All courses ... </h1>
-          <h5
-            style={{
-              color: "#db2d41",
-              marginLeft: "10px",
-              paddingBottom: "10px",
-            }}
-          >
-            we have
-              <span style={{ borderBottom: "3px solid gray", fontSize: "30px" }}>
-                 {dataFilter.length}
-            </span>
-            courses for you ...
-          </h5>
-          <div className="col-lg-8">
+          <div className=" all-courses-top col-lg-12  d-flex">
+            <div className="dropdown col-lg-8  ">
+              <h1>All courses of Mobile development ... </h1>
+              <h5
+                style={{
+                  color: "#db2d41",
+                  marginLeft: "10px",
+                  paddingBottom: "10px",
+                }}
+              >
+                we have
+                <span
+                  style={{ borderBottom: "3px solid gray", fontSize: "30px" }}
+                >
+                  {dataFilter.length}
+                </span>
+                courses for you ...
+              </h5>
+            </div>
+            <div className="col-lg-4 col-xs-12 col-md-12 col-sm-12 checkbox-inputa">
+              <div className="checkbox-inputa ">
+                <button className="dropdown-toggle" type="button">
+                  sorted by price...
+                </button>
+                <div className="d-flex inputs-mobile-sorted">
+                  
+                  <div className="form-check ml-4">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                      value="40-90"
+                      onChange={handlefilterdata}
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault1"
+                    >
+                      $ 40-90
+                    </label>
+                  </div>
+                  <div className="form-check ml-4">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      value="91-150"
+                      onChange={handlefilterdata}
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault2"
+                    >
+                      $ 91-150
+                    </label>
+                  </div>
+                  <div className="form-check ml-4">
+                    <input
+                      className="form-check-input"
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                      value="151-300"
+                      onChange={handlefilterdata}
+                    />
+                    <label
+                      className="form-check-label"
+                      htmlFor="flexRadioDefault2"
+                    >
+                      151-300
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="cards-web">
             {dataFilter.map((item) => {
               return (
                 <div className="card ">
@@ -99,103 +163,13 @@ if(e.target.value==="151-300"){
                     </h6>
                   </div>
                   <div className="btns d-flex mt-2">
-                    <button
-                      className="btn"
-                      style={{
-                        backgroundColor: "transparent",
-                        width: "40px",
-                        height: "40px",
-                        marginLeft: "0px",
-                        fontSize: "12px",
-                        border: "1px solid #4785f1",
-                        color: "#4785f1",
-                      }}
-                    >
-                      <FontAwesomeIcon icon={faHeart} />
-                    </button>
-                    <button
-                      className="btn"
-                      style={{
-                        backgroundColor: "transparent",
-                        width: "40px",
-                        height: "40px",
-                        marginLeft: "10px",
-                        fontSize: "12px",
-                        border: "1px solid #4785f1",
-                        color: "#4785f1",
-                      }}
-                      onClick={() => addItem(item)}
-                    >
+                    <button className="btn" onClick={() => addItem(item)}>
                       <FontAwesomeIcon icon={faShoppingBag} />
                     </button>
-                  </div>
-                  <div className="contsinWeb">
-                    <h4>{item.name} </h4>
-                    <p>{item.text}</p>
-                    <h6>{item.instru} </h6>
-                    <h5
-                      style={{
-                        color: "#db2d41",
-                        backgroundColor: "#eee",
-                        padding: "10px",
-                        width: "130px",
-                        margin: "auto",
-                      }}
-                    >
-                      ${item.price}
-                    </h5>
                   </div>
                 </div>
               );
             })}
-          </div>
-
-          <div className="col-lg-4">
-            <div className="checkbox-input">
-              <button className="dropdown-toggle" type="button">
-                sorted by price...
-              </button>
-              <div className="form-check ml-4">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  name="flexRadioDefault"
-                  id="flexRadioDefault1"
-                  value="40-90"
-                  onChange={handlefilterdata}
-                />
-                <label className="form-check-label" htmlFor="flexRadioDefault1">
-                  $ 40-90
-                </label>
-              </div>
-              <div className="form-check ml-4">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  name="flexRadioDefault"
-                  id="flexRadioDefault2"
-                  value="91-150"
-                  onChange={handlefilterdata}
-                />
-                <label className="form-check-label" htmlFor="flexRadioDefault2">
-                  $ 91-150
-                </label>
-              </div>
-
-              <div className="form-check ml-4">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  name="flexRadioDefault"
-                  id="flexRadioDefault2"
-                  value="151-300"
-                  onChange={handlefilterdata}
-                />
-                <label className="form-check-label" htmlFor="flexRadioDefault2">
-                  151-300
-                </label>
-              </div>
-            </div>
           </div>
         </div>
       </div>

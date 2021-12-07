@@ -2,10 +2,6 @@
 .dropnav {
   overflow-y: hidden;
 }
-.navbardrop {
-  background-color:rgb(243, 237, 237);
-  /* box-shadow: inset 1px 1px 18px gray; */
-}
 .navbardrop.display {
   display: none;
 }
@@ -18,12 +14,14 @@
   height: 60px;
 }
 .drop .collapse .navbar-nav {
-  margin-left: 310px;
+  margin-left: 400px;
   font-size: 22px;
   text-transform: capitalize;
   padding: 10px;
-}
 
+}
+.drop .navbar-nav .nav-item .nav-link{  color: #0000ff;
+}
 .drop .navbar-nav .nav-item .nav-link:hover {
   color: #3939c9;
 }

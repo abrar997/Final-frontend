@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "./NewSection.css";
+import ModalBox from "../Cart/Modal";
 const NewSection = () => {
     return (
       <div className="NewSection">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <img src={require('./NewImage/bss.png').default} />
+              <img src={require("./NewImage/bss.png").default} />
             </div>
             <div className="col-lg-6">
               <h1>code/Mu. academy </h1>
@@ -16,7 +17,8 @@ const NewSection = () => {
                 Build skills with courses, certificates, and degrees online from
                 world-class universities and companies.
               </h6>
-              <Link to="/"> <button>start now </button> </Link>
+                                  
+                <div className="btn">  <ModalBox /></div>
             </div>
           </div>
         </div>

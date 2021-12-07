@@ -36,7 +36,7 @@ const ModalBox = () => {
     <div>
       <Button
         onClick={handleOpen}
-        sx={{ fontWeight: 600, fontSize: 25, color: "#0000ff" }}
+        sx={{  fontSize: 24,width:"160px", color: "#0000ff",textTransform:"lowercase" }}
       >
         Start now
       </Button>

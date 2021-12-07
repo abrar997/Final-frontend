@@ -48,8 +48,8 @@ const Products = () => {
       <div className="container">
         <div className="row">      
 
-          <div className=" all-courses-top col-lg-12 d-flex">  
-            <div className="dropdown col-lg-8 ">
+          <div className=" all-courses-top col-lg-12  d-flex">  
+            <div className="dropdown col-lg-8  ">
               <h1>All courses of web development </h1>
               <h5
                 style={{
@@ -67,7 +67,7 @@ const Products = () => {
                 courses for you ...
               </h5>
             </div>
-          <div className="col-lg-4 checkbox-inputa">
+          <div className="col-lg-4 col-xs-12 col-md-12 col-sm-12 checkbox-inputa">
               <h4 className="dropdown-toggle" type="button">
                 sorted by type...
               </h4>
@@ -162,23 +162,6 @@ const Products = () => {
                     </button>
                   </div>
 
-                  <div className="contsinWeb">
-                    <h4>{items.name} </h4>
-                    <p>{items.text}</p>
-                    <h6>times: {items.time} </h6>
-                    <h6> by: {items.instru} </h6>
-                    <h5
-                      style={{
-                        color: "#db2d41",
-                        backgroundColor: "#eee",
-                        padding: "10px",
-                        width: "130px",
-                        margin: "auto",
-                      }}
-                    >
-                      ${items.price}
-                    </h5>
-                  </div>
                 </div>
               );
             })}
