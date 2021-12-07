@@ -43,7 +43,7 @@ const GameDeveloInfo = () => {
             style={{ padding: "30px", marginTop: "-16px" }}
             className="col-lg-4 Beginner-info"
           >
-            <img src={img1} style={{ width: "40%" }} />
+            <img src={img1} style={{ width: "30%" }} />
             <h3>
               <span> start</span> learning now and get Discount
               <span> 40% </span> for all courses,     

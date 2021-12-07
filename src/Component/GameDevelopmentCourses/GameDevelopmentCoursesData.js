@@ -2,7 +2,7 @@ const data = {
   GameData: [
     {
       id: 1,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb_AmR6QFBZST774s7ill6iCsTKDPyZ7wV2Q&usqp=CAU",
+      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Finstabug.com%2Fblog%2Fmobile-game-development-tools%2F&psig=AOvVaw08Bp-8btzIUTi8zosDzTYD&ust=1638977867604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCSp8GC0vQCFQAAAAAdAAAAABAD",
       name: " bascis of python",
       instru: "james john",
       views: "1320",
@@ -52,7 +52,7 @@ const data = {
     },
     {
       id: 6,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs5w-OcaXH5wVgF2XCJxidmQXUBme-Wt7Fqw&usqp=CAU",
+      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.academyart.edu%2Fgame-development-in-retrospect-eight-milestones%2F&psig=AOvVaw08Bp-8btzIUTi8zosDzTYD&ust=1638977867604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCSp8GC0vQCFQAAAAAdAAAAABAc",
       name: "react native",
       instru: "khalid jamal",
       views: "1200",
@@ -72,7 +72,7 @@ const data = {
     },
     {
       id: 8,
-      img: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIX_mCerQ4_ceXVvcEnAAhzP4jG3lOKlpJA&usqp=CAU",
+      img: " https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seamedu.com%2Fblog%2Fconfused-between-game-design-and-game-development%2F&psig=AOvVaw08Bp-8btzIUTi8zosDzTYD&ust=1638977867604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCSp8GC0vQCFQAAAAAdAAAAABAh",
       name: "solve exersice",
       instru: "khalid jamal",
       views: "200",
@@ -83,7 +83,7 @@ const data = {
 
     {
       id: 9,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOoZb5vX3KOwLGyrVjtHa3kXIdY4MF3iQNAg&usqp=CAU",
+      img: "https://www.gamedesigning.org/wp-content/uploads/2015/07/game-designer-vs-developer-1.png",
       name: "training with us",
       instru: "Mustafa barzan",
       views: "1200",

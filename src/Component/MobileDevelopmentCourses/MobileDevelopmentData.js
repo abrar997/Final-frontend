@@ -12,7 +12,7 @@ const data = {
     },
     {
       id: 2,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8HnI9rhiXDb1yTcQMdPT07mYBXP2Iej_MkA&usqp=CAU",
+      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.perforce.com%2Fblog%2Fvcs%2Ffuture-of-game-development-trends&psig=AOvVaw08Bp-8btzIUTi8zosDzTYD&ust=1638977867604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCSp8GC0vQCFQAAAAAdAAAAABAO",
       name: "advanced flutter course",
       instru: "james zaki",
       views: "3100",
