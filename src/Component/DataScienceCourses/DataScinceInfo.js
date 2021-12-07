@@ -41,7 +41,7 @@ const DataScinceInfo = () => {
               <h3>
                 <span> start</span> learning now and get Discount{" "}
                 <span> 40% </span> for all courses of{" "}
-                <span>web development </span>
+                <span>data science </span>
               </h3>
             </div>
           </div>

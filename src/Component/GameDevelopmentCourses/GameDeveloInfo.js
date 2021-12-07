@@ -46,8 +46,8 @@ const GameDeveloInfo = () => {
             <img src={img1} style={{ width: "40%" }} />
             <h3>
               <span> start</span> learning now and get Discount
-              <span> 40% </span> for all courses of
-              <span>web development </span>
+              <span> 40% </span> for all courses,     
+               <span>game development </span>
             </h3>
           </div>
         </div>

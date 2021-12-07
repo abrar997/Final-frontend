@@ -2,7 +2,7 @@ const data = {
   dataScience: [
     {
       id: 10,
-      img: "https://coursemarks.com/wp-content/uploads/2020/11/2894606_ef6e.jpg",
+      img: "https://img-c.udemycdn.com/course/240x135/903744_8eb2.jpg",
       name: " Machine learning from A_Z ",
       instru: "james john",
       views: "1320",

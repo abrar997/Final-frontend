@@ -46,9 +46,8 @@ const Products = () => {
   return (
     <div className="Products-web ">
       <div className="container">
-        <div className="row">      
-
-          <div className=" all-courses-top col-lg-12  d-flex">  
+        <div className="row">
+          <div className=" all-courses-top col-lg-12  d-flex">
             <div className="dropdown col-lg-8  ">
               <h1>All courses of web development </h1>
               <h5
@@ -61,59 +60,69 @@ const Products = () => {
                 we have
                 <span
                   style={{ borderBottom: "3px solid gray", fontSize: "30px" }}
-                >  
+                >
                   {dataFilter.length}
                 </span>
                 courses for you ...
               </h5>
             </div>
-          <div className="col-lg-4 col-xs-12 col-md-12 col-sm-12 checkbox-inputa">
+            <div className="col-lg-4 col-xs-12 col-md-12 col-sm-12 checkbox-inputa-web">
               <h4 className="dropdown-toggle" type="button">
                 sorted by type...
               </h4>
-            <div className="d-flex">
-              <div>
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  name="flexRadioDefault"
-                  id="flexRadioDefault1"
-                  value="frontend"
-                  onChange={handlefilterdata}
-                />
-                <label className="form-check-label" htmlFor="flexRadioDefault1">
-                  Frontend
-                </label>
-              </div>
-              <div className="form-check">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  name="flexRadioDefault"
-                  id="flexRadioDefault2"
-                  value="backend"
-                  onChange={handlefilterdata}
-                />
-                <label className="form-check-label" htmlFor="flexRadioDefault2">
-                  Backend
-                </label>
-              </div>
+              <div className="d-flex">
+                <div>
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                    value="frontend"
+                    onChange={handlefilterdata}
+                  />
+                  <label
+                    className="form-check-label"
+                    htmlFor="flexRadioDefault1"
+                  >
+                    Frontend
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    value="backend"
+                    onChange={handlefilterdata}
+                  />
+                  <label
+                    className="form-check-label"
+                    htmlFor="flexRadioDefault2"
+                  >
+                    Backend
+                  </label>
+                </div>
 
-              <div className="form-check ml-4">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  name="flexRadioDefault"
-                  id="flexRadioDefault2"
-                  value="fullstack"
-                  onChange={handlefilterdata}
-                />
-                <label className="form-check-label" htmlFor="flexRadioDefault2">
-                  Fullstack
-                </label>
+                <div className="form-check ml-4">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    value="fullstack"
+                    onChange={handlefilterdata}
+                  />
+                  <label
+                    className="form-check-label"
+                    htmlFor="flexRadioDefault2"
+                  >
+                    Fullstack
+                  </label>
+                </div>
               </div>
-          </div></div>
-       </div>
+            </div>
+          </div>
           <div className="cards-web col-lg-12">
             {dataFilter.map((items, ind) => {
               return (
@@ -161,7 +170,6 @@ const Products = () => {
                       <FontAwesomeIcon icon={faShoppingBag} />
                     </button>
                   </div>
-
                 </div>
               );
             })}

@@ -12,13 +12,12 @@ const NewSection = () => {
             </div>
             <div className="col-lg-6">
               <h1>code/Mu. academy </h1>
-              <h3>company for </h3>
               <h6>
                 Build skills with courses, certificates, and degrees online from
                 world-class universities and companies.
               </h6>
                                   
-                <div className="btn">  <ModalBox /></div>
+                <div className="btn">  <ModalBox  style={{color:"white"}}/></div>
             </div>
           </div>
         </div>

@@ -62,13 +62,12 @@ const Products = () => {
                 courses for you ...
               </h5>
             </div>
-            <div className="col-lg-4 col-xs-12 col-md-12 col-sm-12 checkbox-inputa">
-              <div className="checkbox-inputa ">
+            <div className="col-lg-4 col-xs-12 col-md-12 col-sm-12">
+              <div className="checkbox-input-mobile ">
                 <button className="dropdown-toggle" type="button">
                   sorted by price...
                 </button>
                 <div className="d-flex inputs-mobile-sorted">
-                  
                   <div className="form-check ml-4">
                     <input
                       className="form-check-input"

@@ -3,7 +3,7 @@
   background-color: white;
   margin-bottom: 100px;
 }
-.Products-game Products-web h2 {
+.Products-game h2 {
   color: #0000ff;
   text-transform: capitalize;
   margin-top: 100px;
@@ -12,35 +12,36 @@
   /* margin-bottom: 70px; */
   padding-bottom: 10px;
 }
-/* top div for header and dropdown btn */
-.Products-game .all-courses-top h1 {
-  color: rgba(0, 0, 0, 0.726);
+
+.Products-game .cards-web {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 /* courses card */
-.Products-game.Products-game Card {
+.Products-game .card {
   display: flex;
-  flex-flow: column;
+  flex-flow: row wrap;
   justify-content: space-around;
   margin: auto;
 }
 .Products-game .card {
-  display: flex;
-  flex-flow: row;
   margin-top: 20px;
   text-transform: capitalize;
   box-shadow: inset 1px 1px 16px #eef0f5;
-  padding: 15px;
   background-color: white;
-  height: 180px;
-  width: 100%;
+  width: 349px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
 }
 .Products-game .card:hover {
   box-shadow: 1px 1px 15px rgb(231, 228, 228);
 }
 .Products-game .card img {
   width: 300px;
-  float: left;
-  height: 150px;
+  height: 210px;
 }
 .Products-game .card span {
   font-size: 12px;
@@ -56,55 +57,20 @@
 }
 
 .Products-game .card-contain {
-  padding-left: 100px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
-.Products-game .contsinWeb {
+.Products-game .btn {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  font-size: 21px;
+  border: 1px solid #4785f1;
+  color: #4785f1;
   opacity: 0;
-  position: absolute;
-  /* top: -210px; */
-  background-color: white;
-  width: 400px;
-  padding: 20px;
-  font-weight: 600;
-  color: black;
-  box-shadow: inset 1px 5px 19px rgb(224, 224, 224);
-  left: 325px;
-  padding: 15px;
-  z-index: 200;
-  border: 2px solid gray;
-  border-radius: 10px;
-  text-align: center;
-  height: 250px;
-  margin-top: -90px;
 }
-
-.Products-game .contsinWeb h4 {
-  background-color: #eee;
-  color: #0000ff;
-  padding: 10px;
-  text-transform: capitalize;
-  font-size: 16px;
-}
-.Products-game .contsinWeb p {
-  font-size: 15px;
-  text-transform: capitalize;
-  color: rgba(0, 0, 0, 0.699);
-}
-/* Discount */
-.Products-game .contsinWeb h6 {
-  color: #db2d41;
-  font-size: 15px;
-  text-transform: capitalize;
-  font-weight: 600;
-}
-.Products-game .contsinWeb h6:first-child {
-  font-weight: 600;
-  color: #0000ff;
-  font-size: 20px;
-}
-.Products-game .card:hover .contsinWeb {
+.Products-game .card:hover .btn {
   opacity: 1;
 }
 .Products-game .btns {
@@ -119,15 +85,11 @@
 /* CheckBox  component*/
 .checkbox-input {
   margin-left: 100px;
-  box-shadow: inset 1px 1px 15px rgb(207, 203, 203);
   padding: 10px;
   margin-top: 26px;
 }
 .checkbox-input form {
   margin-left: 100px;
-}
-.checkbox-input form .check-div {
-  margin-top: 10px;
 }
 /* btn sorted by */
 .checkbox-input .dropdown-toggle {
@@ -140,16 +102,7 @@
   color: #db2d41;
   text-transform: capitalize;
   text-align: center;
-}
-
-.checkbox-input .dropdown-item {
-  font-weight: 600;
-  text-transform: capitalize;
-  border-bottom: 1px solid #eee;
-}
-.checkbox-input .dropdown-item:hover {
-  background-color: #0000ff;
-  color: #eee;
+  margin-left: 10px;
 }
 
 /* media query */
@@ -295,7 +248,7 @@
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media all and (min-width: 1201px) and (max-width: 1650px) {
- .Products-game  .contsinWeb {
+  .Products-game .contsinWeb {
     display: none;
   }
   .Products-game .card img {

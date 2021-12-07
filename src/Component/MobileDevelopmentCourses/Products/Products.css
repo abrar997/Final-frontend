@@ -5,7 +5,6 @@
 }
 
 .Products-mobile .all-courses-top {
-  /* margin-bottom: 70px; */
   padding-bottom: 10px;
 }
 /* top div for header and dropdown btn */
@@ -34,7 +33,7 @@
   width: 50px;
   height: 50px;
   padding: 5px;
-  font-size: 20px;
+  font-size: 21px;
   border: 1px solid #4785f1;
   color: #4785f1;
   opacity: 0;
@@ -43,8 +42,7 @@
   opacity: 1;
 }
 .Products-mobile .card:hover {
-  background-color: rgba(238, 238, 238, 0.548);
-  transition: all 0.6s ease;
+box-shadow: 1px 1px 16px rgb(219, 219, 219);
 }
 
 .Products-mobile .card img {
@@ -57,7 +55,7 @@
 
 .Products-mobile .card h5 {
   color: #0000ff;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0px;
 }
 .Products-mobile .card h6 {
@@ -79,8 +77,14 @@
   list-style-type: none;
 }
 /* CheckBox  component*/
+.checkbox-input-mobile{ margin-left: 50px;
+  box-shadow: inset 1px 1px 15px rgb(207, 203, 203);
+  padding: 10px;
+  margin-top: 26px;
+  width: 320px;
+}
 /* btn sorted by */
-.checkbox-inputa .dropdown-toggle {
+.checkbox-input-mobile .dropdown-toggle {
   background-color: transparent;
   border: none;
   border-radius: 5px;
