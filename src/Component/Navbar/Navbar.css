@@ -177,8 +177,6 @@
   body {
     overflow-x: hidden;
   }
-
-
   .navbar .navbar-brand {
     font-size: 24px;
     margin-left: 0px;
@@ -188,17 +186,18 @@
 
   .navbar .collapse {
     background: white;
-
+    display: flex;
+    flex-flow: column;
+    margin-top: 40px;
   }
   .navbar .icon-nv-display {
     display: none;
   }
 
-
   .navbar input {
     display: none;
   }
-  
+
   .menue {
     display: none;
   }
