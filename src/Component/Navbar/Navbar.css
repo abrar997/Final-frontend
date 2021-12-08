@@ -183,12 +183,13 @@
     position: absolute;
     left: 0;
   }
-.navbar-toggler{position: absolute;right: 0;}
+  .navbar-toggler {
+    position: absolute;
+    right: 100px;
+  }
   .navbar .collapse {
     background: white;
-    /* display: flex;
-    flex-flow: column;
-    margin-top: 40px; */
+    /*  margin-top: 40px; */
     margin-top: 40px;
   }
   .navbar .icon-nv-display {

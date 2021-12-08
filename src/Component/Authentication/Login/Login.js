@@ -28,21 +28,9 @@ const Login = () => {
         alert(error);
       });
   }, []); // to run one time jsut when page loading
-//  sign up with google
-   const SignUpWithGoogle = () => {
-     auth
-       .signInWithPopup(provider)
-       .then(() => {
-         //nevr forger res u will have beauty error stp your work when you click on button
-         alert("signed with google ");
-       })
-       .catch((error) => {
-         alert("some thing wrong ,please try again later");
-       });
-   };
 
   return (
-    <>
+    <section className="form-login">
       <div className="form-style-10" style={{marginTop:"120px"}}>
         <h1>Log in</h1>
         <form onSubmit={LogWithEmail}>
@@ -81,20 +69,8 @@ const Login = () => {
         if you have not account ,<Link to="/Signup">create new account</Link>
       </p>
 
-      <button
-        type="button"
-        className="w-20 secondary  btns-signup"
-        onClick={SignUpWithGoogle}
-        style={{
-          marginTop: "20px",
-          margin: "auto",
-          width: "300px",
-          marginLeft: "690px",
-        }}
-      >
-        sign up with google <FontAwesomeIcon icon={faGoogle} />
-      </button>
-    </>
+    
+    </section>
   );
 };
 
