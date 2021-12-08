@@ -108,7 +108,7 @@
     font-size: 20px;
   }
   .webdevelopment .card {
-    margin-top: -40px;
+    margin-top: -90px;height: 200px;
   }
   .webdevelopment .myswiper .card img {
     height: 50px;
@@ -124,7 +124,7 @@
   .webdevelopment .myswiper .card p {
     display: none;
   }
-
+.webdevelopment .contsinWeb{width: 130px;}
   .webdevelopment .contsinWeb h4 {
     display: none;
   }

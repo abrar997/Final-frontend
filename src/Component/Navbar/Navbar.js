@@ -57,7 +57,7 @@ const Navbar = ({ user }) => {
               
                   <FontAwesomeIcon icon={faBars} />
               </button>
-              <>
+              <div className="navbar-collapse"  id="navbarSupportedContent">
                 <div
                   className="collapse navbar-collapse active items"
                   id="navbarNavAltMarkup"
@@ -171,7 +171,7 @@ const Navbar = ({ user }) => {
                     </div>
                   </div>
                 </div>
-              </>
+              </div>
             </div>
           </div>
         </nav>
