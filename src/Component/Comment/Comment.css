@@ -1,6 +1,7 @@
 .comment {
   display: flex;
   height: 940px;
+  margin-top: 80px;
 }
 .comment h1 {
   border-top: 1px solid gray;

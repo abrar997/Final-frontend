@@ -2,7 +2,7 @@ const data = {
   dataScience: [
     {
       id: 10,
-      img: "https://img-c.udemycdn.com/course/240x135/903744_8eb2.jpg",
+      img: "https://www.aacp.org/sites/default/files/2020-06/apn-20issue3-hero-02.png",
       name: " Machine learning from A_Z ",
       instru: "james john",
       views: "1320",
@@ -12,7 +12,7 @@ const data = {
     },
     {
       id: 2,
-      img: "https://img-c.udemycdn.com/course/240x135/629302_8a2d_2.jpg",
+      img: "https://bigdataanalyticsnews.com/wp-content/uploads/2021/04/Feature-Engineering.png",
       name: "Python for data science and machine learning bootcamp ",
       instru: "james zaki",
       views: "3100",
@@ -22,7 +22,7 @@ const data = {
     },
     {
       id: 3,
-      img: "https://img-c.udemycdn.com/course/240x135/713104_d4cb.jpg",
+      img: "https://miro.medium.com/max/1200/1*K6ctE0RZme0cqMtknrxq8A.png",
       name: " AI artificial intellegence",
       instru: "ahmed shokair",
       views: "2000",
@@ -32,7 +32,7 @@ const data = {
     },
     {
       id: 4,
-      img: "https://img-c.udemycdn.com/course/240x135/903744_8eb2.jpg",
+      img: "https://miro.medium.com/max/1000/1*omNpCR7NFy2D6uq6XI9ayA.jpeg",
       name: " real life data science exercises  ",
       instru: "mohammed nadir",
       views: "1200",
@@ -42,7 +42,7 @@ const data = {
     },
     {
       id: 5,
-      img: "https://img-c.udemycdn.com/course/240x135/713104_d4cb.jpg",
+      img: "https://miro.medium.com/max/2000/1*g8YLVZSWME7gM6RoMKQgxw.jpeg",
       name: " satisticis for data science  ",
       instru: "mohamed ali",
       views: "1200",
@@ -52,7 +52,7 @@ const data = {
     },
     {
       id: 6,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIX_mCerQ4_ceXVvcEnAAhzP4jG3lOKlpJA&usqp=CAU",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu_zCunOZkzUz7RS7o0aQLavhUYV66r851NmtBIZ1JIOvbdWJ9fPXpvwHJZx08tBHlYpw&usqp=CAU",
       name: " machine learning basics",
       instru: "khalid jamal",
       views: "1200",
@@ -62,7 +62,7 @@ const data = {
     },
     {
       id: 7,
-      img: "https://img-c.udemycdn.com/course/240x135/2776760_f176_6.jpg",
+      img: "https://miro.medium.com/max/748/1*oT_LIBILeSEWEF3UPV7rLg.png",
       name: "nodejs and vuejs",
       instru: "Mustafa barzan",
       views: "1200",
@@ -72,7 +72,7 @@ const data = {
     },
     {
       id: 8,
-      img: "https://img-c.udemycdn.com/course/240x135/629302_8a2d_2.jpg",
+      img: "https://one-educationgroup.com/wp-content/uploads/2021/07/Data-Science-TH-1.jpg",
       name: " complete data science ...",
       instru: "khalid jamal",
       views: "1200",
@@ -82,7 +82,7 @@ const data = {
     },
     {
       id: 9,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIX_mCerQ4_ceXVvcEnAAhzP4jG3lOKlpJA&usqp=CAU",
+      img: "https://www.northeastern.edu/graduate/blog/wp-content/uploads/2020/06/iStock-1221293664-1.jpg",
       name: " design machines with new technical",
       instru: "Mustafa barzan",
       views: "1200",
