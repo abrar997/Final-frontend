@@ -46,7 +46,7 @@ const Navbar = ({ user }) => {
               </NavLink>
               {/* responsive button of navbar */}
               <button
-                class="navbar-toggler navbar-toggler-icon"
+                class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNavAltMarkup"
@@ -54,10 +54,14 @@ const Navbar = ({ user }) => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-              
+                <span
+                  className="navbar-toggler-icon"
+             
+                >
                   <FontAwesomeIcon icon={faBars} />
+                </span>
               </button>
-              <div className="navbar-collapse"  id="navbarSupportedContent">
+              <>
                 <div
                   className="collapse navbar-collapse active items"
                   id="navbarNavAltMarkup"
@@ -171,7 +175,7 @@ const Navbar = ({ user }) => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </>
             </div>
           </div>
         </nav>

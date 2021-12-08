@@ -103,16 +103,19 @@
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
- 
   .webdevelopment h2 {
     font-size: 20px;
   }
-   .webdevelopment .myswiper {margin-top: -100px;}
+  .webdevelopment .myswiper {
+    margin-top: -100px;
+  }
   .webdevelopment .card {
-    margin-top: -90px;height: 130px;
+    margin-top: -90px;
+    height: 130px;
   }
   .webdevelopment .myswiper .card img {
-    height: 50px;width:cover
+    height: 30px;
+    object-fit: cover;
   }
   .webdevelopment .myswiper .card h3 {
     font-size: 6px;
@@ -125,7 +128,9 @@
   .webdevelopment .myswiper .card p {
     display: none;
   }
-.webdevelopment .contsinWeb{width: 130px;}
+  .webdevelopment .contsinWeb {
+    width: 130px;
+  }
   .webdevelopment .contsinWeb h4 {
     display: none;
   }
