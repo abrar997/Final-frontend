@@ -103,17 +103,11 @@
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
-  .webdevelopment {
-    margin-top: 0px;
-    font-size: smaller;
-    height: 430px;
-  }
+ 
   .webdevelopment h2 {
     font-size: 20px;
   }
   .webdevelopment .card {
-    height: 120px;
-    width: 300px;
     margin-top: -40px;
   }
   .webdevelopment .myswiper .card img {
@@ -129,13 +123,6 @@
   }
   .webdevelopment .myswiper .card p {
     display: none;
-  }
-
-  .webdevelopment .contsinWeb {
-    width: 130px;
-    left: -40px;
-    top: 120px;
-    height: 150px;
   }
 
   .webdevelopment .contsinWeb h4 {

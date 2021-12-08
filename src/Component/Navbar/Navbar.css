@@ -181,9 +181,7 @@
     position: absolute;
     right: 0;
   }
-  .navbar {
-    height: 10px;
-  }
+
   .navbar .navbar-brand {
     font-size: 24px;
     margin-left: 0px;
@@ -196,9 +194,7 @@
   }
   .navbar .collapse {
     background: white;
-    margin-top: 30px;
-    margin-left: auto;
-    width: 300px;
+
   }
   .navbar .icon-nv-display {
     display: none;
@@ -210,7 +206,6 @@
     margin-top: 30px;
     font-size: 14px;
     width: 90px;
-    margin-left: 210px;
   }
   .navbar .icon-login {
     position: absolute;
