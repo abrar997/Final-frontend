@@ -186,9 +186,9 @@
 
   .navbar .collapse {
     background: white;
-    display: flex;
+    /* display: flex;
     flex-flow: column;
-    margin-top: 40px;
+    margin-top: 40px; */
   }
   .navbar .icon-nv-display {
     display: none;
