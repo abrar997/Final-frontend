@@ -177,57 +177,59 @@
   body {
     overflow-x: hidden;
   }
-.navbar{height: 10px;}
+  .navbar-toggler {
+    position: absolute;
+    right: 0;
+  }
+  .navbar {
+    height: 10px;
+  }
   .navbar .navbar-brand {
     font-size: 24px;
     margin-left: 0px;
-    margin-left: 30px;
+    position: absolute;
+    left: 0;
   }
   .navbar {
-    position: absolute;
-    left: -17px;
-    width: 100%;
-  }
-  .navbar .collapse {
-    height: 160px;
-    background: white;
     display: flex;
     flex-flow: column;
-    position: absolute;
-    top: 100px;
-    left: 0;
+  }
+  .navbar .collapse {
+    background: white;
+    margin-top: 30px;
+    margin-left: auto;
+    width: 300px;
   }
   .navbar .icon-nv-display {
     display: none;
   }
   .navbar .items {
-    position: absolute;
-    right: 0;
+    display: block;
   }
   .sub-menu-parent {
     margin-top: 30px;
-    z-index: 1000;
     font-size: 14px;
     width: 90px;
+    margin-left: 210px;
+  }
+  .navbar .icon-login {
     position: absolute;
-    right: 0px;
+    right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .navbar input {
     display: none;
   }
   .icons {
-    display: block;
     position: absolute;
     right: 10px;
-    top: 40px;
+    margin-top: 70px;
   }
 
   .menue {
     display: none;
   }
-.navbar .icon-login{position: absolute;
-right: 0;}
-
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media all and (min-width: 576px) and (max-width: 768px) {
@@ -373,7 +375,6 @@ right: 0;}
   .navbar form input[type="search"] {
     margin-top: 10px;
   }
-
   .icons {
     position: absolute;
     right: 30px;
