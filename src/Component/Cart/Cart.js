@@ -11,7 +11,6 @@ import { getAuth } from "@firebase/auth";
 // img
 import img1 from "./CartImage/cart.png";
 import ModalBox from "./Modal";
-import Footer from '../Footer/Footer'
 const auth = getAuth();
 
 const Cart = ({ user }) => {
@@ -21,7 +20,6 @@ const Cart = ({ user }) => {
     totalUniqueItems,
     totalItems,
     items,
-    updateItemQuantity,
     removeItem,
     cartTotal,
     emptyCart,
@@ -44,58 +42,56 @@ const Cart = ({ user }) => {
         <img src={img1} className="image-empty" />
 
         <div></div>
-     <Footer />
       </div>
     );
   }
 
   return (
     <>
-        <div className="cart">
-          <div className="container">
-            <div className="row">
-              <h2>shopping cart </h2>
-              <h5 style={{ color: "gray" }}>
-                {/* Cart ({totalUniqueItems}) */}
-                total Items:({totalItems})
-              </h5>
+      <div className="cart">
+        <div className="container">
+          <div className="row">
+            <h2>shopping cart </h2>
 
-              <div className="d-flex cards">
-                {items.map((item) => (
-                  <div
-                    key={item.id}
-                    className="card col-lg-4 col-md-8 col-sm-8 p-10"
-                  >
-                    <div className="imagesCart col-sm-4 col-md-4">
-                      <img src={item.img} />
-                    </div>
-
-                    <div className="textsss pb-4 ">
-                      <h4> {item.name}</h4>
-                      <p>{item.text} </p>
-
-                      <h6>${item.price}</h6>
-                      <button
-                        className="cartbtn"
-                        onClick={() => removeItem(item.id)}
-                      >
-                        <FontAwesomeIcon icon={faTrash} />
-                      </button>
-                    </div>
+            <div className="d-flex cards">
+              {items.map((item) => (
+                <div
+                  key={item.id}
+                  className="card col-lg-4 col-md-8 col-sm-8 p-10"
+                >
+                  <div className="imagesCart col-sm-4 col-md-4">
+                    <img src={item.img} />
                   </div>
-                ))}
-              </div>
-            </div>
 
-            <div className="total">
-              <h4>Total price : {cartTotal} $ </h4>
-              <button className="btn " onClick={() => emptyCart()}>
-                empty cart
-              </button>
+                  <div className="textsss pb-4 ">
+                    <h4> {item.name}</h4>
+                    <p>{item.text} </p>
+
+                    <h6>${item.price}</h6>
+                    <button
+                      className="cartbtn"
+                      onClick={() => removeItem(item.id)}
+                    >
+                      <FontAwesomeIcon icon={faTrash} />
+                    </button>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
+
+          <div className="total">
+          <div> <h4>Total price : {cartTotal} $ </h4>
+            <h5 style={{ color: "gray" }}>
+              {/* Cart ({totalUniqueItems}) */}
+              total Items:({totalItems})
+            </h5></div> 
+            <button className="btn " onClick={() => emptyCart()}>
+              empty cart
+            </button>
+          </div>
         </div>
-<Footer />
+      </div>
     </>
   );
 };
