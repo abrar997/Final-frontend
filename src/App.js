@@ -41,6 +41,7 @@ const App = () => {
           <Route component={Home} path="/Home" exact />
           <Route component={Team} path="/Team" />
           <Route component={Comment} path="/Comment" />
+          <Route component={CommnetsRefrence} path="/CommnetsRefrence" />
           <Route component={Cart} path="/Cart" />
           <Route
             component={WebdevelopmentCourses}

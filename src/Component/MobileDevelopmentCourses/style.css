@@ -6,7 +6,7 @@
   padding: 20px;
   height: 520px;
   padding-bottom: 100px;
-  padding-top: 150px;
+  padding-top: 120px;
 
 }
 .info-mobile .container .row h2 {
@@ -45,7 +45,6 @@
 }
 
 .info-mobile .container .row .Beginner-info {
-  margin-top: 30px;
   text-align: center;
   padding: 20px;
   margin-left: 100px;
