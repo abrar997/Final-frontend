@@ -17,6 +17,7 @@
 }
 .cart {
   height: 100%;
+  margin-bottom: 290px;
 }
 .cart .container .row .cards {
   flex-wrap: wrap;

@@ -3,8 +3,6 @@ import React from "react";
 import "./Cart.css";
 // library
 import { useCart } from "react-use-cart";
-// react-router-dom
-import { BrowserRouter as Router, Link } from "react-router-dom";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
@@ -13,7 +11,7 @@ import { getAuth } from "@firebase/auth";
 // img
 import img1 from "./CartImage/cart.png";
 import ModalBox from "./Modal";
-
+import Footer from '../Footer/Footer'
 const auth = getAuth();
 
 const Cart = ({ user }) => {
@@ -46,13 +44,13 @@ const Cart = ({ user }) => {
         <img src={img1} className="image-empty" />
 
         <div></div>
+     <Footer />
       </div>
     );
   }
 
   return (
     <>
-      <Router>
         <div className="cart">
           <div className="container">
             <div className="row">
@@ -97,7 +95,7 @@ const Cart = ({ user }) => {
             </div>
           </div>
         </div>
-      </Router>
+<Footer />
     </>
   );
 };
