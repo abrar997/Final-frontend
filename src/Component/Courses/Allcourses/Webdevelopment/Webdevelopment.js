@@ -63,7 +63,7 @@ const Webdevelopment = () => {
           {dataaa.map((item, inds) => {
             return (
               <SwiperSlide className="myswiper" key={inds}>
-                <div className="card">
+                <div className="card col-xs-4 col-sm-4">
                   <div>
                     <img src={item.img} />
                     <h3>{item.name}</h3>
