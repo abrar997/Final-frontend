@@ -98,9 +98,7 @@ box-shadow: 1px 1px 16px rgb(219, 219, 219);
 
 }
 
-.inputs-mobile-sorted .form-check-input {
-  margin-left:5px;
-}
+
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {

@@ -2,7 +2,7 @@ const data = {
   MobileData: [
     {
       id: 1,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4V-pJsd5W_NzcJT1hd20RcaS1fMVG_YNycA&usqp=CAU",
+      img: "https://buildfire.com/wp-content/uploads/2018/03/17-top-mobile-development-practices.jpg",
       name: "beginner flutter course  ",
       instru: "james john",
       views: "1320",
@@ -12,7 +12,7 @@ const data = {
     },
     {
       id: 2,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJIX_mCerQ4_ceXVvcEnAAhzP4jG3lOKlpJA&usqp=CAU",
+      img: "https://coralwebconcept.com/wp-content/uploads/2021/11/mobile-app-development.png",
       name: "advanced flutter course",
       instru: "james zaki",
       views: "3100",
@@ -22,7 +22,7 @@ const data = {
     },
     {
       id: 3,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsu0IopyOcmdwlg1MLoZLLqXbAhPLbuiJrKg&usqp=CAU",
+      img: "https://1z1euk35x7oy36s8we4dr6lo-wpengine.netdna-ssl.com/wp-content/uploads/2020/08/zymr8_steps_the_mobile_app_dev_lifecycle_cover.jpg",
       name: " react native ",
       instru: "osama elzero",
       views: "2000",
@@ -32,7 +32,7 @@ const data = {
     },
     {
       id: 4,
-      img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fappdevelopermagazine.com%2Ffemale-esports-initiative-from-challengermode%2F&psig=AOvVaw08Bp-8btzIUTi8zosDzTYD&ust=1638977867604000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMCSp8GC0vQCFQAAAAAdAAAAABAT",
+      img: "https://static.tildacdn.com/tild6137-3465-4061-b861-306330633839/mobile-development-c.jpg",
       name: "backend infrastructure ",
       instru: "abdulrahman sami",
       views: "1200",
@@ -42,7 +42,7 @@ const data = {
     },
     {
       id: 5,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8HnI9rhiXDb1yTcQMdPT07mYBXP2Iej_MkA&usqp=CAU",
+      img: "https://www.zintechnologies.com/demo2019/wp-content/uploads/2019/02/Mobile-Application-Development.jpg",
       name: "flutter course",
       instru: "mohamed ali",
       views: "1200",
@@ -52,7 +52,7 @@ const data = {
     },
     {
       id: 6,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4V-pJsd5W_NzcJT1hd20RcaS1fMVG_YNycA&usqp=CAU",
+      img: "https://www.jiasaz.com/public/images/mobile-app-development-for-startup-owners.jpeg",
       name: "HTMLl5",
       instru: "khalid jamal",
       views: "1200",
@@ -62,7 +62,7 @@ const data = {
     },
     {
       id: 7,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gEb4iP9C1bKLIja2jWBzkys3JoMW9g8Tjw&usqp=CAU",
+      img: "http://codecondo.com/wp-content/uploads/2016/05/9_Cross-platform_mobile_app_development_tools.jpg",
       name: "mobile development advanced course",
       instru: "Mustafa barzan",
       views: "1200",
@@ -72,7 +72,7 @@ const data = {
     },
     {
       id: 8,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsu0IopyOcmdwlg1MLoZLLqXbAhPLbuiJrKg&usqp=CAU",
+      img: "https://gdcitsolutions.com/wp-content/uploads/Web-Design-Dev-Overview.jpg",
       name: " UI / UX Design",
       instru: "menna ali",
       views: "1200",
@@ -82,7 +82,7 @@ const data = {
     },
     {
       id: 9,
-      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5gEb4iP9C1bKLIja2jWBzkys3JoMW9g8Tjw&usqp=CAU",
+      img: "https://www.pix2apps.com/images/mobile/mobile-app.jpg",
       name: "Mobile App Front-Ende",
       instru: "Mustafa barzan",
       views: "1200",
