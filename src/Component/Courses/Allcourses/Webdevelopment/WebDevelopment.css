@@ -117,12 +117,15 @@
     height: 170px;
     width:300px;
   }
+  .webdevelopment .myswiper .card img {
+   height: 170px;
+  }
   .webdevelopment .myswiper .card h3 {
-    font-size: 6px;
+    font-size: px;
   }
 
   .webdevelopment .myswiper .card h5 {
-    font-size: 10px;
+    font-size: 6px;
     display: none;
   }
   .webdevelopment .myswiper .card p {
@@ -132,10 +135,9 @@
     width: 130px;
   }
   .webdevelopment .contsinWeb h4 {
-    display: none;
-  }
+font-size: 10px;  }
   .webdevelopment .contsinWeb h6 {
-    font-size: 12px;
+    font-size: 6px;
   }
   .webdevelopment .contsinWeb .btn {
     margin: auto;
