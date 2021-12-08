@@ -60,6 +60,7 @@ const Webdevelopment = () => {
           }}
           className="mySwiper"
         >
+          <div className="col-xs-4">
           {dataaa.map((item, inds) => {
             return (
               <SwiperSlide className="myswiper" key={inds}>
@@ -135,6 +136,7 @@ const Webdevelopment = () => {
               </SwiperSlide>
             );
           })}
+          </div>
         </Swiper>
       </div>
     </div>
