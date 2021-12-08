@@ -177,11 +177,7 @@
   body {
     overflow-x: hidden;
   }
-
-  .navbar.colorChange {
-    margin-left: 10px;
-    padding-top: 35px;
-  }
+.navbar{height: 10px;}
   .navbar .navbar-brand {
     font-size: 24px;
     margin-left: 0px;
@@ -214,7 +210,7 @@
     font-size: 14px;
     width: 90px;
     position: absolute;
-    right: -160px;
+    right: 0px;
   }
   .navbar input {
     display: none;
