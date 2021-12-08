@@ -71,6 +71,7 @@ const Cart = ({ user }) => {
                     <button
                       className="cartbtn"
                       onClick={() => removeItem(item.id)}
+                      title="remove course"
                     >
                       <FontAwesomeIcon icon={faTrash} />
                     </button>
