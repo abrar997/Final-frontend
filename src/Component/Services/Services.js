@@ -30,9 +30,11 @@ const Services = () => {
     <div className="services">
       <div className="container">
         <div className="row">
-          <div data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+          <div 
+    //       data-aos="fade-right"
+    //  data-aos-offset="300"
+    //  data-aos-easing="ease-in-sine"
+     >
           <h4>  SERVICES... </h4>
           <h1>Facts that Make us Unique</h1></div>
           <div className="col-lg-4  serva"></div>

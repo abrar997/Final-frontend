@@ -136,14 +136,13 @@ footer p {
 @media (max-width: 575.98px) {
   .col_white_amrc {
     font-size: 20px;
-  }
+     text-align: center;
+}
 
-  .footer_ul2_amrc li a {
-    font-size: 14px;
-  }
 
   footer p {
     font-size: 10px;
+    text-align: center;
   }
   /* pagraph under coe/mu */
   .mb10 {
@@ -154,12 +153,12 @@ footer p {
   }
 
   .social_footer_ul {
-    margin-left: -0px;
-    margin-left: 90px;
+    margin-left: 20px;
   }
   .social_footer_ul li a {
     font-size: 10px;
   }
+  .text-footer{display: none;}
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ */

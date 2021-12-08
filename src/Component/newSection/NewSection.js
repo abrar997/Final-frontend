@@ -8,7 +8,9 @@ const NewSection = () => {
             <div className="col-lg-6">
               <img src={require("./NewImage/bss.png").default} />
             </div>
-            <div className="col-lg-6 " data-aos="fade-left">
+            <div className="col-lg-6 text-newswection"
+             data-aos="fade-left"
+             >
               <h1>code/Mu. academy </h1>
               <br />
               <h6>

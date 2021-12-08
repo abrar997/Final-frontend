@@ -8,7 +8,6 @@
   /* clip-path: polygon(0 90%, 100% 0, 100% 94%, 0% 100%); */
   /* -webkit-clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%); */
   height: 800px;
-
 }
 .NewSection img {
   margin-left: -280px;
@@ -28,4 +27,30 @@
   margin-top: 20px;
   background-color: #0000ff;
   color: white;
+}
+
+/* 0px to 552px  phone size*/
+@media all and (min-width: 0px) and (max-width: 575.98px) {
+  .NewSection {
+    height: 390px;
+    margin-top: 80px;
+  }
+  .NewSection img {
+    width: 40%;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .NewSection .text-newswection {
+    margin-top: -290px;
+  }
+  .NewSection h1 {
+    font-size: 18px;
+  }
+  .NewSection h6 {
+    font-size: 10px;
+  }
+  .NewSection .btn {
+    font-size: 13px;
+    width: 90px;
+  }
 }

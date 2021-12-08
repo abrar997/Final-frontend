@@ -63,7 +63,7 @@ const Navbar = ({ user }) => {
               </button>
               <>
                 <div
-                  className="collapse navbar-collapse active"
+                  className="collapse navbar-collapse active items"
                   id="navbarNavAltMarkup"
                 >
                   <div className="navbar-nav responivebar">
@@ -100,7 +100,7 @@ const Navbar = ({ user }) => {
                     </button>
 
                     {/* form  search input */}
-                    <div className="nav-item">
+                    <div className="nav-item items">
                       <form className="d-flex form">
                         <input
                           className="form-control "
@@ -113,22 +113,29 @@ const Navbar = ({ user }) => {
 
                     {/* log in and sign up */}
                     <div
-                      className="collapse navbar-collapse d-flex  nav-item firebase"
+                      className="collapse navbar-collapse d-flex  nav-item firebase items"
                       id="navbarSupportedContent"
                     >
-                      <NavLink to="/Login" activeClassName="icon  ml-3">
-                        <button style={categs}>Log in </button>
+                      <NavLink to="/Login" activeClassName="ico  ml-3">
+                        <button style={categs} className="icon-login">
+                          Log in{" "}
+                        </button>
                       </NavLink>
 
                       <NavLink to="/Signup" activeClassName="icon sign ml-4">
-                        <button style={categs2}>Sign up </button>
+                        <button style={categs2} className="icon-nv-display">
+                          Sign up{" "}
+                        </button>
                       </NavLink>
 
                       {/* list of icons right side  */}
-                      <div className="navbar-nav me-auto">
+                      <div className="navbar-nav me-auto items">
                         <ul className=" icons">
                           <NavLink to="/Home">
-                            <li className="tags" gloss="add to favourite">
+                            <li
+                              className="tags icon-nv-display"
+                              gloss="add to favourite"
+                            >
                               <span style={span}>1</span>
                               <FontAwesomeIcon icon={faHeart} style={style} />
                             </li>
@@ -151,7 +158,7 @@ const Navbar = ({ user }) => {
                           </NavLink>
                           <>
                             <li
-                              className="menue"
+                              className="menue icon-nv-display"
                               style={{ transition: "all .6s ease-in-out" }}
                             >
                               <FontAwesomeIcon

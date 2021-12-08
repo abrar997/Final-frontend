@@ -25,11 +25,4 @@
 .drop .navbar-nav .nav-item .nav-link:hover {
   color: #3939c9;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* media query */
-/* 0px to 552px  phone size*/
-@media (max-width: 575.98px) {
-  .dropnav .navbar {
-    display: none;
-  }
-}
+

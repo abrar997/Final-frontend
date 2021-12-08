@@ -4,7 +4,7 @@
 }
 
 .Blogs h1 {
-  color:  #0000ff;
+  color: #0000ff;
 }
 .Blogs p {
   font-size: 18px;
@@ -41,6 +41,15 @@
   .Blogs {
     margin-top: -10px;
     margin-top: 40px;
+  }
+  .Blogs .cards {
+    display: flex;
+    flex-flow: column;
+  }
+  .Blogs .card {
+    box-shadow: 1px 1px 16px #eee;
+    padding: 10px;
+    margin-top: 10px;
   }
   .Blogs h1 {
     font-size: 22px;

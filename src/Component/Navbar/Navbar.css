@@ -116,7 +116,6 @@
   list-style-type: none;
   margin-top: 20px;
   margin-left: 120px;
-
 }
 /* serach input in navbar */
 .navbar form input[type="search"] {
@@ -172,13 +171,13 @@
   cursor: pointer;
 }
 
-/* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* 0px to 552px  phone size*/
 @media all and (min-width: 0px) and (max-width: 575.98px) {
   body {
     overflow-x: hidden;
   }
+
   .navbar.colorChange {
     margin-left: 10px;
     padding-top: 35px;
@@ -191,38 +190,48 @@
   .navbar {
     position: absolute;
     left: -17px;
+    width: 100%;
   }
   .navbar .collapse {
-    height: 130px;
+    height: 160px;
     background: white;
-    margin-right: -60px;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+  }
+  .navbar .icon-nv-display {
+    display: none;
+  }
+  .navbar .items {
+    position: absolute;
+    right: 0;
   }
   .sub-menu-parent {
     margin-top: 30px;
-    margin-left: 350px;
     z-index: 1000;
     font-size: 14px;
     width: 90px;
+    position: absolute;
+    right: -160px;
   }
   .navbar input {
     display: none;
   }
   .icons {
-    margin-left: 30px;
-    margin-top: -0px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 40px;
   }
 
-  .icons span {
-    position: absolute;
-    z-index: 0px;
-  }
   .menue {
     display: none;
   }
-  .firebase {
-    margin-top: -52px;
-    margin-left: 100px;
-  }
+.navbar .icon-login{position: absolute;
+right: 0;}
+
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media all and (min-width: 576px) and (max-width: 768px) {

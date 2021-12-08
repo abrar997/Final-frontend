@@ -51,7 +51,7 @@
 @media (max-width: 575.98px) {
   .latest {
     margin-top: -10px;
-    margin-top: 140px;
+    margin-top: 40px;
   }
   .latest .container .row .images img {
     display: none;
@@ -61,17 +61,17 @@
     display: none;
   }
   .latest h1 {
-    font-size: 25px;
+    font-size: 18px;
   }
   .latest .container .row .textssssss h4 {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .latest .mySwiper .slides h3 {
     font-size: 17px;
   }
   .latest .mySwiper .slides p {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

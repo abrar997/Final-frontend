@@ -32,13 +32,16 @@ const Footer = () => {
               </p>
             </div>
 
-            <div className=" col-sm-4 col-md  col-6 col pl-4" style={{marginLeft:"30px"}}>
+            <div
+              className=" col-sm-4 col-md  col-6 col pl-4 text-footer"
+              style={{ marginLeft: "30px" }}
+            >
               <h5 className="headin5_amrc col_white_amrc pt2">Company</h5>
               <ul className="footer_ul_amrc">
                 <li>
                   <a href="#About">who we are ?</a>
                 </li>
-           
+
                 <li>
                   <a href="#Opinion">Students say</a>
                 </li>
@@ -48,7 +51,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className=" col-sm-4 col-md  col-6 col">
+            <div className=" col-sm-4 col-md  col-6 col text-footer">
               <h5 className="headin5_amrc col_white_amrc pt2">Courses</h5>
               <ul className="footer_ul_amrc">
                 <li>

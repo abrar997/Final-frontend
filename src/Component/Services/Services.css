@@ -9,7 +9,7 @@
   font-weight: 600;
 }
 .services h1 {
-  color:  #0000ff;
+  color: #0000ff;
   margin-bottom: 50px;
 }
 
@@ -53,18 +53,26 @@
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
+  
+ .services{margin-bottom: 420px;}
   .services h4 {
     font-size: 14px;
+    margin-top: -30px;
   }
   .services h1 {
-    font-size: 22px;
+    font-size: 18px;
+  } 
+  .services .container .row .cards {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
   }
   .services .container .row .card {
     height: 270px;
+    margin: auto;
+    margin-top: 10px;
   }
   .services .container .row .card img {
-    margin-top: -1px;
-    margin-top: 5px;
     width: 30%;
   }
   .services .container .card h3 {
@@ -72,9 +80,6 @@
   }
   .services .container .card p {
     font-size: 11px;
-  }
-  .services {
-    height: 580px;
   }
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
