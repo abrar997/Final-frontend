@@ -181,24 +181,30 @@
     font-size: 24px;
     margin-left: 0px;
     position: absolute;
-    right: 100px;
+    left: 0;
   }
-
+.navbar-toggler{position: absolute;right: 0;}
   .navbar .collapse {
     background: white;
     /* display: flex;
     flex-flow: column;
     margin-top: 40px; */
+    margin-top: 40px;
   }
   .navbar .icon-nv-display {
     display: none;
   }
-
+  .navbar .sub-menu-parent {
+    position: absolute;
+    top: 90px;
+    font-size: 12px;
+    width: 80px;
+    margin-left: 110px;
+  }
   .navbar input {
     display: none;
   }
-
-  .menue {
+  \ .menue {
     display: none;
   }
 }

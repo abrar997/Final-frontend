@@ -69,8 +69,9 @@ height: 500px;
 @media (max-width: 575.98px) {
   .Courses {
     padding-top: 0px;
-    height: 480px;
+    height: 380px;
     padding-bottom: 30px;
+    margin-bottom:230px;
   }
   .Courses h4 {
     font-size: 14px;
