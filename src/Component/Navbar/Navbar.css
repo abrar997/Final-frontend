@@ -177,10 +177,7 @@
   body {
     overflow-x: hidden;
   }
-  .navbar-toggler {
-    position: absolute;
-    right: 0;
-  }
+
 
   .navbar .navbar-brand {
     font-size: 24px;
@@ -188,10 +185,7 @@
     position: absolute;
     left: 0;
   }
-  .navbar {
-    display: flex;
-    flex-flow: column;
-  }
+
   .navbar .collapse {
     background: white;
 
@@ -199,29 +193,12 @@
   .navbar .icon-nv-display {
     display: none;
   }
-  .navbar .items {
-    display: block;
-  }
-  .sub-menu-parent {
-    margin-top: 30px;
-    font-size: 14px;
-    width: 90px;
-  }
-  .navbar .icon-login {
-    position: absolute;
-    right: 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
+
+
   .navbar input {
     display: none;
   }
-  .icons {
-    position: absolute;
-    right: 10px;
-    margin-top: 70px;
-  }
-
+  
   .menue {
     display: none;
   }

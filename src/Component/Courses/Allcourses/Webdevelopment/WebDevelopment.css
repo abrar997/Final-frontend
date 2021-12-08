@@ -107,11 +107,12 @@
   .webdevelopment h2 {
     font-size: 20px;
   }
+   .webdevelopment .myswiper {margin-top: -100px;}
   .webdevelopment .card {
-    margin-top: -90px;height: 200px;
+    margin-top: -90px;height: 130px;
   }
   .webdevelopment .myswiper .card img {
-    height: 50px;
+    height: 50px;width:cover
   }
   .webdevelopment .myswiper .card h3 {
     font-size: 6px;
