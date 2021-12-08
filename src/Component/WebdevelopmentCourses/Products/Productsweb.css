@@ -78,10 +78,11 @@
 }
 /* CheckBox  component*/
 .checkbox-inputa-web{
+   margin-left: 60px;
   box-shadow: inset 1px 1px 15px rgb(207, 203, 203);
   padding: 10px;
   margin-top: 26px;
-width: 200px;
+  width: 320px;
 }
 
 /* btn sorted by */
@@ -95,7 +96,6 @@ width: 200px;
   text-transform: capitalize;
   text-align: center;
 }
-.checkbox-inputa-web .form-check-input{margin-left:80px;}
 .Products-web .btns {
   margin-left: auto;
 }

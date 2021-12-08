@@ -77,7 +77,8 @@ box-shadow: 1px 1px 16px rgb(219, 219, 219);
   list-style-type: none;
 }
 /* CheckBox  component*/
-.checkbox-input-mobile{ margin-left: 50px;
+.checkbox-input-mobile{
+  margin-left: 60px;
   box-shadow: inset 1px 1px 15px rgb(207, 203, 203);
   padding: 10px;
   margin-top: 26px;
@@ -94,7 +95,6 @@ box-shadow: 1px 1px 16px rgb(219, 219, 219);
   color: #db2d41;
   text-transform: capitalize;
   text-align: center;
-margin-left: 10px;
 
 }
 

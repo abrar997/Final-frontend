@@ -37,6 +37,7 @@
 /* text inside slides */
 .latest .mySwiper .slides h3 {
   text-transform: capitalize;
+  margin-top: 30px;
 }
 .latest .mySwiper .slides p {
   margin-top: 10px;
