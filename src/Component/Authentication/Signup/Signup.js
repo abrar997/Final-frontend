@@ -8,7 +8,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 // firebase
 import app from "../firebase";
-import "firebase/compat/auth";const provider = new GoogleAuthProvider();
+import "firebase/compat/auth";
+const provider = new GoogleAuthProvider();
 const auth = app.auth(); // use app to connect login and signup data with fireabse
 
 const Signup = (props) => {
@@ -100,7 +101,7 @@ const Signup = (props) => {
               </label>
             </div>
             <div className="button-section">
-              <input type="submit" name="Sign Up" />
+              <input type="submit" name="Sign Up" ></input>
               <span className="privacy-policy">
                 <input type="checkbox" name="field7" />
                 You agree to our Terms and Policy.

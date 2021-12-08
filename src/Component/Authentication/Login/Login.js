@@ -37,7 +37,7 @@ const Login = () => {
          alert("signed with google ");
        })
        .catch((error) => {
-         alert("some thing wrong ,please try again later ");
+         alert("some thing wrong ,please try again later");
        });
    };
 

@@ -16,15 +16,12 @@ const Companys = () => {
       <div className="companies">
         <div className="container">
           <div className="row">
-            <div data-aos="zoom-out-left">
-              {" "}
-              <h2>
+              <h2 data-aos="fade-left">
                 We collaborate with
                 <span style={{ color: " #0000ff" }}>
                   +200 leading universities and companies
                 </span>
               </h2>
-            </div>
             <ul className="d-flex">
               <li>
                 <img src={img1} />

@@ -56,7 +56,7 @@ const AskTeam = () => {
    const {name, instruct, question} = ask;
 
   return (
-    <div className="askTeam">
+    <div className="askTeam" >
       <div className="textHeader">
         {/* hidden text appear when you write your name in fyour name input */}
         {header}

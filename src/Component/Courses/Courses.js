@@ -24,8 +24,8 @@ const Courses = () => {
   };
 
   return (
-    <div>
-      <div id="courses">
+    <div id="courses">
+      <div >
         <div className="Courses">
           <div className="container">
             <div data-aos="fade-right"

@@ -1,7 +1,6 @@
 import React from "react";
 import Services from "../Services/Services";
 import Courses from "../Courses/Courses";
-import FirstHome from "../FirstHome/FirstHome";
 import About from "../About/About";
 import Companys from "../Companys/Companys";
 import Instro from "../Instro/Instro";
@@ -16,8 +15,7 @@ const Home = () => {
     <div>
       {/*  */}
       <NewSection />
-      {/* carousel first top div */}
-      {/* <FirstHome /> */}
+
       {/* services cards */}
       <Services />
       {/* name of companies */}
