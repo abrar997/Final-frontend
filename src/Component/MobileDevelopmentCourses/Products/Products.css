@@ -42,7 +42,7 @@
   opacity: 1;
 }
 .Products-mobile .card:hover {
-box-shadow: 1px 1px 16px rgb(219, 219, 219);
+  box-shadow: 1px 1px 16px rgb(219, 219, 219);
 }
 
 .Products-mobile .card img {
@@ -77,7 +77,7 @@ box-shadow: 1px 1px 16px rgb(219, 219, 219);
   list-style-type: none;
 }
 /* CheckBox  component*/
-.checkbox-input-mobile{
+.checkbox-input-mobile {
   margin-left: 60px;
   box-shadow: inset 1px 1px 15px rgb(207, 203, 203);
   padding: 10px;
@@ -95,9 +95,7 @@ box-shadow: 1px 1px 16px rgb(219, 219, 219);
   color: #db2d41;
   text-transform: capitalize;
   text-align: center;
-
 }
-
 
 /* media query */
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -112,12 +110,12 @@ box-shadow: 1px 1px 16px rgb(219, 219, 219);
   .Products-mobile p {
     font-size: 12px;
   }
-  .Products-mobile .card img {
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
+  .checkbox-input-mobile {
+    display: none;
   }
-
+  .Products-mobile .card {
+    text-align: center;
+  }
   .Products-mobile .card h5 {
     font-size: 13px;
     margin-top: 15px;

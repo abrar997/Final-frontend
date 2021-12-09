@@ -100,52 +100,7 @@
 .webdevelopment .contsinWeb button:hover {
   background-color: #eee;
 }
-/* media query */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media (max-width: 575.98px) {
-  .webdevelopment {
-    height: 500px;
-  }
-  .webdevelopment h2 {
-    font-size: 20px;
-  }
-  .webdevelopment .myswiper {
-    margin-top: -140px;
-  }
-  .webdevelopment .card {
-    margin-top: -120px;
-    height: 170px;
-    width:300px;
-  }
-  .webdevelopment .myswiper .card img {
-   height: 170px;
-  }
-  .webdevelopment .myswiper .card h3 {
-    font-size: px;
-  }
 
-  .webdevelopment .myswiper .card h5 {
-    font-size: 6px;
-    display: none;
-  }
-  .webdevelopment .myswiper .card p {
-    display: none;
-  }
-  .webdevelopment .contsinWeb {
-    width: 130px;
-  }
-  .webdevelopment .contsinWeb h4 {
-font-size: 10px;  }
-  .webdevelopment .contsinWeb h6 {
-    font-size: 6px;
-  }
-  .webdevelopment .contsinWeb .btn {
-    margin: auto;
-  }
-  .webdevelopment .contsinWeb .heart {
-    display: none;
-  } 
-}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media all and (min-width: 576px) and (max-width: 768px) {
   .webdevelopment {

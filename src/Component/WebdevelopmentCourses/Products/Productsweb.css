@@ -104,7 +104,14 @@
 @media (max-width: 575.98px) {
   .Products-web {
     margin-top: 60px;
+
   }
+  .Products-web .dropdown{width: 100%;}
+.Products-web .checkbox-inputa-web{width: 100%;
+display: none;
+}
+  .Products-web .cards-weball-courses-top {display: flex;
+  flex-flow: column;}
   .Products-web h1 {
     font-size: 20px;
   }
@@ -112,12 +119,7 @@
   .Products-web p {
     font-size: 12px;
   }
-  .Products-web .card img {
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-  }
-
+  .Products-web .card{text-align: center;}
   .Products-web .card h5 {
     font-size: 13px;
     margin-top: 15px;

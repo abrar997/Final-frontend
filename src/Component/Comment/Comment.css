@@ -12,10 +12,6 @@
   padding-left: 30px;
   margin-bottom: 60px;
 }
-.comment .image-comment img {
-  width: 70%;
-  transform: rotate(-90deg);
-}
 
 .add-comment .container .row {
   width: 600px;
@@ -131,12 +127,15 @@
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
+ 
   .add-comment textarea {
-    width: 450px;
+    width: 290px;
+    font-size: 14px;
   }
 
   .add-comment .container .row button {
-    left: 400px;
+    left: 250px;
+    font-size: 14px;
   }
 }
 

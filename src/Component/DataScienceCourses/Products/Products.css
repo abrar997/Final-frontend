@@ -110,10 +110,8 @@
   .Products-data p {
     font-size: 12px;
   }
-  .Products-data .card img {
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
+  .Products-data .checkbox-input{display: none;}
+  .Products-data .card{text-align: center;
   }
 
   .Products-data .card h5 {

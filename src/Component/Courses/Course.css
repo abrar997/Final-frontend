@@ -68,56 +68,8 @@ height: 500px;
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
   .Courses {
-    padding-top: 0px;
-    padding-bottom: 30px;
-    margin-bottom:290px;
-  height: 600px;}
-  .Courses h4 {
-    font-size: 14px;
-  }
-  .Courses h1 {
-    font-size: 22px;
-  }
-  .Courses h5 {
-    font-size: 12px;
-  }
-  .Courses button {
-    font-size: 10px;
-  }
-  .Courses .buttons {
-    margin-top: -10px;
-    margin-top: 30px;
-  }
-  .Courses p {
-    font-size: 12px;
-  }
-}
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media all and (min-width: 576px) and (max-width: 768px) {
-  .Courses {
-    margin-top: 40px;
-    height: 730px;
-    padding-bottom: 30px;
-  }
-  .Courses h4 {
-    font-size: 14px;
-  }
-  .Courses h1 {
-    font-size: 22px;
-  }
-  .Courses h5 {
-    font-size: 12px;
-  }
-  .Courses button {
-    font-size: 10px;
-  }
-  .Courses .buttons {
-    margin-top: -10px;
-    margin-top: 30px;
-  }
-  .Courses p {
-    font-size: 12px;
-  }
+  display: none;}
+  
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media all and (min-width: 769px) and (max-width: 992px) {
