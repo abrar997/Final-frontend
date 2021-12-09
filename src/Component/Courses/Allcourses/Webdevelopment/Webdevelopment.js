@@ -53,7 +53,6 @@ const Webdevelopment = () => {
           slidesPerGroup={3}
           loop={true}
           loopFillGroupWithBlank={true}
-            // navigation={true}
           autoplay={{
             delay: 5500,
             disableOnInteraction: false,
@@ -63,7 +62,7 @@ const Webdevelopment = () => {
           {dataaa.map((item, inds) => {
             return (
               <SwiperSlide className="myswiper" key={inds}>
-                <div className="card col-xs-4 col-sm-4">
+                <div className="card">
                   <div>
                     <img src={item.img} />
                     <h3>{item.name}</h3>

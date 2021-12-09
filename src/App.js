@@ -68,5 +68,4 @@ const App = () => {
 
 export default App;
 
-//     // "command":"CI=npm run build " ,
-// in package json insted  build
+// CI='' npm run build  for vercel and netlify deploy react app from github ,
