@@ -93,11 +93,12 @@
   }
   .info {
     height: 600px;
+    text-align: left;margin-bottom: 30px;
   }
   .info .container .row .Beginner-info {
     margin: auto;
-    padding: 10px;
     margin-bottom: 100px;
+    margin-top: 20px;
   }
   .info .container .row .Beginner-info h3 {
     font-size: 13px;
