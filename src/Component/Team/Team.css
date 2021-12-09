@@ -91,15 +91,17 @@
 .instructorteam .card {
   height: 330px;
   padding: 10px;
-  
 }
 .instructorteam .card:hover {
   box-shadow: inset 1px 1px 17px rgb(219, 216, 216);
 }
 .instructorteam .mySwiper .card img {
   height: 200px;
-width: cover;}
-.instructorteam .mySwiper {margin-top: 50px;}
+  width: cover;
+}
+.instructorteam .mySwiper {
+  margin-top: 50px;
+}
 .instructorteam .mySwiper .card img:hover {
   filter: brightness(0.7);
   transition: all 0.6s;
@@ -176,22 +178,29 @@ width: cover;}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 575.98px) {
   .first {
+    margin-top: 100px;
+    height: 300px;
     background: transparent;
-    height: 340px;
   }
   .first .white {
-    height: 360px;
+    background: url("./TeamImage/back.jpg") no-repeat fixed;
+    height: 300px;
   }
   .first .white h1 {
     font-size: 20px;
     margin-top: -10px;
     margin-top: 60px;
   }
+  .first .white .text {
+    background: rgba(0, 0, 0, 0.493);
+    height: 250px;
+    background-attachment: fixed;
+  }
   .InstrServices h1 {
     font-size: 20px;
   }
   .InstrServices .container .row .card {
-    margin-left: 50px;
+    margin: auto;
     margin-top: 10px;
   }
   .InstrServices .container .row .card h3 {
@@ -203,9 +212,7 @@ width: cover;}
   .InstrServices .container .row .card p {
     font-size: 10px;
   }
-  .instructorteam {
-    margin-top: -150px;
-  }
+
   .instructorteam h1 {
     display: none;
   }
@@ -213,22 +220,24 @@ width: cover;}
     margin-bottom: 190px;
   }
   .instructorteam .mySwiper .card {
-    height: 230px;
-    margin-top: -150px;
+    height: 130px;
+    margin-top: 0px;
   }
   .instructorteam .mySwiper .card img {
-    height: 100px;
+    height: 30px;
     margin: auto;
+    object-fit: cover;
   }
   .instructorteam .mySwiper .card h3 {
-    font-size: 12px;
+    font-size: 8px;
     margin-top: 20px;
   }
   .instructorteam .mySwiper .card h5 {
-    font-size: 10px;
+    font-size: 5px;
   }
   .askTeam {
     height: 500px;
+    margin-top: -300px;
   }
   .askTeam h1 {
     font-size: 20px;
@@ -236,15 +245,17 @@ width: cover;}
   }
 
   .askTeam form {
-    width: 400px;
+    width: 250px;
     margin: auto;
     font-size: xx-small;
   }
   .askTeam ::placeholder {
     font-size: 10px;
   }
-  .askTeam button {
-    font-size: 13px;
+  .askTeam form button {
+    width: 90px;
+    margin-left: 40px;
+    font-size: 12px;
   }
   .component-firttDiv {
     display: none;

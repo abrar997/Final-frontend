@@ -177,6 +177,7 @@
   body {
     overflow-x: hidden;
   }
+  .navbar{width: 460px;}
   .navbar .navbar-brand {
     font-size: 24px;
     margin-left: 0px;

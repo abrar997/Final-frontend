@@ -6,12 +6,12 @@ const First = () => {
         <div className="white">     
  <div className="container">
         <div className="row">
-
+<div className="text">
           <h1>Come teach  with us</h1>
           <p>Become an instructor and change <br /> lives — including your own</p>
         <button>start now</button>
         </div>
-      </div>
+      </div></div>
     </div></div>
   );
 };

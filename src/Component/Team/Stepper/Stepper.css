@@ -46,33 +46,8 @@
 @media (max-width: 575.98px) {
   .stepper {
     margin-top: -10px;
-  }
-  .stepper h1 {
-    font-size: 20px;
-    margin-top: 30px;
-  }
-  .firstbutton .container .row .textfirst {
-    width: 120px;
-    font-size: 10px;
-  }
-  .firstbutton .container .row .textfirst h4 {
-    font-size: 14px;
-    margin-top: -10px;
-    margin-top: 30px;
-  }
-  .firstbutton img {
-    width: 50%;
-    margin-top: -270px;
-    margin-left: -160px;
-  }
-  .firstbutton .img-third {
-    width: 90%;
-    /* margin-right: -600px; */
-    margin-top: 300px;
-    position: absolute;
-    left: 40px;
-    top: 1370px;
-  }
+  display: none;}
+  
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
