@@ -1,6 +1,7 @@
 import React, { useState} from "react";
-// style
 import "./Navbar.css";
+
+
 import { style, menu, span, categs, categs2 } from "./Navstyle";
 // react-router-dom
 import { NavLink,Redirect } from "react-router-dom";
