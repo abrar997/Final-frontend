@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 // style
-import "./Navbar.css";
+// import "./Navbar.css";
 import { style, menu, span, categs, categs2 } from "./Navstyle";
 // react-router-dom
 import { NavLink,Redirect } from "react-router-dom";
@@ -8,9 +8,6 @@ import { NavLink,Redirect } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingBag,faHeart,faBars } from "@fortawesome/free-solid-svg-icons";
 // comp
-import Login from "../Authentication/Login/Login";
-import Signup from "../Authentication/Signup/Signup";
-import Home from "../Home/Home";
 import DropNav from "./DropNav/DropNav";
 import { useCart } from "react-use-cart";
 
