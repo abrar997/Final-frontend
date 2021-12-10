@@ -4,7 +4,7 @@ import React from "react";
 // props means trans all props from main component which write in <Create .........../> 
 import "../Comment.css";
 
-function Create(props) {
+const Create=(props)=>{
   return (
     <div className="add-comment ">
       <div className="container">

@@ -19,7 +19,7 @@
 }
 /* header form sign up */
 .form-style-10 h1 {
-  background: #0000ff;
+  background: #4785f1;
   padding: 20px 30px 15px 30px;
   margin: -30px -30px 30px -30px;
   border-radius: 10px 10px 0 0;
@@ -31,7 +31,7 @@
   -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
   -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
   box-shadow: inset 0px 2px 2px 0px rgba(236, 232, 232, 0.829);
-  border: 1px solid #0000ff;
+  border: 1px solid #4785f1;
 }
 /* left curcle */
 .form-style-10 h1 > span {
@@ -84,7 +84,7 @@
 }
 .form-style-10 input[type="button"],
 .form-style-10 input[type="submit"] {
-  background: #0000ff;
+  background: #4785f1;
   padding: 8px 20px 8px 20px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -110,7 +110,7 @@
 }
 
 .secondary {
-  background-color: #0000ff;
+  background-color: #4785f1;
   border: none;
   color: white;
   padding: 10px;

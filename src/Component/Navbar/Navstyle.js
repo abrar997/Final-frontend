@@ -2,8 +2,8 @@
 export const style = {
   borderRadius: "50%",
   backgroundColor: "transparent ",
-  border: "1px solid  #0000ff",
-  color: " #0000ff",
+  border: "1px solid   #4785f1",
+  color: "  #4785f1",
   marginLeft: "10px",
   padding: "7px",
   fontSize: "35px",
@@ -14,8 +14,8 @@ export const style = {
 export const menu = {
   backgroundColor: "gray",
   backgroundColor: "transparent ",
-  border: "1px solid  #0000ff",
-  color: " #0000ff",
+  border: "1px solid   #4785f1",
+  color: "  #4785f1",
   marginLeft: "10px",
   padding: "7px",
   fontSize: "35px",
@@ -40,16 +40,15 @@ export const span = {
 export const categ = {
   fontSize: "16px",
   padding: "9px",
-  backgroundColor: " #0000ff",
+  backgroundColor: "#4785f1",
   color: "white",
   marginLeft: " 90px",
-
 };
 // log in and sign up
 export const categs = {
   fontSize: "16px",
   padding: "9px",
-  backgroundColor: " #0000ff",
+  backgroundColor: "  #4785f1",
   color: "white",
   borderRadius: "10px",
   border:"none",
@@ -59,7 +58,7 @@ export const categs = {
 export const categs2 = {
   fontSize: "16px",
   padding: "9px",
-  backgroundColor: " #0000ff",
+  backgroundColor: "  #4785f1",
   color: "white",
   marginLeft: "10px",
   borderRadius: "10px",

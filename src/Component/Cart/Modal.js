@@ -18,10 +18,10 @@ const style = {
   textAlign: "center",
 };
 const buttonStyle = {
-  border: "1px solid  #0000ff",
+  border: "1px solid  ##4785f1",
   width: "200px",
   textAlign: "center",
-  backgroundColor: "#0000ff",
+  backgroundColor: "##4785f1",
   color: "white",
   margin: "auto",
   textTransform: "capitalize",

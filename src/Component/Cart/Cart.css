@@ -9,7 +9,7 @@
   margin: auto;
   border: none;
   background-color: transparent;
-  border: 1px solid #0000ff;
+  border: 1px solid #4785f1;
   width: 300px;
   text-decoration: none;
   padding: 10px;
@@ -63,7 +63,7 @@ border: 1px solid #eee;
 }
 
 .cart .container .row .cards .card .textsss h4 {
-  color: #0000ff;
+  color: #4785f1;
 }
 
 .cart .container .row .cards .card .textsss h6 {

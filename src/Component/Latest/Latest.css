@@ -19,7 +19,7 @@
 }
 .latest .container .row .textssssss h1 {
   text-transform: capitalize;
-  color:  #0000ff;
+  color: #4785f1;
   border-bottom: 2px solid rgb(231, 231, 231);
   padding-bottom: 10px;
 }
@@ -41,9 +41,16 @@
 }
 .latest .mySwiper .slides p {
   margin-top: 10px;
-  /* background: #eee; */
   color: black;
   padding: 10px;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 10px !important;
+  background: #4785f1;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
 }
 
 /* media query */

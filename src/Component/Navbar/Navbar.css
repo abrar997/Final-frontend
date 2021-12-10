@@ -56,8 +56,8 @@
   list-style: none;
   margin-top: 23px;
   height: 45px;
-  border: 2px solid #0000ff;
-  background: #0000ff;
+  border: 2px solid  #4785f1;
+  background:  #4785f1;
   width: 160px;
   font-size: 18px;
   padding: 9px;
@@ -123,7 +123,7 @@
   border-radius: 0px;
   border: none;
   outline: none;
-  border: 1px solid #0000ff;
+  border: 1px solid  #4785f1;
   position: relative;
   margin-left: 10px;
   margin-top: 23px;

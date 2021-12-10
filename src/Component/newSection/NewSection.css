@@ -19,13 +19,13 @@
 
 .NewSection .btn {
   width: 230px;
-  border: 1px solid #0000ff;
+  border: 1px solid  #4785f1;
   border-radius: 10px;
   font-size: 20px;
   color: white;
   text-transform: capitalize;
   margin-top: 20px;
-  background-color: #0000ff;
+  background-color:  #4785f1;
   color: white;
 }
 

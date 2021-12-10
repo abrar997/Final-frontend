@@ -5,6 +5,8 @@ import Single from "./CommentList/Single";
 import Dataconstant from "./CommentList/Dataconstant";
 // style
 import './Comment.css'
+
+
 class Comment extends Component {
   state = {
     newTask: "", //add new comment

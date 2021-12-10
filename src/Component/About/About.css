@@ -7,14 +7,14 @@
 }
 
 #about .container .row .textss h1 {
-  color: #0000ff;
+  color:  #4785f1;
 }
 #about .container .row .textss h4 {
   font-size: 20px;
 }
 #about button {
-  background-color: #0000ff;
-  border: 2px solid #0000ff;
+  background-color:  #4785f1;
+  border: 2px solid  #4785f1;
   color: white;
   width: 180px;
   padding: 5px;
@@ -25,8 +25,8 @@ border-radius: 10px;
 
 #about button:hover {
   background-color: transparent;
-  color: #0000ff;
-  border: 2px solid #0000ff;
+  color:  #4785f1;
+  border: 2px solid  #4785f1;
   font-weight: 600;
 }
 /* right div images */
